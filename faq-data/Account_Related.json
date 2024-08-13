@@ -1,0 +1,111 @@
+{
+    "category": "Account Related",
+    "categoryType": "FAQ",
+    "isRideRequired": false,
+    "isActive": "{{IS_ACTIVE_FAQ}}",
+    "logoUrl": "ny_ic_account_related,https://assets.moving.tech/beckn/common/common/images/ny_ic_account_related.png",
+    "maxAllowedRideAge": 86400,
+    "priority": 1,
+    "translations": [],
+    "messages": [
+      {
+        "label": null,
+        "message": "{#BODY#}Namma Yatri does not support editing the registered mobile number currently. If you wish to use another number, please logout from the current account and register with a new number.",
+        "messageTitle": "Can I change my registered mobile number?",
+        "priority": 1,
+        "referenceCategoryId": null,
+        "referenceOptionId": null,
+        "messageTranslations": [],
+        "actionTranslations": [],
+        "titleTranslations": [],
+        "options": []
+      },
+      {
+        "label": null,
+        "message": "{#BODY#}Unfortunately, we do not have a referral program on Namma Yatri currently.",
+        "messageTitle": "Does Namma Yatri have a referral program?",
+        "priority": 2,
+        "referenceCategoryId": null,
+        "referenceOptionId": null,
+        "messageTranslations": [],
+        "actionTranslations": [],
+        "titleTranslations": [],
+        "options": []
+      },
+      {
+        "label": null,
+        "message": "{#BODY#}Your account may be blocked. <br> Reasons leading to account block: <br> * If you attempt several booking cancellations over a period of time, your Namma Yatri account will be temporarily blocked. <br> * Account can also be blocked permanently if the system detects any unusual behavior/activities against Namma Yatri's terms and conditions.",
+        "messageAction": "Raise a ticket",
+        "messageTitle": "I am unable to request for a ride",
+        "priority": 3,
+        "messageTranslations": [],
+        "actionTranslations": [],
+        "titleTranslations": [],
+        "options": []
+      },
+      {
+        "label": null,
+        "message": "{#BODY#}Please ensure that the location is turned on in your device and you have granted location permission to Namma Yatri. We need your location to provide accurate doorstep pickups.",
+        "messageTitle": "My app is showing incorrect location or not detecting the location",
+        "priority": 4,
+        "referenceCategoryId": null,
+        "referenceOptionId": null,
+        "messageTranslations": [],
+        "actionTranslations": [],
+        "titleTranslations": [],
+        "options": []
+      },
+      {
+        "label": null,
+        "message": "{#BODY#}The app may face some momentary technical issues because of which it may not function as expected. Please restart the app in such cases. If this still doesn't help, you can raise a ticket with the customer support team.",
+        "messageAction": "Raise a ticket",
+        "messageTitle": "My app is not responding",
+        "priority": 5,
+        "referenceCategoryId": null,
+        "referenceOptionId": null,
+        "messageTranslations": [],
+        "actionTranslations": [],
+        "titleTranslations": [],
+        "options": []
+      },
+      {
+        "label": "FAVOURITES",
+        "message": "{#BODY#}You can update your work/home or favourite locations by adding your frequently travelled locations in Favourites section on the side menu.",
+        "messageAction": "Favourites",
+        "messageTitle": "How can I save my frequently travelled locations?",
+        "priority": 6,
+        "referenceCategoryId": null,
+        "referenceOptionId": null,
+        "messageTranslations": [],
+        "actionTranslations": [],
+        "titleTranslations": [],
+        "options": []
+      },
+      {
+        "label": "CHANGE_LANGUAGE",
+        "message": "{#BODY#}Experience Namma Yatri in five languages: English, Kannada (ಕನ್ನಡ), Hindi (हिंदी), Tamil (தமிழ்), and Telugu (తెలుగు). Click on the following button to change the language.",
+        "messageAction": "Change Language",
+        "messageTitle": "What languages (ಭಾಷೆ, भाषा) does Namma Yatri support?",
+        "priority": 7,
+        "referenceCategoryId": null,
+        "referenceOptionId": null,
+        "messageTranslations": [],
+        "actionTranslations": [],
+        "titleTranslations": [],
+        "options": []
+      },
+      {
+        "label": "CHANGE_LANGUAGE",
+        "message": "{#BODY#} {#IMAGE_GROUP<count=4>#} Experience Namma Yatri in five languages: English, Kannada (ಕನ್ನಡ), Hindi (हिंदी), Tamil (தமிழ்), and Telugu (తెలుగు). {#IMAGE#} Click on the following button to change the language.",
+        "messageAction": "Change Language",
+        "messageTitle": "What languages (ಭಾಷೆ, भाषा) does Namma Yatri support?",
+        "priority": 7,
+        "referenceCategoryId": null,
+        "referenceOptionId": null,
+        "messageTranslations": [],
+        "actionTranslations": [],
+        "titleTranslations": [],
+        "options": []
+      }
+    ]
+  }

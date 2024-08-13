@@ -1,0 +1,59 @@
+{
+    "category": "Payment Related",
+    "categoryType": "FAQ",
+    "isRideRequired": true,
+    "isActive": "{{IS_ACTIVE_FAQ}}",
+    "logoUrl": "ny_ic_fare_related_issue.png,https://assets.moving.tech/beckn/common/common/images/ny_ic_fare_related_issue.png",
+    "maxAllowedRideAge": 86400,
+    "priority": 4,
+    "translations": [],
+    "messages": [
+      {
+        "label": null,
+        "message": "{#BODY#}You can enter the drop location and select the booking preference to check the estimated total fare for your ride.",
+        "messageTitle": "How to check the fare for my ride?",
+        "priority": 1,
+        "referenceCategoryId": null,
+        "referenceOptionId": null,
+        "messageTranslations": [],
+        "actionTranslations": [],
+        "titleTranslations": [],
+        "options": []
+      },
+      {
+        "label": null,
+        "message": "{#BODY#}You can check the total fare for your ride on Namma Yatri app by entering the drop loaction. On entering the drop location you will be able to view the estimated fare.",
+        "messageTitle": "I want to check my fare breakup",
+        "priority": 2,
+        "referenceCategoryId": null,
+        "referenceOptionId": null,
+        "messageTranslations": [],
+        "actionTranslations": [],
+        "titleTranslations": [],
+        "options": []
+      },
+      {
+        "label": null,
+        "message": "{#BODY#}You can make the payment by cash or UPI",
+        "messageTitle": "What are the payment options available?",
+        "priority": 3,
+        "referenceCategoryId": null,
+        "referenceOptionId": null,
+        "messageTranslations": [],
+        "actionTranslations": [],
+        "titleTranslations": [],
+        "options": []
+      },
+      {
+        "label": "SELECT_RIDE",
+        "message": "{#BODY#}You can contact our support centre, our advisor will get in touch with the driver and resolve your issue within 48hrs.",
+        "messageAction": "Raise a ticket",
+        "messageTitle": "I have made a double payment, how will I receive the refund?",
+        "priority": 4,
+        "messageTranslations": [],
+        "actionTranslations": [],
+        "titleTranslations": [],
+        "options": []
+      }
+    ]
+  }

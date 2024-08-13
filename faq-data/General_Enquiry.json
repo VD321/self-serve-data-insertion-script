@@ -1,0 +1,84 @@
+{
+    "category": "General Enquiry",
+    "categoryType": "FAQ",
+    "isRideRequired": false,
+    "isActive": "{{IS_ACTIVE_FAQ}}",
+    "logoUrl": "ny_ic_other_issues,https://assets.moving.tech/beckn/common/common/images/ny_ic_other_issues.png",
+    "maxAllowedRideAge": 86400,
+    "priority": 6,
+    "translations": [],
+    "messages": [
+      {
+        "label": null,
+        "message": "{#BODY#}Currently, we are live in multiple cities: <br> Namma Yatri - Bangalore, Chennai, Delhi NCR, Kochi <br> Yatri Sathi - Kolkata <br> Yatri - Kochi, Delhi NCR <br> Mana Yatri - Hyderabad <br> We are rolling out our services in a lot more cities each day.",
+        "messageTitle": "In which all cities do we have this service available ?",
+        "priority": 1,
+        "referenceCategoryId": null,
+        "referenceOptionId": null,
+        "messageTranslations": [],
+        "actionTranslations": [],
+        "titleTranslations": [],
+        "options": []
+      },
+      {
+        "label": null,
+        "message": "{#BODY#}Before you request a ride, your app displays an approximate arrival time for the nearby drivers. You are also provided with an estimated time for the driver to arrive at your pickup location, before your trip starts.",
+        "messageTitle": "How does ETA work?",
+        "priority": 2,
+        "referenceCategoryId": null,
+        "referenceOptionId": null,
+        "messageTranslations": [],
+        "actionTranslations": [],
+        "titleTranslations": [],
+        "options": []
+      },
+      {
+        "label": null,
+        "message": "{#BODY#}You will be provided with an option to tip your driver before booking a ride or after ending the trip.",
+        "messageTitle": "How can I tip the driver?",
+        "priority": 3,
+        "referenceCategoryId": null,
+        "referenceOptionId": null,
+        "messageTranslations": [],
+        "actionTranslations": [],
+        "titleTranslations": [],
+        "options": []
+      },
+      {
+        "label": null,
+        "message": "{#BODY#}Go to app info and turn off the notifications. If you turn off the notification you will not be able to download the trip invoice.",
+        "messageTitle": "How do I turn off the notifications?",
+        "priority": 4,
+        "referenceCategoryId": null,
+        "referenceOptionId": null,
+        "messageTranslations": [],
+        "actionTranslations": [],
+        "titleTranslations": [],
+        "options": []
+      },
+      {
+        "label": null,
+        "message": "{#BODY#}As soon as the driver clicks on the \"I've arrived\" button post reaching your location, the waiting timer will start. <br> There are no charges for the first 3 mins only, post which you will be charged at ₹1.5/min.",
+        "messageTitle": "How is the waiting charges calculated?",
+        "priority": 5,
+        "referenceCategoryId": null,
+        "referenceOptionId": null,
+        "messageTranslations": [],
+        "actionTranslations": [],
+        "titleTranslations": [],
+        "options": []
+      },
+      {
+        "label": null,
+        "message": "{#BODY#}Night charges are calculated in accordance with government regulations. Here are the details: <br> 1. For Autos: Night hours are from 10:00 PM to 5:00 AM. During this period, the total estimated fare is 1.5 times the estimated fare that would be charged during the rest of the time for the same distance, representing a 50% increase. <br> 2. For Cabs: Night hours are from 12:00 AM to 6:00 AM. During this period, the total estimated fare is 1.1 times the estimated fare that would be charged during the rest of the time for the same distance, indicating a 10% increase.",
+        "messageTitle": "How are the night charges calculated?",
+        "priority": 6,
+        "referenceCategoryId": null,
+        "referenceOptionId": null,
+        "messageTranslations": [],
+        "actionTranslations": [],
+        "titleTranslations": [],
+        "options": []
+      }
+    ]
+  }

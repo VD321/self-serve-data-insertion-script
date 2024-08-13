@@ -1,0 +1,225 @@
+{
+    "category": "Others",
+    "categoryType": "Category",
+    "isRideRequired": false,
+    "isActive": true,
+    "logoUrl": "ny_ic_other_issues,https://assets.moving.tech/beckn/common/common/images/ny_ic_other_issues.png",
+    "maxAllowedRideAge": 259200,
+    "priority": 5,
+    "translations": [
+        {
+            "language": "HINDI",
+            "translation": "अन्य"
+        },
+        {
+            "language": "KANNADA",
+            "translation": "ಇತರೆ"
+        },
+        {
+            "language": "TAMIL",
+            "translation": "மற்றவை"
+        },
+        {
+            "language": "TELUGU",
+            "translation": "ఇతర"
+        }
+    ],
+    "messages": [
+        {
+            "label": null,
+            "message": "Please select the type of issue you are facing so we can help you out better",
+            "messageAction": null,
+            "messageTitle": null,
+            "priority": 1,
+            "referenceCategoryId": null,
+            "referenceOptionId": null,
+            "messageTranslations": [
+                {
+                    "language": "HINDI",
+                    "translation": "कृपया आप जिस प्रकार की समस्या का सामना कर रहे हैं, उसे चुनें ताकि हम आपकी बेहतर सहायता कर सकें"
+                },
+                {
+                    "language": "KANNADA",
+                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                },
+                {
+                    "language": "TAMIL",
+                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, நீங்கள் சந்திக்கும் சிக்கலின் வகையைத் தேர்ந்தெடுக்கவும்"
+                },
+                {
+                    "language": "TELUGU",
+                    "translation": "దయచేసి మీరు ఎదుర్కొంటున్న సమస్య రకాన్ని ఎంచుకోండి, తద్వారా మేము మీకు మెరుగైన సహాయం చేయగలము"
+                }
+            ],
+            "actionTranslations": [],
+            "titleTranslations": [],
+            "options": [
+                {
+                    "isActive": true,
+                    "label": null,
+                    "option": "General enquiry",
+                    "priority": 1,
+                    "translations": [
+                        {
+                            "language": "HINDI",
+                            "translation": "सामान्य पूछताछ"
+                        },
+                        {
+                            "language": "KANNADA",
+                            "translation": "ಸಾಮಾನ್ಯ ವಿಚಾರಣೆ"
+                        },
+                        {
+                            "language": "TAMIL",
+                            "translation": "பொது விசாரணை"
+                        },
+                        {
+                            "language": "TELUGU",
+                            "translation": "సామాన్య విచారణ"
+                        }
+                    ],
+                    "messages": [
+                        {
+                            "label": "CREATE_TICKET",
+                            "message": "Please provide additional information so that we can assist you better",
+                            "messageTitle": null,
+                            "priority": 1,
+                            "referenceCategoryId": null,
+                            "referenceOptionId": null,
+                            "messageTranslations": [
+                                {
+                                    "language": "HINDI",
+                                    "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें।"
+                                },
+                                {
+                                    "language": "KANNADA",
+                                    "translation": "ದಯವಿಟ್ಟು ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ನೆರವಾಗಲು ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿಯನ್ನು ನೀಡಿ."
+                                },
+                                {
+                                    "language": "TAMIL",
+                                    "translation": "உங்களுக்கு சிறந்த உதவி அளிக்க கூடுதல் தகவல்களை வழங்கவும்."
+                                },
+                                {
+                                    "language": "TELUGU",
+                                    "translation": "మీకు మెరుగైన సహాయం అందించడానికి దయచేసి అదనపు సమాచారాన్ని అందించండి."
+                                }
+                            ],
+                            "actionTranslations": [],
+                            "titleTranslations": [],
+                            "options": []
+                        }
+                    ]
+                },
+                {
+                    "isActive": true,
+                    "label": "SELECT_RIDE",
+                    "option": "Specific ride related",
+                    "priority": 2,
+                    "translations": [
+                        {
+                            "language": "HINDI",
+                            "translation": "विशिष्ट राइड संबंधित"
+                        },
+                        {
+                            "language": "KANNADA",
+                            "translation": "ವಿಶಿಷ್ಟ ರೈಡ್ ಸಂಬಂಧಿತ"
+                        },
+                        {
+                            "language": "TAMIL",
+                            "translation": "சிறப்பான பயணம் தொடர்பான"
+                        },
+                        {
+                            "language": "TELUGU",
+                            "translation": "ప్రత్యేక రైడ్ సంబంధిత"
+                        }
+                    ],
+                    "messages": [
+                        {
+                            "label": "CREATE_TICKET",
+                            "message": "Please provide additional information so that we can assist you better",
+                            "messageTitle": null,
+                            "priority": 1,
+                            "referenceCategoryId": null,
+                            "referenceOptionId": null,
+                            "messageTranslations": [
+                                {
+                                    "language": "HINDI",
+                                    "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें।"
+                                },
+                                {
+                                    "language": "KANNADA",
+                                    "translation": "ದಯವಿಟ್ಟು ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ನೆರವಾಗಲು ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿಯನ್ನು ನೀಡಿ."
+                                },
+                                {
+                                    "language": "TAMIL",
+                                    "translation": "உங்களுக்கு சிறந்த உதவி அளிக்க கூடுதல் தகவல்களை வழங்கவும்."
+                                },
+                                {
+                                    "language": "TELUGU",
+                                    "translation": "మీకు మెరుగైన సహాయం అందించడానికి దయచేసి అదనపు సమాచారాన్ని అందించండి."
+                                }
+                            ],
+                            "actionTranslations": [],
+                            "titleTranslations": [],
+                            "options": []
+                        }
+                    ]
+                },
+                {
+                    "isActive": true,
+                    "label": null,
+                    "option": "Feedback, promotion or suggestions",
+                    "priority": 3,
+                    "translations": [
+                        {
+                            "language": "HINDI",
+                            "translation": "प्रतिक्रिया, प्रचार या सुझाव"
+                        },
+                        {
+                            "language": "KANNADA",
+                            "translation": "ಪ್ರತಿಕ್ರಿಯೆ, ಪ್ರಚಾರ ಅಥವಾ ಶ್ರೇಣೀಬದ್ಧತೆ"
+                        },
+                        {
+                            "language": "TAMIL",
+                            "translation": "கருத்துக்கள், விளம்பரம் அல்லது முன்மொழிவுகள்"
+                        },
+                        {
+                            "language": "TELUGU",
+                            "translation": "ప్రతిస్పందన, ప్రమోషన్ లేదా సూచనలు"
+                        }
+                    ],
+                    "messages": [
+                        {
+                            "label": "END_FLOW",
+                            "message": "Please write to us at {#SUPPORT_MAIL#}",
+                            "messageTitle": null,
+                            "priority": 1,
+                            "referenceCategoryId": null,
+                            "referenceOptionId": null,
+                            "messageTranslations": [
+                                {
+                                    "language": "HINDI",
+                                    "translation": "कृपया हमें {#SUPPORT_MAIL#} पर लिखें।"
+                                },
+                                {
+                                    "language": "KANNADA",
+                                    "translation": "ದಯವಿಟ್ಟು {#SUPPORT_MAIL#} ಗೆ ನಮಗೆ ಬರೆಯಿರಿ."
+                                },
+                                {
+                                    "language": "TAMIL",
+                                    "translation": "தயவுசெய்து {#SUPPORT_MAIL#}க்கு எங்களுக்கு எழுதவும்."
+                                },
+                                {
+                                    "language": "TELUGU",
+                                    "translation": "దయచేసి {#SUPPORT_MAIL#} వద్ద మాకు వ్రాయండి."
+                                }
+                            ],
+                            "actionTranslations": [],
+                            "titleTranslations": [],
+                            "options": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

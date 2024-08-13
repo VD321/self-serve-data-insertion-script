@@ -1,0 +1,48 @@
+{
+    "category": "Referral Related",
+    "categoryType": "FAQ",
+    "isRideRequired": false,
+    "isActive": "{{IS_ACTIVE_FAQ}}",
+    "logoUrl": "ny_ic_referral_related.png,https://assets.moving.tech/beckn/common/common/images/ny_ic_referral_related.png",
+    "maxAllowedRideAge": 86400,
+    "priority": 3,
+    "translations": [],
+    "messages": [
+      {
+        "label": null,
+        "message": "{#BODY#}Currently we do not have that option",
+        "messageTitle": "I am unable to find my referral code.",
+        "priority": 1,
+        "referenceCategoryId": null,
+        "referenceOptionId": null,
+        "messageTranslations": [],
+        "actionTranslations": [],
+        "titleTranslations": [],
+        "options": []
+      },
+      {
+        "label": null,
+        "message": "{#BODY#}You can invite or share the app by navigating to Menu > Share App",
+        "messageTitle": "How can I invite my friend to Namm Yatri?",
+        "priority": 2,
+        "referenceCategoryId": null,
+        "referenceOptionId": null,
+        "messageTranslations": [],
+        "actionTranslations": [],
+        "titleTranslations": [],
+        "options": []
+      },
+      {
+        "label": null,
+        "message": "{#BODY#}Currently we do not have a referral benefit",
+        "messageTitle": "I referred my friend but did not get any referral benefit",
+        "priority": 3,
+        "referenceCategoryId": null,
+        "referenceOptionId": null,
+        "messageTranslations": [],
+        "actionTranslations": [],
+        "titleTranslations": [],
+        "options": []
+      }
+    ]
+  }

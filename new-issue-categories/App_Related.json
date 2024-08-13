@@ -1,0 +1,256 @@
+{
+    "category": "App Related",
+    "categoryType": "Category",
+    "label": "APP_RELATED",
+    "isRideRequired": false,
+    "isActive": true,
+    "logoUrl": "ny_ic_app_related_issue,https://assets.moving.tech/beckn/common/common/images/ny_ic_app_related_issue.png",
+    "maxAllowedRideAge": 259200,
+    "priority": 2,
+    "translations": [
+        {
+            "language": "HINDI",
+            "translation": "ऐप संबंधित"
+        },
+        {
+            "language": "KANNADA",
+            "translation": "ಅಪ್ಲಿಕೇಶನ್ ಸಂಬಂಧಿತ"
+        },
+        {
+            "language": "TAMIL",
+            "translation": "அனுபவத்துடன் தொடர்புடையது"
+        },
+        {
+            "language": "TELUGU",
+            "translation": "యాప్ సంబంధిత"
+        }
+    ],
+    "messages": [
+        {
+            "label": null,
+            "message": "Hey, we’re really sorry to hear you have been facing app related issues.",
+            "messageTitle": null,
+            "priority": 1,
+            "referenceCategoryId": null,
+            "referenceOptionId": null,
+            "messageTranslations": [
+                {
+                    "language": "HINDI",
+                    "translation": "हमें खेद है कि आपको ऐप संबंधित समस्याओं का सामना करना पड़ रहा है।"
+                },
+                {
+                    "language": "KANNADA",
+                    "translation": "ನೀವು ಅಪ್ಲಿಕೇಶನ್ ಸಂಬಂಧಿತ ಸಮಸ್ಯೆಗಳನ್ನು ಎದುರಿಸುತ್ತಿದ್ದೀರಿ ಎಂದು ಕೇಳಿ ನಾವು ನಿಮಗೆ ವಿಷಾದಿಸುತ್ತೇವೆ."
+                },
+                {
+                    "language": "TAMIL",
+                    "translation": "நீங்கள் பயன்பாட்டு தொடர்பான சிக்கல்களுடன் தொடர்கின்றீர்கள் என்று கேள்வி கேட்குகிறோம், நாங்கள் உங்களுக்கு வருகிறோம்."
+                },
+                {
+                    "language": "TELUGU",
+                    "translation": "మీరు అప్లికేషన్ సంబంధిత సమస్యలను ఎదుర్కొంటున్నారని వినగాలని కోరుకుంటున్నాము."
+                }
+            ],
+            "actionTranslations": [],
+            "titleTranslations": [],
+            "options": []
+        },
+        {
+            "label": null,
+            "message": "Please select the type of issue you are facing so we can help you out better",
+            "messageAction": null,
+            "messageTitle": null,
+            "priority": 2,
+            "referenceCategoryId": null,
+            "referenceOptionId": null,
+            "messageTranslations": [
+                {
+                    "language": "HINDI",
+                    "translation": "कृपया आप जिस प्रकार की समस्या का सामना कर रहे हैं, उसे चुनें ताकि हम आपकी बेहतर सहायता कर सकें"
+                },
+                {
+                    "language": "KANNADA",
+                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                },
+                {
+                    "language": "TAMIL",
+                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, நீங்கள் சந்திக்கும் சிக்கலின் வகையைத் தேர்ந்தெடுக்கவும்"
+                },
+                {
+                    "language": "TELUGU",
+                    "translation": "దయచేసి మీరు ఎదుర్కొంటున్న సమస్య రకాన్ని ఎంచుకోండి, తద్వారా మేము మీకు మెరుగైన సహాయం చేయగలము"
+                }
+            ],
+            "actionTranslations": [],
+            "titleTranslations": [],
+            "options": [
+                {
+                    "isActive": true,
+                    "label": null,
+                    "option": "I am stuck on the previous ride",
+                    "priority": 1,
+                    "translations": [
+                        {
+                            "language": "HINDI",
+                            "translation": "मैं पिछले सवारी पर फंस गया हूँ"
+                        },
+                        {
+                            "language": "KANNADA",
+                            "translation": "ನಾನು ಹಿಂದಿನ ಪ್ರಯಾಣದಲ್ಲಿ ಸಿಕ್ಕಿ ಹೋಗಿದ್ದೇನೆ"
+                        },
+                        {
+                            "language": "TAMIL",
+                            "translation": "நான் முந்தைய பயணத்தில் சிக்கிக்கொண்டு இருக்கிறேன்"
+                        },
+                        {
+                            "language": "TELUGU",
+                            "translation": "నేను గత రైడ్‌లో చిక్కుకున్నాను"
+                        }
+                    ],
+                    "messages": [
+                        {
+                            "label": "CREATE_TICKET",
+                            "message": "Please provide additional information so that we can assist you better",
+                            "messageTitle": null,
+                            "priority": 1,
+                            "referenceCategoryId": null,
+                            "referenceOptionId": null,
+                            "messageTranslations": [
+                                {
+                                    "language": "HINDI",
+                                    "translation": "क्या आपको अभी भी मदद चाहिए?"
+                                },
+                                {
+                                    "language": "KANNADA",
+                                    "translation": "ನೀವು ಇನ್ನೂ ಸಹಾಯ ಬೇಕೇ?"
+                                },
+                                {
+                                    "language": "TAMIL",
+                                    "translation": "இன்னும் உதவி தேவைதா?"
+                                },
+                                {
+                                    "language": "TELUGU",
+                                    "translation": "మీకు ఇంకా సహాయం కావాలా?"
+                                }
+                            ],
+                            "actionTranslations": [],
+                            "titleTranslations": [],
+                            "options": []
+                        }
+                    ]
+                },
+                {
+                    "isActive": true,
+                    "label": null,
+                    "option": "My account is blocked",
+                    "priority": 2,
+                    "showOnlyWhenUserBlocked": true,
+                    "translations": [
+                        {
+                            "language": "HINDI",
+                            "translation": "मेरा खाता बंद है"
+                        },
+                        {
+                            "language": "KANNADA",
+                            "translation": "ನನ್ನ ಖಾತೆ ನಿಷ್ಕ್ರಿಯವಾಗಿದೆ"
+                        },
+                        {
+                            "language": "TAMIL",
+                            "translation": "என் கணக்கு முடக்கப்பட்டுள்ளது"
+                        },
+                        {
+                            "language": "TELUGU",
+                            "translation": "నా ఖాతా బ్లాక్ అయింది"
+                        }
+                    ],
+                    "messages": [
+                        {
+                            "label": "CREATE_TICKET",
+                            "message": "These are few reasons why your account could be blocked: \n * If you attempt several booking cancellations over a period of time, your Namma Yatri account will be temporarily blocked. \n * Account can also be blocked permanently if the system detects any unusual behavior/activities against Namma Yatri’s terms and conditions.",
+                            "messageTitle": null,
+                            "priority": 1,
+                            "referenceCategoryId": null,
+                            "referenceOptionId": null,
+                            "messageTranslations": [
+                                {
+                                    "language": "HINDI",
+                                    "translation": "यहाँ कुछ कारण हैं जिनसे आपका खाता ब्लॉक हो सकता है: \n * यदि आप समय के साथ कई बुकिंग रद्द करने का प्रयास करते हैं, तो आपका नम्मा यात्री खाता अस्थायी रूप से ब्लॉक हो जाएगा। \n * यदि सिस्टम नम्मा यात्री की शर्तों और नियमों के खिलाफ कोई असामान्य व्यवहार/गतिविधियों का पता लगाता है, तो खाता स्थायी रूप से भी ब्लॉक हो सकता है।"
+                                },
+                                {
+                                    "language": "KANNADA",
+                                    "translation": "ನಿಮ್ಮ ಖಾತೆ ನಿರ್ಬಂಧಿತವಾಗಲು ಇವು ಕೆಲವು ಕಾರಣಗಳಾಗಿವೆ: \n * ನೀವು ಸಮಯಾವಧಿಯಲ್ಲಿ ಹಲವಾರು ಬುಕ್ಕಿಂಗ್ ರದ್ದತಿಗಳನ್ನು ಪ್ರಯತ್ನಿಸಿದರೆ, ನಿಮ್ಮ ನಮ್ಮ ಯಾತ್ರಿಯ ಖಾತೆ ತಾತ್ಕಾಲಿಕವಾಗಿ ನಿರ್ಬಂಧಿಸಲಾಗುತ್ತದೆ. \n * ನಿಷ್ಠೆಯು ನಮ್ಮ ಯಾತ್ರಿಯ ನಿಯಮಗಳು ಮತ್ತು ಷರತ್ತುಗಳ ವಿರುದ್ಧ ಯಾವುದೇ ವಿಶೇಷ ವರ್ತನೆ/ಚಟುವಟಿಕೆಗಳನ್ನು ಪತ್ತೆಹಚ್ಚಿದರೆ ಖಾತೆಯನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರ್ಬಂಧಿಸಲಾಗುತ್ತದೆ."
+                                },
+                                {
+                                    "language": "TAMIL",
+                                    "translation": "உங்கள் கணக்கு முடக்கப்படுவதற்கான சில காரணங்கள்: \n * நீங்கள் ஒரு கால அவகாசத்தில் பல முன்பதிவுகளை ரத்து செய்வதை முயற்சித்தால், உங்கள் நம்ம யாத்திரி கணக்கு தற்காலிகமாக முடக்கப்படும். \n * கணினி நம்ம யாத்திரியின் விதிமுறைகள் மற்றும் நிபந்தனைகளுக்கு எதிரான எந்த விதமான அசாதாரண செயல்பாடுகளைப் புரிந்து கொண்டால், கணக்கு நிரந்தரமாகவும் முடக்கப்படலாம்."
+                                },
+                                {
+                                    "language": "TELUGU",
+                                    "translation": "మీ ఖాతా నిర్బంధం కావడానికి కొన్ని కారణాలు: \n * మీరు ఒక కాలంలో అనేక బుకింగ్ రద్దులను ప్రయత్నిస్తే, మీ నమ్మా యాత్రి ఖాతా తాత్కాలికంగా నిర్బంధించబడుతుంది. \n * వ్యవస్థ నమ్మా యాత్రి యొక్క షరతులు మరియు నిబంధనలకు వ్యతిరేకంగా ఏ అసాధారణ ప్రవర్తన/చర్యలను గుర్తిస్తే, ఖాతా శాశ్వతంగా కూడా నిర్బంధించబడవచ్చు."
+                                }
+                            ],
+                            "actionTranslations": [],
+                            "titleTranslations": [],
+                            "options": []
+                        }
+                    ]
+                },
+                {
+                    "isActive": true,
+                    "label": null,
+                    "option": "Other",
+                    "priority": 3,
+                    "translations": [
+                        {
+                            "language": "HINDI",
+                            "translation": "अन्य"
+                        },
+                        {
+                            "language": "KANNADA",
+                            "translation": "ಇತರ"
+                        },
+                        {
+                            "language": "TAMIL",
+                            "translation": "மற்றவை"
+                        },
+                        {
+                            "language": "TELUGU",
+                            "translation": "ఇతరము"
+                        }
+                    ],
+                    "messages": [
+                        {
+                            "label": "CREATE_TICKET",
+                            "message": "Please provide additional information so that we can assist you better",
+                            "messageTitle": null,
+                            "priority": 1,
+                            "referenceCategoryId": null,
+                            "referenceOptionId": null,
+                            "messageTranslations": [
+                                {
+                                    "language": "HINDI",
+                                    "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                                },
+                                {
+                                    "language": "KANNADA",
+                                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                                },
+                                {
+                                    "language": "TAMIL",
+                                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                                },
+                                {
+                                    "language": "TELUGU",
+                                    "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                                }
+                            ],
+                            "actionTranslations": [],
+                            "titleTranslations": [],
+                            "options": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

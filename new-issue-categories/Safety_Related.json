@@ -1,0 +1,258 @@
+{
+    "category": "Safety",
+    "categoryType": "Category",
+    "isRideRequired": true,
+    "isActive": true,
+    "logoUrl": "ny_ic_sos_related,https://assets.moving.tech/beckn/common/common/images/ny_ic_sos_related.png",
+    "maxAllowedRideAge": 259200,
+    "priority": 4,
+    "translations": [
+        {
+            "language": "HINDI",
+            "translation": "सुरक्षा"
+        },
+        {
+            "language": "KANNADA",
+            "translation": "ಸುರಕ್ಷತೆ"
+        },
+        {
+            "language": "TAMIL",
+            "translation": "பாதுகாப்பு"
+        },
+        {
+            "language": "TELUGU",
+            "translation": "భద్రత"
+        }
+    ],
+    "messages": [
+        {
+            "label": null,
+            "message": "Hey, We’re really sorry to hear you have been facing these issues.",
+            "messageTitle": null,
+            "priority": 1,
+            "referenceCategoryId": null,
+            "referenceOptionId": null,
+            "messageTranslations": [
+                {
+                    "language": "HINDI",
+                    "translation": "हमें खेद है कि आपको ये समस्याएँ सामने आ रही हैं।"
+                },
+                {
+                    "language": "KANNADA",
+                    "translation": "ನೀವು ಈ ಸಮಸ್ಯೆಗಳನ್ನು ಎದುರಿಸುತ್ತಿದ್ದೀರಿ ಎಂದು ಕೇಳಿ ನಮಗೆ ವಿಷಾದವಾಗಿದೆ."
+                },
+                {
+                    "language": "TAMIL",
+                    "translation": "இந்த சிக்கல்களை நீங்கள் எதிர்கொள்கிறீர்கள் என கேட்டதற்காக, நாங்கள் மிகவும் வருந்துகிறோம்."
+                },
+                {
+                    "language": "TELUGU",
+                    "translation": "మీరు ఈ సమస్యలను ఎదుర్కొంటున్నారని విన్నందుకు మేము నిజంగా క్షమించండి."
+                }
+            ],
+            "actionTranslations": [],
+            "titleTranslations": [],
+            "options": []
+        },
+        {
+            "label": null,
+            "message": "Please select the type of issue you are facing so we can help you out better",
+            "messageAction": null,
+            "messageTitle": null,
+            "priority": 2,
+            "referenceCategoryId": null,
+            "referenceOptionId": null,
+            "messageTranslations": [
+                {
+                    "language": "HINDI",
+                    "translation": "कृपया आप जिस प्रकार की समस्या का सामना कर रहे हैं, उसे चुनें ताकि हम आपकी बेहतर सहायता कर सकें"
+                },
+                {
+                    "language": "KANNADA",
+                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                },
+                {
+                    "language": "TAMIL",
+                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, நீங்கள் சந்திக்கும் சிக்கலின் வகையைத் தேர்ந்தெடுக்கவும்"
+                },
+                {
+                    "language": "TELUGU",
+                    "translation": "దయచేసి మీరు ఎదుర్కొంటున్న సమస్య రకాన్ని ఎంచుకోండి, తద్వారా మేము మీకు మెరుగైన సహాయం చేయగలము"
+                }
+            ],
+            "actionTranslations": [],
+            "titleTranslations": [],
+            "options": [
+                {
+                    "isActive": true,
+                    "label": null,
+                    "option": "Driver misbehaved or driver was rude",
+                    "priority": 1,
+                    "translations": [
+                        {
+                            "language": "HINDI",
+                            "translation": "ड्राइवर ने गलत व्यवहार किया या ड्राइवर rude था"
+                        },
+                        {
+                            "language": "KANNADA",
+                            "translation": "ಚಾಲಕ ವರ್ತನೆಯಲ್ಲಿ ತಪ್ಪು ಮಾಡಿದನು ಅಥವಾ ಚಾಲಕ ಕಠಿಣವಾಗಿದ್ದನು"
+                        },
+                        {
+                            "language": "TAMIL",
+                            "translation": "இயக்குநர் மோசமாக நடந்து கொண்டார் அல்லது இயக்குநர் எரிச்சலானவர்"
+                        },
+                        {
+                            "language": "TELUGU",
+                            "translation": "డ్రైవర్ దురుసుగా ప్రవర్తించాడు లేదా డ్రైవర్ దురుసుగా ఉన్నాడు"
+                        }
+                    ],
+                    "messages": [
+                        {
+                            "label": "CREATE_TICKET",
+                            "message": "We're sorry for any inconvenience caused. This isn't the standard we uphold at {#MERCHANT#}. Could you please share more details so we can better assist you?",
+                            "messageTitle": null,
+                            "priority": 1,
+                            "referenceCategoryId": null,
+                            "referenceOptionId": null,
+                            "messageTranslations": [
+                                {
+                                    "language": "HINDI",
+                                    "translation": "हम किसी भी असुविधा के लिए खेद प्रकट करते हैं। यह वह मानक नहीं है जिसे हम {#MERCHANT#} पर बनाए रखते हैं। क्या आप कृपया अधिक जानकारी साझा कर सकते हैं ताकि हम आपकी बेहतर सहायता कर सकें?"
+                                },
+                                {
+                                    "language": "KANNADA",
+                                    "translation": "ನಾವು ಉಂಟಾದ ತೊಂದರೆಗೆ ಕ್ಷಮೆಯಾಚಿಸುತ್ತೇವೆ. ಇದು {#MERCHANT#}ನಲ್ಲಿ ನಾವು ಸ್ಥಾಪಿಸುತ್ತಿರುವ ಪ್ರಮಾಣವಲ್ಲ. ನೀವು ದಯವಿಟ್ಟು ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಬಹುದೆಂದು ಕೇಳಬಹುದು?"
+                                },
+                                {
+                                    "language": "TAMIL",
+                                    "translation": "எங்கள் உற்பத்தி முறையை மீறுவது அல்ல. {#MERCHANT#}ல் நாங்கள் காப்பாற்றும் தரம் இது அல்ல. எங்களுக்கு சிறந்த உதவி செய்ய, மேலும் தகவல்களை பகிர முடியுமா?"
+                                },
+                                {
+                                    "language": "TELUGU",
+                                    "translation": "ఏ అసౌకర్యం కలిగించినందుకు మేము క్షమాపణ చెప్పుతున్నాం. ఇది {#MERCHANT#} వద్ద మేము నిర్వహిస్తున్న ప్రమాణం కాదు. మేము మీకు మెరుగైన సహాయం చేయడానికి మరింత సమాచారం ఇవ్వగలరా?"
+                                }
+                            ],
+                            "actionTranslations": [],
+                            "titleTranslations": [],
+                            "options": []
+                        },
+                        {
+                            "label": "WARNING_MESSAGE",
+                            "message": "Please use this option only if the driver's behaviour made you feel unsafe",
+                            "messageTitle": null,
+                            "priority": 2,
+                            "referenceCategoryId": null,
+                            "referenceOptionId": null,
+                            "messageTranslations": [
+                                {
+                                    "language": "HINDI",
+                                    "translation": "कृपया इस विकल्प का उपयोग केवल तभी करें जब ड्राइवर के व्यवहार ने आपको असुरक्षित महसूस कराया हो।"
+                                },
+                                {
+                                    "language": "KANNADA",
+                                    "translation": "ಚಾಲಕನ ವರ್ತನೆ ನಿಮಗೆ ಸುರಕ್ಷಿತವಾಗಿಲ್ಲ ಎಂದು ಭಾಸವಾಗಿದ್ದರೆ ಮಾತ್ರ ಈ ಆಯ್ಕೆಯನ್ನು ಬಳಸಿರಿ."
+                                },
+                                {
+                                    "language": "TAMIL",
+                                    "translation": "இயக்குனரின் நடத்தை உங்களை அச்சுறுத்தினால் மட்டும் இந்த விருப்பத்தை பயன்படுத்தவும்."
+                                },
+                                {
+                                    "language": "TELUGU",
+                                    "translation": "డ్రైవర్ ప్రవర్తన మీకు భయంకరంగా అనిపించినట్లయితే ఈ ఎంపికను మాత్రమే ఉపయోగించండి."
+                                }
+                            ],
+                            "actionTranslations": [],
+                            "titleTranslations": [],
+                            "options": []
+                        }
+                    ]
+                },
+                {
+                    "isActive": true,
+                    "label": null,
+                    "option": "Rash driving",
+                    "priority": 1,
+                    "restrictedBookingStatuses" : ["R_CANCELLED"],
+                    "translations": [
+                        {
+                            "language": "HINDI",
+                            "translation": "खराब ड्राइविंग"
+                        },
+                        {
+                            "language": "KANNADA",
+                            "translation": "ತೀವ್ರ ಡ್ರೈವಿಂಗ್"
+                        },
+                        {
+                            "language": "TAMIL",
+                            "translation": "மோசமான ஓட்டம்"
+                        },
+                        {
+                            "language": "TELUGU",
+                            "translation": "విధ్వంసకరమైన డ్రైవింగ్"
+                        }
+                    ],
+                    "messages": [
+                        {
+                            "label": "CREATE_TICKET",
+                            "message": "We're sorry for any inconvenience caused. This isn't the standard we uphold at {#MERCHANT#}. Could you please share more details so we can better assist you?",
+                            "messageTitle": null,
+                            "priority": 1,
+                            "referenceCategoryId": null,
+                            "referenceOptionId": null,
+                            "messageTranslations": [
+                                {
+                                    "language": "HINDI",
+                                    "translation": "हम किसी भी असुविधा के लिए खेद प्रकट करते हैं। यह वह मानक नहीं है जिसे हम {#MERCHANT#} पर बनाए रखते हैं। क्या आप कृपया अधिक जानकारी साझा कर सकते हैं ताकि हम आपकी बेहतर सहायता कर सकें?"
+                                },
+                                {
+                                    "language": "KANNADA",
+                                    "translation": "ನಾವು ಉಂಟಾದ ತೊಂದರೆಗೆ ಕ್ಷಮೆಯಾಚಿಸುತ್ತೇವೆ. ಇದು {#MERCHANT#}ನಲ್ಲಿ ನಾವು ಸ್ಥಾಪಿಸುತ್ತಿರುವ ಪ್ರಮಾಣವಲ್ಲ. ನೀವು ದಯವಿಟ್ಟು ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಬಹುದೆಂದು ಕೇಳಬಹುದು?"
+                                },
+                                {
+                                    "language": "TAMIL",
+                                    "translation": "எங்கள் உற்பத்தி முறையை மீறுவது அல்ல. {#MERCHANT#}ல் நாங்கள் காப்பாற்றும் தரம் இது அல்ல. எங்களுக்கு சிறந்த உதவி செய்ய, மேலும் தகவல்களை பகிர முடியுமா?"
+                                },
+                                {
+                                    "language": "TELUGU",
+                                    "translation": "ఏ అసౌకర్యం కలిగించినందుకు మేము క్షమాపణ చెప్పుతున్నాం. ఇది {#MERCHANT#} వద్ద మేము నిర్వహిస్తున్న ప్రమాణం కాదు. మేము మీకు మెరుగైన సహాయం చేయడానికి మరింత సమాచారం ఇవ్వగలరా?"
+                                }
+                            ],
+                            "actionTranslations": [],
+                            "titleTranslations": [],
+                            "options": []
+                        },
+                        {
+                            "label": "WARNING_MESSAGE",
+                            "message": "Please use this option only if the driver's behaviour made you feel unsafe",
+                            "messageTitle": null,
+                            "priority": 2,
+                            "referenceCategoryId": null,
+                            "referenceOptionId": null,
+                            "messageTranslations": [
+                                {
+                                    "language": "HINDI",
+                                    "translation": "कृपया इस विकल्प का उपयोग केवल तभी करें जब ड्राइवर के व्यवहार ने आपको असुरक्षित महसूस कराया हो।"
+                                },
+                                {
+                                    "language": "KANNADA",
+                                    "translation": "ಚಾಲಕನ ವರ್ತನೆ ನಿಮಗೆ ಸುರಕ್ಷಿತವಾಗಿಲ್ಲ ಎಂದು ಭಾಸವಾಗಿದ್ದರೆ ಮಾತ್ರ ಈ ಆಯ್ಕೆಯನ್ನು ಬಳಸಿರಿ."
+                                },
+                                {
+                                    "language": "TAMIL",
+                                    "translation": "இயக்குனரின் நடத்தை உங்களை அச்சுறுத்தினால் மட்டும் இந்த விருப்பத்தை பயன்படுத்தவும்."
+                                },
+                                {
+                                    "language": "TELUGU",
+                                    "translation": "డ్రైవర్ ప్రవర్తన మీకు భయంకరంగా అనిపించినట్లయితే ఈ ఎంపికను మాత్రమే ఉపయోగించండి."
+                                }
+                            ],
+                            "actionTranslations": [],
+                            "titleTranslations": [],
+                            "options": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,208 @@
+{
+    "category": "Vehicle Related",
+    "categoryType": "Category",
+    "isRideRequired": true,
+    "isActive": true,
+    "logoUrl": "ny_ic_ride_related_issue,https://assets.moving.tech/beckn/common/common/images/ny_ic_ride_related_issue.png",
+    "maxAllowedRideAge": 259200,
+    "priority": 5,
+    "translations": [
+        {
+            "language": "HINDI",
+            "translation": "वाहन संबंधित"
+        },
+        {
+            "language": "KANNADA",
+            "translation": "ವಾಹನ ಸಂಬಂಧಿತ"
+        },
+        {
+            "language": "TAMIL",
+            "translation": "வாகனத்திற்கு தொடர்பான"
+        },
+        {
+            "language": "TELUGU",
+            "translation": "వాహనానికి సంబంధించిన"
+        }
+    ],
+    "messages": [
+        {
+            "label": null,
+            "message": "Hey, We’re really sorry to hear you have been facing these issues.",
+            "messageTitle": null,
+            "priority": 1,
+            "referenceCategoryId": null,
+            "referenceOptionId": null,
+            "messageTranslations": [
+                {
+                    "language": "HINDI",
+                    "translation": "हमें खेद है कि आपको ये समस्याएँ सामने आ रही हैं।"
+                },
+                {
+                    "language": "KANNADA",
+                    "translation": "ನೀವು ಈ ಸಮಸ್ಯೆಗಳನ್ನು ಎದುರಿಸುತ್ತಿದ್ದೀರಿ ಎಂದು ಕೇಳಿ ನಮಗೆ ವಿಷಾದವಾಗಿದೆ."
+                },
+                {
+                    "language": "TAMIL",
+                    "translation": "இந்த சிக்கல்களை நீங்கள் எதிர்கொள்கிறீர்கள் என கேட்டதற்காக, நாங்கள் மிகவும் வருந்துகிறோம்."
+                },
+                {
+                    "language": "TELUGU",
+                    "translation": "మీరు ఈ సమస్యలను ఎదుర్కొంటున్నారని విన్నందుకు మేము నిజంగా క్షమించండి."
+                }
+            ],
+            "actionTranslations": [],
+            "titleTranslations": [],
+            "options": []
+        },
+        {
+            "label": null,
+            "message": "Please select the type of issue you are facing so we can help you out better",
+            "messageAction": null,
+            "messageTitle": null,
+            "priority": 2,
+            "referenceCategoryId": null,
+            "referenceOptionId": null,
+            "messageTranslations": [
+                {
+                    "language": "HINDI",
+                    "translation": "कृपया आप जिस प्रकार की समस्या का सामना कर रहे हैं, उसे चुनें ताकि हम आपकी बेहतर सहायता कर सकें"
+                },
+                {
+                    "language": "KANNADA",
+                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                },
+                {
+                    "language": "TAMIL",
+                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, நீங்கள் சந்திக்கும் சிக்கலின் வகையைத் தேர்ந்தெடுக்கவும்"
+                },
+                {
+                    "language": "TELUGU",
+                    "translation": "దయచేసి మీరు ఎదుర్కొంటున్న సమస్య రకాన్ని ఎంచుకోండి, తద్వారా మేము మీకు మెరుగైన సహాయం చేయగలము"
+                }
+            ],
+            "actionTranslations": [],
+            "titleTranslations": [],
+            "options": [
+                {
+                    "isActive": true,
+                    "label": "AC_RELATED_ISSUE",
+                    "option": "I booked an AC ride but the driver refused to turn on the AC",
+                    "priority": 1,
+                    "restrictedVariants": [
+                        "HATCHBACK",
+                        "AUTO_RICKSHAW",
+                        "TAXI",
+                        "TAXI_PLUS",
+                        "BIKE",
+                        "AMBULANCE_TAXI",
+                        "AMBULANCE_TAXI_OXY"
+                    ],
+                    "translations": [
+                        {
+                            "language": "HINDI",
+                            "translation": "मैंने एसी राइड बुक की, लेकिन ड्राइवर ने एसी चालू करने से इनकार कर दिया।"
+                        },
+                        {
+                            "language": "KANNADA",
+                            "translation": "ನಾನು ಎಸಿ ರೈಡ್ ಬುಕ್ ಮಾಡಿದೆ, ಆದರೆ ಚಾಲಕ ಎಸಿಯನ್ನು ಪ್ರಾರಂಭಿಸಲು ನಿರಾಕರಿಸಿದನು."
+                        },
+                        {
+                            "language": "TAMIL",
+                            "translation": "நான் ஏசி பயணத்தை பதிவு செய்தேன் ஆனால் இயக்குநர் ஏசியை இயக்குவதற்கு மறுத்தார்."
+                        },
+                        {
+                            "language": "TELUGU",
+                            "translation": "నేను ఎయిర్ కండీషనర్ రైడ్ బుక్ చేసుకున్నాను, కానీ డ్రైవర్ ఎయిర్ కండీషనర్ ఆన్ చేయడానికి నిరాకరించాడు."
+                        }
+                    ],
+                    "messages": [
+                        {
+                            "label": "CREATE_TICKET",
+                            "message": "Sorry to hear that. Please provide additional information so that we can assist you better",
+                            "messageTitle": null,
+                            "priority": 1,
+                            "referenceCategoryId": null,
+                            "referenceOptionId": null,
+                            "messageTranslations": [
+                                {
+                                    "language": "HINDI",
+                                    "translation": "यह सुनकर खेद हुआ। कृपया अधिक जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें।"
+                                },
+                                {
+                                    "language": "KANNADA",
+                                    "translation": "ಅದರ ಬಗ್ಗೆ ಕೇಳಿ ವಿಷಾದವಾಗಿದೆ. ದಯವಿಟ್ಟು ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿಯನ್ನು ನೀಡಿ ताकि ನಾವು ನಿಮ್ಮನ್ನು ಉತ್ತಮವಾಗಿ ನೆರವೇರಿಸಬಹುದಾಗಿದೆ."
+                                },
+                                {
+                                    "language": "TAMIL",
+                                    "translation": "இதைப் பற்றிப் கேட்டதற்கு வருந்துகிறேன். எங்களுக்கு உங்களை இன்னும் சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்."
+                                },
+                                {
+                                    "language": "TELUGU",
+                                    "translation": "ఇది విన్నందుకు క్షమించండి. మేము మీకు మెరుగైన సహాయం చేయడానికి దయచేసి అదనపు సమాచారాన్ని అందించండి."
+                                }
+                            ],
+                            "actionTranslations": [],
+                            "titleTranslations": [],
+                            "options": []
+                        }
+                    ]
+                },
+                {
+                    "isActive": true,
+                    "label": null,
+                    "option": "Other issues",
+                    "priority": 2,
+                    "translations": [
+                        {
+                            "language": "HINDI",
+                            "translation": "अन्य मुद्दे"
+                        },
+                        {
+                            "language": "KANNADA",
+                            "translation": "ಇತರೆ ಸಮಸ್ಯೆಗಳು"
+                        },
+                        {
+                            "language": "TAMIL",
+                            "translation": "மற்ற விவகாரங்கள்"
+                        },
+                        {
+                            "language": "TELUGU",
+                            "translation": "ఇతర సమస్యలు"
+                        }
+                    ],
+                    "messages": [
+                        {
+                            "label": "CREATE_TICKET",
+                            "message": "Sorry to hear that. Please provide additional information so that we can assist you better",
+                            "messageTitle": null,
+                            "priority": 1,
+                            "referenceCategoryId": null,
+                            "referenceOptionId": null,
+                            "messageTranslations": [
+                                {
+                                    "language": "HINDI",
+                                    "translation": "यह सुनकर खेद हुआ। कृपया अधिक जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें।"
+                                },
+                                {
+                                    "language": "KANNADA",
+                                    "translation": "ಅದರ ಬಗ್ಗೆ ಕೇಳಿ ವಿಷಾದವಾಗಿದೆ. ದಯವಿಟ್ಟು ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿಯನ್ನು ನೀಡಿ ताकि ನಾವು ನಿಮ್ಮನ್ನು ಉತ್ತಮವಾಗಿ ನೆರವೇರಿಸಬಹುದಾಗಿದೆ."
+                                },
+                                {
+                                    "language": "TAMIL",
+                                    "translation": "இதைப் பற்றிப் கேட்டதற்கு வருந்துகிறேன். எங்களுக்கு உங்களை இன்னும் சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்."
+                                },
+                                {
+                                    "language": "TELUGU",
+                                    "translation": "ఇది విన్నందుకు క్షమించండి. మేము మీకు మెరుగైన సహాయం చేయడానికి దయచేసి అదనపు సమాచారాన్ని అందించండి."
+                                }
+                            ],
+                            "actionTranslations": [],
+                            "titleTranslations": [],
+                            "options": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

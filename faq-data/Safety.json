@@ -1,0 +1,60 @@
+{
+    "category": "Safety",
+    "categoryType": "FAQ",
+    "isRideRequired": false,
+    "isActive": "{{IS_ACTIVE_FAQ}}",
+    "logoUrl": "ny_ic_sos_related,https://assets.moving.tech/beckn/common/common/images/ny_ic_sos_related.png",
+    "maxAllowedRideAge": 86400,
+    "priority": 5,
+    "translations": [],
+    "messages": [
+      {
+        "label": null,
+        "message": "{#BODY#}In case of emergency, press the SOS button available on your Namma Yatri app to raise an alert.",
+        "messageTitle": "Namma Yatri safety",
+        "priority": 1,
+        "referenceCategoryId": null,
+        "referenceOptionId": null,
+        "messageTranslations": [],
+        "actionTranslations": [],
+        "titleTranslations": [],
+        "options": []
+      },
+      {
+        "label": null,
+        "message": "{#BODY#}Currently we do not have the option to share the ride details.",
+        "messageTitle": "How do I share my ride details ?",
+        "priority": 2,
+        "referenceCategoryId": null,
+        "referenceOptionId": null,
+        "messageTranslations": [],
+        "actionTranslations": [],
+        "titleTranslations": [],
+        "options": []
+      },
+      {
+        "label": null,
+        "message": "{#BODY#}SOS feature enables you to connect with our emergency response team and seek help in case of any emergency/accident. You will find an SOS button after your ride is booked.",
+        "messageTitle": "How does the SOS option work?",
+        "priority": 3,
+        "referenceCategoryId": null,
+        "referenceOptionId": null,
+        "messageTranslations": [],
+        "actionTranslations": [],
+        "titleTranslations": [],
+        "options": []
+      },
+      {
+        "label": null,
+        "message": "{#BODY#}Your safety is of utmost importance to us and we take rigorous measures to ensure the safety of our female riders. Our emergency response team is available round the clock to attend to any emergency issue during the ride. You can reach out to them through the SOS button after you book a ride. We also have a number masking feature to safeguard the privacy of our female riders.",
+        "messageTitle": "What are the features available for female rider safety?",
+        "priority": 4,
+        "referenceCategoryId": null,
+        "referenceOptionId": null,
+        "messageTranslations": [],
+        "actionTranslations": [],
+        "titleTranslations": [],
+        "options": []
+      }
+    ]
+  }
