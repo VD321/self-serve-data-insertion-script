@@ -1,0 +1,47 @@
+{
+    "label": "MY_RIDES",
+    "message": "{#BODY#}To download the invoice for a ride, please follow these steps: <br> 1. Navigate to Menu > My Rides. <br> 2. Click on the ride for which you need the invoice. <br> 3. Click on View Driver Receipt. <br> 4. Click on Download PDF.<br> <br> For visual guidance, please refer to the following images",
+    "messageAction": "My Rides",
+    "messageTitle": "How can I download ride invoice?",
+    "priority": 16,
+    "referenceCategoryId": null,
+    "referenceOptionId": null,
+    "messageTranslations": [
+        {
+            "language": "HINDI",
+            "translation": "{#BODY#}राइड का इनवॉइस डाउनलोड करने के लिए, कृपया निम्नलिखित चरणों का पालन करें: <br> 1. मेनू > मेरी राइड्स पर जाएं। <br> 2. उस राइड पर क्लिक करें जिसके लिए आपको इनवॉइस चाहिए। <br> 3. ड्राइवर रसीद पर क्लिक करें। <br> 4. डाउनलोड पीडीएफ पर क्लिक करें।<br> <br> दृश्य मार्गदर्शन के लिए, कृपया निम्नलिखित छवियों को देखें।"
+        },
+        {
+            "language": "KANNADA",
+            "translation": "{#BODY#}ನೀವು ರೈಡ್‌ನ ಇನ್ವಾಯ್ಸ್ ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು, ದಯವಿಟ್ಟು ಈ ಹಂತಗಳನ್ನು ಅನುಸರಿಸಿ: <br> 1. ಮೆನು > ನನ್ನ ರೈಡ್ಸ್‌ಗೆ ಸಾಗಿಸಿ. <br> 2. ನೀವು ಇನ್ವಾಯ್ಸ್ ಅಗತ್ಯವಿರುವ ರೈಡ್‌ನಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ. <br> 3. ಡ್ರೈವರ್ ರಸೀದಿಯನ್ನು ವೀಕ್ಷಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ. <br> 4. PDF ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ.<br> <br> ದೃಶ್ಯ ಮಾರ್ಗದರ್ಶನಕ್ಕಾಗಿ, ದಯವಿಟ್ಟು ಈ ಚಿತ್ರಗಳನ್ನು ನೋಡಿ."
+        },
+        {
+            "language": "TELUGU",
+            "translation": "{#BODY#}ఒక రైడ్ యొక్క ఇన్వాయిస్‌ను డౌన్లోడ్ చేయడానికి, దయచేసి ఈ దశలను అనుసరించండి: <br> 1. మెనూ > నా రైడ్స్ వద్ద నావిగేట్ చేయండి. <br> 2. మీరు ఇన్వాయిస్ కావలసిన రైడ్‌పై క్లిక్ చేయండి. <br> 3. డ్రైవర్ రసీదును వీక్షించడానికి క్లిక్ చేయండి. <br> 4. PDFను డౌన్లోడ్ చేయడానికి క్లిక్ చేయండి.<br> <br> దృశ్య మార్గదర్శకానికి, దయచేసి ఈ చిత్రాలను సూచించండి."
+        },
+        {
+            "language": "TAMIL",
+            "translation": "{#BODY#}ஒரு பயணத்தின் பில்லைக் கண்டிப்பாகப் பதிவிறக்கம் செய்ய, தயவுசெய்து இந்த படிகள் பின்பற்றவும்: <br> 1. மெனு > என் பயணங்கள் என்பதற்கு செல்லவும். <br> 2. பில்லின் தேவையான பயணத்தில் கிளிக் செய்யவும். <br> 3. டிரைவர் ரசீது பார்க்கவும் கிளிக் செய்யவும். <br> 4. PDF ஐ பதிவிறக்கம் செய்ய கிளிக் செய்யவும்.<br> <br> காட்சி வழிகாட்டியுடன், தயவுசெய்து கீழ்க்காணும் படங்களைப் பார்க்கவும்."
+        }
+    ],
+    "actionTranslations": [],
+    "titleTranslations": [
+        {
+            "language": "HINDI",
+            "translation": "मैं अपनी राइड का इनवॉइस कैसे डाउनलोड कर सकता हूँ?"
+        },
+        {
+            "language": "KANNADA",
+            "translation": "ನಾನು ನನ್ನ ರೈಡ್ ಇನ್ವಾಯ್ಸ್ ಅನ್ನು ಹೇಗೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಬಹುದು?"
+        },
+        {
+            "language": "TELUGU",
+            "translation": "నేను నా రైడ్ ఇన్వాయిస్‌ను ఎలా డౌన్లోడ్ చేయగలను?"
+        },
+        {
+            "language": "TAMIL",
+            "translation": "நான் என் பயணப் பில்லைப் எப்படி பதிவிறக்கம் செய்யலாம்?"
+        }
+    ],
+    "options": []
+}

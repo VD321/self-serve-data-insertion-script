@@ -1,111 +1,406 @@
 {
-    "category": "Account Related",
-    "categoryType": "FAQ",
-    "isRideRequired": false,
-    "isActive": "{{IS_ACTIVE_FAQ}}",
-    "logoUrl": "ny_ic_account_related,https://assets.moving.tech/beckn/common/common/images/ny_ic_account_related.png",
-    "maxAllowedRideAge": 86400,
-    "priority": 1,
-    "translations": [],
-    "messages": [
-      {
-        "label": null,
-        "message": "{#BODY#}Namma Yatri does not support editing the registered mobile number currently. If you wish to use another number, please logout from the current account and register with a new number.",
-        "messageTitle": "Can I change my registered mobile number?",
-        "priority": 1,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}Unfortunately, we do not have a referral program on Namma Yatri currently.",
-        "messageTitle": "Does Namma Yatri have a referral program?",
-        "priority": 2,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}Your account may be blocked. <br> Reasons leading to account block: <br> * If you attempt several booking cancellations over a period of time, your Namma Yatri account will be temporarily blocked. <br> * Account can also be blocked permanently if the system detects any unusual behavior/activities against Namma Yatri's terms and conditions.",
-        "messageAction": "Raise a ticket",
-        "messageTitle": "I am unable to request for a ride",
-        "priority": 3,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}Please ensure that the location is turned on in your device and you have granted location permission to Namma Yatri. We need your location to provide accurate doorstep pickups.",
-        "messageTitle": "My app is showing incorrect location or not detecting the location",
-        "priority": 4,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}The app may face some momentary technical issues because of which it may not function as expected. Please restart the app in such cases. If this still doesn't help, you can raise a ticket with the customer support team.",
-        "messageAction": "Raise a ticket",
-        "messageTitle": "My app is not responding",
-        "priority": 5,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": "FAVOURITES",
-        "message": "{#BODY#}You can update your work/home or favourite locations by adding your frequently travelled locations in Favourites section on the side menu.",
-        "messageAction": "Favourites",
-        "messageTitle": "How can I save my frequently travelled locations?",
-        "priority": 6,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": "CHANGE_LANGUAGE",
-        "message": "{#BODY#}Experience Namma Yatri in five languages: English, Kannada (ಕನ್ನಡ), Hindi (हिंदी), Tamil (தமிழ்), and Telugu (తెలుగు). Click on the following button to change the language.",
-        "messageAction": "Change Language",
-        "messageTitle": "What languages (ಭಾಷೆ, भाषा) does Namma Yatri support?",
-        "priority": 7,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": "CHANGE_LANGUAGE",
-        "message": "{#BODY#} {#IMAGE_GROUP<count=4>#} Experience Namma Yatri in five languages: English, Kannada (ಕನ್ನಡ), Hindi (हिंदी), Tamil (தமிழ்), and Telugu (తెలుగు). {#IMAGE#} Click on the following button to change the language.",
-        "messageAction": "Change Language",
-        "messageTitle": "What languages (ಭಾಷೆ, भाषा) does Namma Yatri support?",
-        "priority": 7,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      }
-    ]
-  }
+  "category": "Account Related",
+  "categoryType": "FAQ",
+  "isRideRequired": false,
+  "isActive": "{{IS_ACTIVE_FAQ}}",
+  "logoUrl": "ny_ic_account_related,https://assets.moving.tech/beckn/common/common/images/ny_ic_account_related.png",
+  "maxAllowedRideAge": 86400,
+  "priority": 1,
+  "translations": [],
+  "messages": [
+    {
+      "label": null,
+      "message": "{#BODY#}{#MERCHANT#} does not support editing the registered mobile number currently. If you wish to use another number, please logout from the current account and register with a new number.",
+      "messageTitle": "Can I change my registered mobile number?",
+      "priority": 1,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}{#MERCHANT#} वर्तमान में पंजीकृत मोबाइल नंबर को संपादित करने का समर्थन नहीं करता है। यदि आप एक और नंबर का उपयोग करना चाहते हैं, तो कृपया वर्तमान खाते से लॉगआउट करें और नए नंबर से पंजीकरण करें।"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}{#MERCHANT#} ಇತ್ತೀಚೆಗೆ ನೋಂದಾಯಿತ ಮೊಬೈಲ್ ನಂಬರ್ನ್ನು ಸಂಪಾದಿಸಲು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ. ನೀವು ಇನ್ನೊಂದು ನಂಬರನ್ನು ಬಳಸಲು ಇಚ್ಛಿಸುತ್ತರೆ, ದಯವಿಟ್ಟು ಪ್ರಸ್ತುತ ಖಾತೆಯಿಂದ ಲಾಗ್ ಔಟ್ ಮಾಡಿ ಮತ್ತು ಹೊಸ ನಂಬರಿನಿಂದ ನೋಂದಾಯಿಸಿ."
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}{#MERCHANT#} தற்போது பதிவு செய்யப்பட்ட மொபைல் எண்ணைப் பரிசீலிக்க ஆதரவு வழங்கவில்லை. நீங்கள் மற்றொரு எண்ணைப் பயன்படுத்த விரும்பினால், தயவுசெய்து தற்போதைய கணக்கிலிருந்து வெளியாகி புதிய எண்ணுடன் பதிவு செய்யவும்."
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}{#MERCHANT#} ప్రస్తుతం నమోదైన మొబైల్ నంబర్‌ను సవరించడానికి మద్దతు అందించదు. మీరు మరొక నంబర్ ఉపయోగించాలనుకుంటే, దయచేసి ప్రస్తుత ఖాతా నుండి లాగ్‌అవుట్ చేయండి మరియు కొత్త నంబర్‌తో నమోదు చేసుకోండి."
+        }
+      ],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "क्या मैं अपना पंजीकृत मोबाइल नंबर बदल सकता हूँ?"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ನಾನು ನನ್ನ ನೋಂದಾಯಿತ ಮೊಬೈಲ್ ನಂಬರನ್ನು ಬದಲಾಯಿಸಬಹುದುವಾ?"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "நான் என் பதிவு செய்யப்பட்ட மொபைல் எண்ணை மாற்ற முடியுமா?"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "నేను నా నమోదైన మొబైల్ నంబర్‌ను మార్చవచ్చా?"
+        }
+      ],
+      "actionTranslations": [],
+      "options": []
+    },
+    {
+      "label": null,
+      "message": "{#BODY#}Unfortunately, we do not have a referral program on {#MERCHANT#} currently.",
+      "messageTitle": "Does {#MERCHANT#} have a referral program?",
+      "priority": 2,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}दुर्भाग्यवश, {#MERCHANT#} पर वर्तमान में कोई संदर्भ कार्यक्रम नहीं है।"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}ದೋಷವಶಾತ್, {#MERCHANT#} ನಲ್ಲಿ ಪ್ರಸ್ತುತ ಶ್ರೇಣೀ ಶ್ರೇಣಿಯ ಕಾರ್ಯಕ್ರಮವಿಲ್ಲ."
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}துரதிருஷ்டவசமாக, {#MERCHANT#} இல் தற்போது எந்தவொரு சுட்டி திட்டமும் இல்லை."
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}దురదృష్టవశాత్తు, {#MERCHANT#} వద్ద ప్రస్తుతం ఏ రిఫరల్ ప్రోగ్రాం లేదు."
+        }
+      ],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#MERCHANT#} पर क्या कोई संदर्भ कार्यक्रम है?"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#MERCHANT#} ನಲ್ಲಿ ಶ್ರೇಣೀ ಶ್ರೇಣಿಯ ಕಾರ್ಯಕ್ರಮವಿದೆಯೆ?"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#MERCHANT#} இல் ஒரு சுட்டி திட்டம் உள்ளதா?"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#MERCHANT#} వద్ద రిఫరల్ ప్రోగ్రాం ఉందా?"
+        }
+      ],
+      "actionTranslations": [],
+      "options": []
+    },
+    {
+      "label": null,
+      "message": "{#BODY#}Your account may be blocked. <br> Reasons leading to account block: <br> * If you attempt several booking cancellations over a period of time, your {#MERCHANT#} account will be temporarily blocked. <br> * Account can also be blocked permanently if the system detects any unusual behavior/activities against {#MERCHANT#}'s terms and conditions.",
+      "messageAction": "Raise a ticket",
+      "messageTitle": "I am unable to request for a ride",
+      "priority": 3,
+      "referenceCategoryId": "{{ACCOUNT_RELATED_FAQ_3_REF_CAT_ID}}",
+      "referenceOptionId": "{{ACCOUNT_RELATED_FAQ_3_REF_OPTION_ID}}",
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}आपका खाता ब्लॉक किया जा सकता है। <br> खाता ब्लॉक होने के कारण: <br> * यदि आप एक अवधि के दौरान कई बुकिंग रद्द करते हैं, तो आपका {#MERCHANT#} खाता अस्थायी रूप से ब्लॉक किया जाएगा। <br> * खाता को स्थायी रूप से भी ब्लॉक किया जा सकता है यदि सिस्टम {#MERCHANT#} की शर्तों और नियमों के खिलाफ कोई असामान्य व्यवहार/गतिविधियाँ détect करता है।"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}ನಿಮ್ಮ ಖಾತೆ ಅಡ್ಡಗೊಳ್ಳಬಹುದು. <br> ಖಾತೆ ಅಡ್ಡಗೊಳ್ಳುವ ಕಾರಣಗಳು: <br> * ನೀವು ಒಂದೆರಡು ಬುಕಿಂಗ್ ರದ್ದು ಮಾಡಿದರೆ, ನಿಮ್ಮ {#MERCHANT#} ಖಾತೆ ತಾತ್ಕಾಲಿಕವಾಗಿ ಅಡ್ಡಗೊಳ್ಳಬಹುದು. <br> * ವ್ಯವಸ್ಥೆ {#MERCHANT#} ನ ನಿಯಮ ಮತ್ತು ಶರತ್ತುಗಳಿಗೆ ವಿರುದ್ಧವಾದ ಯಾವುದೇ ಅಸಾಮಾನ್ಯ ವರ್ತನೆ / ಚಟುವಟಿಕೆಗಳನ್ನು ಪತ್ತೆಹಚ್ಚಿದರೆ, ಖಾತೆ ಶಾಶ್ವತವಾಗಿ ಅಡ್ಡಗೊಳ್ಳಬಹುದು."
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}உங்கள் கணக்கு தடை செய்யப்படலாம். <br> கணக்கு தடை செய்யப்படும் காரணங்கள்: <br> * நீங்கள் ஒரு கால அளவுக்கு பல நியமனங்களை ரத்து செய்யும் முயற்சியால், உங்கள் {#MERCHANT#} கணக்கு தற்காலிகமாக தடை செய்யப்படும். <br> * {#MERCHANT#} யின் விதிமுறைகளுக்கும் நிபந்தனைகளுக்கும் எதிரான எந்தவொரு விஷமமான நடத்தை/செயல்களையும் அமைப்பு கண்டறிதல் செய்பவிட, கணக்கு நிலையான முறையில் தடை செய்யப்படும்."
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}మీ ఖాతా బ్లాక్ చేయబడవచ్చు. <br> ఖాతా బ్లాక్ అవడానికి కారణాలు: <br> * మీరు ఒక సమయంలో చాలా బుకింగులను రద్దు చేసే ప్రయత్నం చేస్తే, మీ {#MERCHANT#} ఖాతా తాత్కాలికంగా బ్లాక్ చేయబడుతుంది. <br> * సిస్టం {#MERCHANT#} యొక్క షరతులు మరియు నిబంధనల خلاف ఏదైనా అసాధారణ ప్రవర్తన/చర్యలను గుర్తిస్తే ఖాతా శాశ్వతంగా బ్లాక్ చేయబడవచ్చు."
+        }
+      ],
+      "actionTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "टिकट उठाएँ"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ಟಿಕೆಟ್ ಒಯ್ಯಿರಿ"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "அனுமதி நிலையை எழுத்து செய்க"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "టికెట్ రాయండి"
+        }
+      ],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "मैं सवारी के लिए अनुरोध नहीं कर सकता"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ನಾನು ಓಡಿಸುವುದಕ್ಕೆ ವಿನಂತಿ చేయలಾರೆನು"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "நான் ஏற்றுக்கொள்கிறேன்"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "నేను రైడ్ కోసం అభ్యర్థించలేను"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": null,
+      "message": "{#BODY#}Please ensure that the location is turned on in your device and you have granted location permission to {#MERCHANT#}. We need your location to provide accurate doorstep pickups.",
+      "messageTitle": "My app is showing incorrect location or not detecting the location",
+      "priority": 4,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}कृपया सुनिश्चित करें कि आपके डिवाइस में लोकेशन चालू है और आपने नम्मा यात्री को लोकेशन की अनुमति दी है। हमें सही दरवाजे पर पिकअप प्रदान करने के लिए आपके स्थान की आवश्यकता है।"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}ದಯವಿಟ್ಟು ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿ ಸ್ಥಳವನ್ನು ಚಾಲನೆ ಮಾಡಿರುವುದನ್ನು ಖಚಿತಪಡಿಸಿ ಮತ್ತು ನೀವು ನಮ್ಮಾ ಯಾತ್ರಿಗೆ ಸ್ಥಳ ಅನುಮತಿಯನ್ನು ನೀಡಿದ್ದೀರಿ. ನಾವು ನಿಮ್ಮ ಸ್ಥಳವನ್ನು ನಿಖರವಾದ ಮನೆ ಬಾಗಿಲಿನ ಪಿಕಪ್ಗಳನ್ನು ಒದಗಿಸಲು ಬೇಕು."
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}దయచేసి మీ పరికరంలో స్థానం ఆన్‌లో ఉందని మరియు మీరు నమ్మ యాత్రికి స్థానం అనుమతిని ఇచ్చారో లేదో నిర్ధారించుకోండి. ఖచ్చితమైన డోర్‌స్టెప్ పికప్‌లు అందించడానికి మీ స్థానాన్ని మాకు అవసరం."
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}தயவுசெய்து உங்கள் சாதனத்தில் இருப்பிடம் இயங்கிக் கொண்டிருக்கிறது என்பதை உறுதிசெய்யவும் மற்றும் நீங்கள் நம்மா யாத்ரிக்கு இருப்பிடம் அனுமதி வழங்கியிருக்கிறீர்கள். துல்லியமான வீட்டுப்படிகள் உங்களுக்கு தேவையான இடத்தை எங்களால் வழங்க முடியும்."
+        }
+      ],
+      "actionTranslations": [],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "मेरा ऐप गलत स्थान दिखा रहा है या स्थान का पता नहीं लगा रहा है"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ನನ್ನ ಆಪ್ ತಪ್ಪಾದ ಸ್ಥಳವನ್ನು ತೋರಿಸುತ್ತಿದೆ ಅಥವಾ ಸ್ಥಳವನ್ನು ಪತ್ತೆಹಚ್ಚುತ್ತಿಲ್ಲ"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "నా యాప్ తప్పు స్థానం చూపిస్తుంది లేదా స్థలాన్ని గుర్తించదు"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "என் பயன்பாடு தவறான இடத்தை காட்டு அல்லது இடத்தை கண்டுபிடிக்கவில்லை"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": null,
+      "message": "{#BODY#}The app may face some momentary technical issues because of which it may not function as expected. Please restart the app in such cases. If this still doesn't help, you can raise a ticket with the customer support team.",
+      "messageAction": "Raise a ticket",
+      "messageTitle": "My app is not responding",
+      "priority": 5,
+      "referenceCategoryId": "{{ACCOUNT_RELATED_FAQ_5_REF_CAT_ID}}",
+      "referenceOptionId": "{{ACCOUNT_RELATED_FAQ_5_REF_OPTION_ID}}",
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}ऐप को कुछ अस्थायी तकनीकी समस्याओं का सामना करना पड़ सकता है, जिसके कारण यह अपेक्षित रूप से काम नहीं कर सकता है। ऐसे मामलों में कृपया ऐप को पुनः प्रारंभ करें। अगर यह भी काम न करे, तो आप ग्राहक समर्थन टीम के साथ एक टिकट उठा सकते हैं।"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}ಆ್ಯಪ್‍ಗೆ ಕೆಲವು ತಾತ್ಕಾಲಿಕ ತಾಂತ್ರಿಕ ಸಮಸ್ಯೆಗಳು ಉಂಟಾಗಬಹುದು, ಇದರಿಂದ ಅದು ನಿರೀಕ್ಷಿತ ರೀತಿಯಲ್ಲಿ ಕಾರ್ಯನಿರ್ವಹಿಸದಿರಬಹುದು. ದಯವಿಟ್ಟು ಈ ರೀತಿಯ ಸಂದರ್ಭಗಳಲ್ಲಿ ಆ್ಯಪ್ ಅನ್ನು ಮರುಪ್ರಾರಂಭಿಸಿ. ಇದು ಸಹ ಸಹಾಯಕರಾಗದಿದ್ದರೆ, ನೀವು ಗ್ರಾಹಕ ಬೆಂಬಲ ತಂಡದೊಂದಿಗೆ ಟಿಕೆಟ್ ಅನ್ನು ಉಕ್ಕಿಸಬಹುದು."
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}యాప్‌లో కొన్ని తాత్కాలిక సాంకేతిక సమస్యలు ఉండవచ్చు, వీటివల్ల ఇది ఆశించిన విధంగా పనిచేయకపోవచ్చు. ఇలాంటి సందర్భాలలో యాప్‌ని రీస్టార్ట్ చేయండి. ఇది కూడా సహాయపడకపోతే, మీరు కస్టమర్ సపోర్ట్ టీమ్‌తో టికెట్ ఎత్తవచ్చు."
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}சில தற்காலிக தொழில்நுட்ப பிரச்சினைகள் இருக்கும், அதனால் பயன்பாடு எதிர்பார்த்தபடி செயல்படாமல் இருக்கலாம். இவ்வாறான சூழல்களில் பயன்பாட்டை மறுதொடக்கம் செய்யவும். இது சரியான உதவியாக இல்லாவிட்டால், நீங்கள் வாடிக்கையாளர் ஆதரவு குழுவுடன் டிக்கெட்டை எழுப்பலாம்."
+        }
+      ],
+      "actionTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "टिकट उठाएँ"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ಟಿಕೇಟು ಉಕ್ಕಿಸು"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "టికెట్ ఎత్తండి"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "டிக்கெட் உயர்த்துங்கள்"
+        }
+      ],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "मेरा ऐप प्रतिक्रिया नहीं दे रहा है"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ನನ್ನ ಆ್ಯಪ್ ಪ್ರತಿಕ್ರಿಯಿಸುತ್ತಿಲ್ಲ"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "నా యాప్ స్పందించడం లేదు"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "என் பயன்பாடு பதிலளிக்கவில்லை"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "FAVOURITES",
+      "message": "{#BODY#}You can update your work/home or favourite locations by adding your frequently travelled locations in Favourites section on the side menu.",
+      "messageAction": "Favourites",
+      "messageTitle": "How can I save my frequently travelled locations?",
+      "priority": 6,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}आप अपने कार्य/घर या पसंदीदा स्थानों को अपडेट कर सकते हैं, जो आप अक्सर यात्रा करते हैं, साइड मेनू में पसंदीदा अनुभाग में जोड़कर।"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}ನೀವು ನಿಮ್ಮ ಕೆಲಸ/ಮನೆ ಅಥವಾ ಇಷ್ಟದ ಸ್ಥಳಗಳನ್ನು ಪರಿಷ್ಕರಿಸಬಹುದು, ನಿಮ್ಮ ಪದೇ ಪದೇ ಪ್ರಯಾಣಿಸುವ ಸ್ಥಳಗಳನ್ನು ಬದಿಯ ಮೆನುನಲ್ಲಿ ಇರುವ ಇಷ್ಟದ ವಿಭಾಗದಲ್ಲಿ ಸೇರಿಸುವ ಮೂಲಕ."
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}మీరు మీ పని/ఇల్లు లేదా ఇష్టమైన ప్రదేశాలను సైడ్ మెను లోని ఫేవరిట్స్ విభాగంలో తరచుగా ప్రయాణించే ప్రదేశాలను జోడించడం ద్వారా నవీకరించవచ్చు."
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}உங்கள் வேலை/வீடு அல்லது பிடித்த இடங்களை புதுப்பிக்கலாம், நீங்கள் அடிக்கடி பயணம் செய்யும் இடங்களை பக்க மெனுவில் உள்ள பிடித்தவை பகுதியில் சேர்த்து."
+        }
+      ],
+      "actionTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "पसंदीदा"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ಇಷ್ಟಗಳು"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "ఇష్టమైనవి"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "பிடித்தவை"
+        }
+      ],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "मैं अपने अक्सर यात्रा किए गए स्थानों को कैसे सहेज सकता हूँ?"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ನಾನು ನನ್ನ ಪದೇ ಪದೇ ಪ್ರಯಾಣಿಸಿದ ಸ್ಥಳಗಳನ್ನು ಹೇಗೆ ಉಳಿಸಬಹುದು?"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "నేను తరచుగా ప్రయాణించే ప్రదేశాలను ఎలా సేవ్ చేయగలను?"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "நான் அடிக்கடி பயணம் செய்யும் இடங்களை எப்படி சேமிக்க முடியும்?"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "CHANGE_LANGUAGE",
+      "message": "{#BODY#}Experience {#MERCHANT#} in five languages: English, Kannada (ಕನ್ನಡ), Hindi (हिंदी), Tamil (தமிழ்), and Telugu (తెలుగు). Click on the following button to change the language.",
+      "messageAction": "Change Language",
+      "messageTitle": "What languages (ಭಾಷೆ, भाषा) does {#MERCHANT#} support?",
+      "priority": 7,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}{#MERCHANT#} को पांच भाषाओं में अनुभव करें: अंग्रेजी, कन्नड़ (ಕನ್ನಡ), हिंदी (हिंदी), तमिल (தமிழ்), और तेलुगु (తెలుగు)। भाषा बदलने के लिए नीचे दिए गए बटन पर क्लिक करें।"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}{#MERCHANT#} ನ್ನು ಐದು ಭಾಷೆಗಳಲ್ಲಿ ಅನುಭವಿಸಿ: ಇಂಗ್ಲಿಷ್, ಕನ್ನಡ (ಕನ್ನಡ), ಹಿಂದಿ (हिंदी), தமிழ் (தமிழ்), ಮತ್ತು తెలుగు (తెలుగు). ಭಾಷೆ ಬದಲಾಯಿಸಲು ಕೆಳಗಿನ ಬಟನ್ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ."
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}{#MERCHANT#} ஐ ஐந்து மொழிகளில் அனுபவிக்கவும்: ஆங்கிலம், ಕನ್ನಡ (ಕನ್ನಡ), हिंदी (हिंदी), தமிழ் (தமிழ்), மற்றும் తెలుగు (తెలుగు). மொழியை மாற்ற கீழ்காணும் பட்டனைக் கிளிக் செய்யவும்."
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}{#MERCHANT#}ను ఐదు భాషల్లో అనుభవించండి: ఆంగ్లం, ಕನ್ನಡ (ಕನ್ನಡ), हिंदी (हिंदी), தமிழ் (தமிழ்), మరియు తెలుగు (తెలుగు). భాషను మార్చడానికి క్రింది బటన్‌ను క్లిక్ చేయండి."
+        }
+      ],
+      "actionTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "भाषा बदलें"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ಭಾಷೆ ಬದಲಾಯಿಸಿ"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "மொழி மாற்றவும்"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "భాష మార్చండి"
+        }
+      ],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#MERCHANT#} कितनी भाषाएँ समर्थन करता है?"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#MERCHANT#} ಯಾವ ಯಾವ ಭಾಷೆಗಳನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ?"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#MERCHANT#} எவை மொழிகளை ஆதரிக்கின்றன?"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#MERCHANT#} ఎలాంటి భాషలను మద్దతు ఇస్తుంది?"
+        }
+      ],
+      "options": []
+    }
+  ]
+}

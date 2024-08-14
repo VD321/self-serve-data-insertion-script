@@ -2,7 +2,7 @@
     "category": "Others",
     "categoryType": "Category",
     "isRideRequired": false,
-    "isActive": true,
+    "isActive": "{{IS_ACTIVE_CATEGORY}}",
     "logoUrl": "ny_ic_other_issues,https://assets.moving.tech/beckn/common/common/images/ny_ic_other_issues.png",
     "maxAllowedRideAge": 259200,
     "priority": 5,

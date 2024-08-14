@@ -1,0 +1,46 @@
+{
+    "label": null,
+    "message": "{#BODY#}You will receive a notification, after your ride is confirmed. You can check the driver details including the contact information on the ride page.",
+    "messageTitle": "Where can I find the driver details?",
+    "priority": 17,
+    "referenceCategoryId": null,
+    "referenceOptionId": null,
+    "messageTranslations": [
+        {
+            "language": "HINDI",
+            "translation": "{#BODY#}आपकी राइड की पुष्टि के बाद, आपको एक नोटिफिकेशन प्राप्त होगा। आप ड्राइवर की जानकारी और संपर्क विवरण राइड पेज पर देख सकते हैं।"
+        },
+        {
+            "language": "KANNADA",
+            "translation": "{#BODY#}ನಿಮ್ಮ ಬುಕ್ಕಿಂಗ್ ಯಶಸ್ವಿಯಾಗಿ ಪೂರ್ಣಗೊಂಡ ನಂತರ, ನೀವು ರೈಡ್ ಪುಟದಲ್ಲಿ ಡ್ರೈವರ್ ವಿವರಗಳನ್ನು ಸೇರಿಸಿಟ್ಟುಕೊಳ್ಳಬಹುದು, ಟೆಲಿಫೋನ್ ಮಾಹಿತಿಯೊಂದಿಗೆ ನೋಡುವ ಅವಕಾಶವನ್ನು ಹೊಂದಿರುವುದರಿಂದ ನಿಮಗೆ ಲಭ್ಯವಾಗುತ್ತದೆ."
+        },
+        {
+            "language": "TELUGU",
+            "translation": "{#BODY#}మీ రైడ్ నిర్ధారించిన తరువాత, మీరు ఒక నోటిఫికేషన్ పొందుతారు. మీరు రైడ్ పేజీలో డ్రైవర్ వివరాలు మరియు సంప్రదింపు సమాచారాన్ని తనిఖీ చేయవచ్చు."
+        },
+        {
+            "language": "TAMIL",
+            "translation": "{#BODY#}உங்கள் பயணம் உறுதிப்படுத்திய பிறகு, நீங்கள் ஒரு அறிவிப்பை பெறுவீர்கள். பயணப் பக்கத்தில் டிரைவரின் விவரங்களை மற்றும் தொடர்பு தகவல்களை நீங்கள் காணலாம்."
+        }
+    ],
+    "actionTranslations": [],
+    "titleTranslations": [
+        {
+            "language": "HINDI",
+            "translation": "मैं ड्राइवर की जानकारी कहाँ देख सकता हूँ?"
+        },
+        {
+            "language": "KANNADA",
+            "translation": "ನಾನು ಡ್ರೈವರ್ನ ಮಾಹಿತಿಯನ್ನು ಎಲ್ಲಿದೆ ನೋಡಬಹುದು?"
+        },
+        {
+            "language": "TELUGU",
+            "translation": "నేను డ్రైవర్ వివరాలను ఎక్కడ చూడగలను?"
+        },
+        {
+            "language": "TAMIL",
+            "translation": "நான் டிரைவரின் விவரங்களை எங்கு காணலாம்?"
+        }
+    ],
+    "options": []
+}

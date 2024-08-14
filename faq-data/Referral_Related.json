@@ -1,48 +1,150 @@
 {
-    "category": "Referral Related",
-    "categoryType": "FAQ",
-    "isRideRequired": false,
-    "isActive": "{{IS_ACTIVE_FAQ}}",
-    "logoUrl": "ny_ic_referral_related.png,https://assets.moving.tech/beckn/common/common/images/ny_ic_referral_related.png",
-    "maxAllowedRideAge": 86400,
-    "priority": 3,
-    "translations": [],
-    "messages": [
-      {
-        "label": null,
-        "message": "{#BODY#}Currently we do not have that option",
-        "messageTitle": "I am unable to find my referral code.",
-        "priority": 1,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}You can invite or share the app by navigating to Menu > Share App",
-        "messageTitle": "How can I invite my friend to Namm Yatri?",
-        "priority": 2,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}Currently we do not have a referral benefit",
-        "messageTitle": "I referred my friend but did not get any referral benefit",
-        "priority": 3,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      }
-    ]
-  }
+  "category": "Referral Related",
+  "categoryType": "FAQ",
+  "isRideRequired": false,
+  "isActive": "{{IS_ACTIVE_FAQ}}",
+  "logoUrl": "ny_ic_referral_related.png,https://assets.moving.tech/beckn/common/common/images/ny_ic_referral_related.png",
+  "maxAllowedRideAge": 86400,
+  "priority": 3,
+  "translations": [],
+  "messages": [
+    {
+      "label": null,
+      "message": "{#BODY#}Currently we do not have that option",
+      "messageTitle": "I am unable to find my referral code.",
+      "priority": 1,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}वर्तमान में हमारे पास वह विकल्प नहीं है"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}ಪ್ರಸ್ತುತ ನಮಗೆ ಆ ಆಯ್ಕೆ ಲಭ್ಯವಿಲ್ಲ"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}ప్రస్తుతం మా దగ్గర ఆ ఎంపిక లేదు"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}தற்போது எங்களிடம் அந்த விருப்பம் இல்லை"
+        }
+      ],
+      "actionTranslations": [],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "मुझे मेरा रेफरल कोड नहीं मिल रहा है।"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ನನಗೆ ನನ್ನ ರೆಫರಲ್ ಕೋಡ್ ಸಿಗುತ್ತಿಲ್ಲ."
+        },
+        {
+          "language": "TELUGU",
+          "translation": "నా రిఫరల్ కోడ్ కనుగొనలేకపోతున్నాను."
+        },
+        {
+          "language": "TAMIL",
+          "translation": "என் பரிந்துரை குறியீட்டை கண்டுபிடிக்க முடியவில்லை."
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": null,
+      "message": "{#BODY#}You can invite or share the app by navigating to Menu > Share App",
+      "messageTitle": "How can I invite my friend to {#MERCHANT#}?",
+      "priority": 2,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}आप मेनू > एप शेयर करें पर जाकर ऐप को आमंत्रित या साझा कर सकते हैं।"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}ನೀವು ಮೆನು > ಆಪ್ ಹಂಚಿಕೊಳ್ಳಿ ಮೂಲಕ ಆಪ್ನ್ನು ಆಮಂತ್ರಿಸಲು ಅಥವಾ ಹಂಚಿಕೊಳ್ಳಬಹುದು."
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}மெனு > செயலியைப் பகிர்ந்தால் உங்கள் நண்பரைச் அழைக்க அல்லது செயலியைப் பகிரலாம்."
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}మీరు మెనూ > యాప్ షేర్ నావిగేట్ చేయడం ద్వారా యాప్‌ను ఆహ్వానించవచ్చు లేదా షేర్ చేయవచ్చు."
+        }
+      ],
+      "actionTranslations": [],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#MERCHANT#} में अपने दोस्त को कैसे आमंत्रित करें?"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#MERCHANT#} ಗೆ ನನ್ನ ಸ್ನೇಹಿತನನ್ನು ಹೇಗೆ ಆಮಂತ್ರಿಸಬೇಕು?"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#MERCHANT#} க்கு என்னுடைய நண்பரை எவ்வாறு அழைக்கலாம்?"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#MERCHANT#} కి నా స్నేహితుడిని ఎలా ఆహ్వానించవచ్చు?"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": null,
+      "message": "{#BODY#}Currently we do not have a referral benefit",
+      "messageTitle": "I referred my friend but did not get any referral benefit",
+      "priority": 3,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}वर्तमान में हमारे पास कोई रेफरल लाभ नहीं है"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}ಪ್ರಸ್ತುತ ನಮಗೆ ರೆಫರಲ್ ಪ್ರಯೋಜನವಿಲ್ಲ"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}ప్రస్తుతం మా దగ్గర రిఫరల్ బెనిఫిట్ లేదు"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}தற்போது எங்களிடம் பரிந்துரை பலன் இல்லை"
+        }
+      ],
+      "actionTranslations": [],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "मैंने अपने दोस्त को रेफर किया लेकिन मुझे कोई रेफरल लाभ नहीं मिला"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ನಾನು ನನ್ನ ಸ್ನೇಹಿತನನ್ನು ರೆಫರ್ ಮಾಡಿದೆ ಆದರೆ ನನಗೆ ಯಾವುದೇ ರೆಫರಲ್ ಪ್ರಯೋಜನ ಸಿಗಲಿಲ್ಲ"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "నేను నా ఫ్రెండ్‌ను రిఫర్ చేశాను కానీ నాకు ఎలాంటి రిఫరల్ ప్రయోజనం రాలేదు"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "நான் என் நண்பரைக் குறிப்பிட்டேன் ஆனால் எனக்கு பரிந்துரை பலன் கிடைக்கவில்லை"
+        }
+      ],
+      "options": []
+    }
+  ]
+}

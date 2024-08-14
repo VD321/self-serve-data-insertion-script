@@ -1,0 +1,46 @@
+{
+    "label": null,
+    "message": "{#BODY#}It is essential to ensure that your pickup location is correct before you tap CONFIRM to make a booking. Once the booking is confirmed you will be unable to change your pickup location.",
+    "messageTitle": "How can I change the pickup address for my ride?",
+    "priority": 12,
+    "referenceCategoryId": null,
+    "referenceOptionId": null,
+    "messageTranslations": [
+        {
+            "language": "HINDI",
+            "translation": "{#BODY#}बुकिंग करने के लिए 'CONFIRM' पर टैप करने से पहले यह सुनिश्चित करना आवश्यक है कि आपका पिकअप स्थान सही है। एक बार बुकिंग की पुष्टि हो जाने के बाद, आप अपना पिकअप स्थान बदलने में असमर्थ होंगे।"
+        },
+        {
+            "language": "KANNADA",
+            "translation": "{#BODY#}ಬುಕ್ಕಿಂಗ್ ಮಾಡಲು 'CONFIRM' ಟ್ಯಾಪ್ ಮಾಡುವ ಮೊದಲು ನಿಮ್ಮ ಪಿಕಪ್ ಸ್ಥಳ ಸರಿಯಾಗಿದೆ ಎಂಬುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳುವುದು ಅವಶ್ಯಕ. ಬುಕ್ಕಿಂಗ್ ದೃಢೀಕರಣವಾದ ನಂತರ, ನೀವು ಪಿಕಪ್ ಸ್ಥಳವನ್ನು ಬದಲಾಯಿಸಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ."
+        },
+        {
+            "language": "TELUGU",
+            "translation": "{#BODY#}మీ పికప్ లొకేషన్ సరిగ్గా ఉందని బుకింగ్ చేసేటప్పుడు 'CONFIRM' టాప్ చేయడానికి ముందు నిర్ధారించుకోవడం చాలా అవసరం. బుకింగ్ నిర్ధారించబడిన తర్వాత, మీరు మీ పికప్ లొకేషన్‌ను మార్చలేరు."
+        },
+        {
+            "language": "TAMIL",
+            "translation": "{#BODY#}புக்கிங் செய்ய 'CONFIRM'-ஐ அழுத்துவதற்கு முன் உங்கள் பிக்அப் இடம் சரியாக இருக்கிறது என்பதை உறுதிப்படுத்துவது முக்கியம். ஒரு முறை புக்கிங் உறுதியாகிவிட்டால், நீங்கள் உங்கள் பிக்அப் இடத்தை மாற்ற முடியாது."
+        }
+    ],
+    "actionTranslations": [],
+    "titleTranslations": [
+        {
+            "language": "HINDI",
+            "translation": "मैं अपनी राइड के लिए पिकअप पता कैसे बदल सकता हूँ?"
+        },
+        {
+            "language": "KANNADA",
+            "translation": "ನಾನು ನನ್ನ ರೈಡ್‌ಗಾಗಿ ಪಿಕಪ್ ವಿಳಾಸವನ್ನು ಹೇಗೆ ಬದಲಾಯಿಸಬಹುದು?"
+        },
+        {
+            "language": "TELUGU",
+            "translation": "నేను నా రైడ్ కోసం పికప్ చిరునామాను ఎలా మార్చగలను?"
+        },
+        {
+            "language": "TAMIL",
+            "translation": "நான் என் பயணத்திற்கு பிக்அப் முகவரியை எவ்வாறு மாற்றுவது?"
+        }
+    ],
+    "options": []
+}

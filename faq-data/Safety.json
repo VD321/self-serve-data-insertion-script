@@ -1,60 +1,196 @@
 {
-    "category": "Safety",
-    "categoryType": "FAQ",
-    "isRideRequired": false,
-    "isActive": "{{IS_ACTIVE_FAQ}}",
-    "logoUrl": "ny_ic_sos_related,https://assets.moving.tech/beckn/common/common/images/ny_ic_sos_related.png",
-    "maxAllowedRideAge": 86400,
-    "priority": 5,
-    "translations": [],
-    "messages": [
-      {
-        "label": null,
-        "message": "{#BODY#}In case of emergency, press the SOS button available on your Namma Yatri app to raise an alert.",
-        "messageTitle": "Namma Yatri safety",
-        "priority": 1,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}Currently we do not have the option to share the ride details.",
-        "messageTitle": "How do I share my ride details ?",
-        "priority": 2,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}SOS feature enables you to connect with our emergency response team and seek help in case of any emergency/accident. You will find an SOS button after your ride is booked.",
-        "messageTitle": "How does the SOS option work?",
-        "priority": 3,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}Your safety is of utmost importance to us and we take rigorous measures to ensure the safety of our female riders. Our emergency response team is available round the clock to attend to any emergency issue during the ride. You can reach out to them through the SOS button after you book a ride. We also have a number masking feature to safeguard the privacy of our female riders.",
-        "messageTitle": "What are the features available for female rider safety?",
-        "priority": 4,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      }
-    ]
-  }
+  "category": "Safety",
+  "categoryType": "FAQ",
+  "isRideRequired": false,
+  "isActive": "{{IS_ACTIVE_FAQ}}",
+  "logoUrl": "ny_ic_sos_related,https://assets.moving.tech/beckn/common/common/images/ny_ic_sos_related.png",
+  "maxAllowedRideAge": 86400,
+  "priority": 5,
+  "translations": [],
+  "messages": [
+    {
+      "label": null,
+      "message": "{#BODY#}In case of emergency, press the SOS button available on your {#MERCHANT#} app to raise an alert.",
+      "messageTitle": "{#MERCHANT#} safety",
+      "priority": 1,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}आपात स्थिति में, अलर्ट बढ़ाने के लिए अपने {#MERCHANT#} ऐप पर उपलब्ध एसओएस बटन दबाएं।"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}ಅಪಾಯದ ಪರಿಸ್ಥಿತಿಯಲ್ಲಿ, ಎಚ್ಚರಿಕೆಯುಂಟುಮಾಡಲು ನಿಮ್ಮ {#MERCHANT#} ಆಪ್ನಲ್ಲಿ ಲಭ್ಯವಿರುವ ಎಸ್‌ಒಎಸ್ ಬಟನ್ ಒತ್ತಿ."
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}అపరాధ పరిస్థితిలో, అలర్ట్ రైజ్ చేయడానికి మీ {#MERCHANT#} యాప్‌లో అందుబాటులో ఉన్న SOS బటన్‌ను నొక్కండి."
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}அவசரநிலை ஏற்படின், உங்கள் {#MERCHANT#} ஆப்பில் கிடைக்கக்கூடிய SOS பொத்தானை அழுத்தவும்."
+        }
+      ],
+      "actionTranslations": [],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#MERCHANT#} सुरक्षा"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#MERCHANT#} ಭದ್ರತೆ"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#MERCHANT#} భద్రత"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#MERCHANT#} பாதுகாப்பு"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": null,
+      "message": "{#BODY#}Currently we do not have the option to share the ride details.",
+      "messageTitle": "How do I share my ride details?",
+      "priority": 2,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}वर्तमान में हमारे पास सवारी विवरण साझा करने का विकल्प नहीं है।"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}ಪ್ರಸ್ತುತ ನಾವು ಸವಾರಿ ವಿವರಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳುವ ಆಯ್ಕೆಯನ್ನು ಹೊಂದಿಲ್ಲ."
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}ప్రస్తుతం రైడ్ వివరాలను పంచుకోవడానికి ఎటువంటి ఎంపిక లేదు."
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}தற்போது, நாம் பயண விவரங்களைப் பகிர விருப்பமில்லை."
+        }
+      ],
+      "actionTranslations": [],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "मैं अपनी सवारी के विवरण कैसे साझा करूँ?"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ನಾನು ನನ್ನ ಸವಾರಿ ವಿವರಗಳನ್ನು ಹೇಗೆ ಹಂಚಿಕೊಳ್ಳಬಹುದು?"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "నా రైడ్ వివరాలను నేను ఎలా పంచుకోవాలి?"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "என் பயண விவரங்களை நான் எவ்வாறு பகிர்வது?"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": null,
+      "message": "{#BODY#}SOS feature enables you to connect with our emergency response team and seek help in case of any emergency/accident. You will find an SOS button after your ride is booked.",
+      "messageTitle": "How does the SOS option work?",
+      "priority": 3,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}एसओएस सुविधा आपको हमारी आपातकालीन प्रतिक्रिया टीम से जुड़ने और किसी भी आपातकालीन स्थिति/दुर्घटना के मामले में सहायता प्राप्त करने में सक्षम बनाती है। आपकी सवारी बुक होने के बाद आपको एक एसओएस बटन दिखाई देगा।"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}SOS ವೈಶಿಷ್ಟ್ಯವು ನಿಮಗೆ ನಮ್ಮ ತುರ್ತು ಪ್ರತಿಕ್ರಿಯಾ ತಂಡದೊಂದಿಗೆ ಸಂಪರ್ಕ ಹೊಂದಲು ಮತ್ತು ಯಾವುದೇ ತುರ್ತುಸ್ಥಿತಿ/ಅಪಘಾತದ ಸಂದರ್ಭದಲ್ಲಿ ಸಹಾಯವನ್ನು ಪಡೆಯಲು ಅನುಮತಿಸುತ್ತದೆ. ನಿಮ್ಮ ಸವಾರಿ ಬುಕ್ ಆದ ನಂತರ ನಿಮಗೆ SOS ಬಟನ್ ಲಭ್ಯವಿರುತ್ತದೆ."
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}SOS ఫీచర్‌ మిమ్మల్ని మా అత్యవసర ప్రతిస్పందన బృందంతో కనెక్ట్ చేస్తుంది మరియు ఏదైనా అత్యవసర/ప్రమాద పరిస్థితిలో సహాయం పొందడానికి మీకు సహాయపడుతుంది. మీ రైడ్ బుక్ అయిన తర్వాత మీకు SOS బటన్ లభిస్తుంది."
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}SOS அம்சம் அவசர நிலை/விபத்து ஏற்பட்டால் எங்கள் அவசர பதிலளிப்பு குழுவுடன் இணைந்து உதவி பெற உங்களை உதவுகிறது. உங்கள் பயணம் பதிவு செய்யப்பட்ட பிறகு, SOS பொத்தானை காணலாம்."
+        }
+      ],
+      "actionTranslations": [],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "एसओएस विकल्प कैसे काम करता है?"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "SOS ಆಯ್ಕೆಯು ಹೇಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ?"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "SOS ఆప్షన్ ఎలా పనిచేస్తుంది?"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "SOS விருப்பம் எப்படி வேலை செய்கிறது?"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": null,
+      "message": "{#BODY#}Your safety is of utmost importance to us and we take rigorous measures to ensure the safety of our female riders. Our emergency response team is available round the clock to attend to any emergency issue during the ride. You can reach out to them through the SOS button after you book a ride. We also have a number masking feature to safeguard the privacy of our female riders.",
+      "messageTitle": "What are the features available for female rider safety?",
+      "priority": 4,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}आपकी सुरक्षा हमारे लिए अत्यधिक महत्वपूर्ण है और हम अपने महिला सवारियों की सुरक्षा सुनिश्चित करने के लिए सख्त कदम उठाते हैं। हमारी आपातकालीन प्रतिक्रिया टीम सवारी के दौरान किसी भी आपातकालीन समस्या का समाधान करने के लिए 24/7 उपलब्ध है। आप सवारी बुक करने के बाद एसओएस बटन के माध्यम से उनसे संपर्क कर सकते हैं। हम अपनी महिला सवारियों की गोपनीयता की सुरक्षा के लिए एक नंबर मास्किंग सुविधा भी प्रदान करते हैं।"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}ನಿಮ್ಮ ಭದ್ರತೆ ನಮ್ಮಗೆ ಅತ್ಯಂತ ಪ್ರಮುಖವಾಗಿದೆ ಮತ್ತು ನಮ್ಮ ಮಹಿಳಾ ಪ್ರಯಾಣಿಕರ ಭದ್ರತೆಯನ್ನು ಖಚಿತಪಡಿಸಲು ನಾವು ಕಠಿಣ ಕ್ರಮಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುತ್ತೇವೆ. ನಮ್ಮ ತುರ್ತು ಪ್ರತಿಕ್ರಿಯಾ ತಂಡವು ಪ್ರಯಾಣದ ಸಂದರ್ಭದಲ್ಲಿ ಯಾವುದೇ ತುರ್ತು ಸಮಸ್ಯೆಯನ್ನು ಪರಿಹರಿಸಲು 24/7 ಲಭ್ಯವಿರುತ್ತದೆ. ನೀವು ಪ್ರಯಾಣವನ್ನು ಬುಕ್ ಮಾಡಿದ ನಂತರ ನೀವು SOS ಬಟನ್ ಮೂಲಕ ಅವರಿಗೆ ತಲುಪಬಹುದು. ನಾವು ನಮ್ಮ ಮಹಿಳಾ ಪ್ರಯಾಣಿಕರ ಗೌಪ್ಯತೆಯನ್ನು ಕಾಪಾಡಲು ಸಂಖ್ಯಾ ಮಾಸ್ಕಿಂಗ್ ವೈಶಿಷ್ಟ್ಯವನ್ನು ಸಹ ಹೊಂದಿದ್ದೇವೆ."
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}మీ భద్రత మాకు అత్యంత ప్రాధాన్యత కలిగినది మరియు మా మహిళా రైడర్ల భద్రతను నిర్ధారించడానికి మేము కఠినమైన చర్యలను తీసుకుంటాము. మా అత్యవసర ప్రతిస్పందన బృందం ప్రయాణ సమయంలో ఏదైనా అత్యవసర సమస్యను పరిష్కరించడానికి 24/7 అందుబాటులో ఉంటుంది. మీరు రైడ్ బుక్ చేసిన తర్వాత SOS బటన్ ద్వారా వారిని సంప్రదించవచ్చు. మా మహిళా రైడర్ల గోప్యతను రక్షించడానికి మేము నంబర్ మాస్కింగ్ ఫీచర్‌ను కూడా కలిగి ఉన్నాము."
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}உங்கள் பாதுகாப்பு எங்களுக்கு மிக முக்கியமானது, மேலும் நாங்கள் எங்கள் பெண்கள் பயணிகளின் பாதுகாப்பை உறுதிப்படுத்த கடுமையான நடவடிக்கைகளை எடுக்கிறோம். எங்கள் அவசர பதிலளிப்பு குழு பயணத்தின் போது ஏதேனும் அவசர பிரச்சனைகளுக்கு 24/7 காப்பு அளிக்கக் கூடியதாக உள்ளது. நீங்கள் பயணத்தைப் பதிவு செய்த பின் SOS பொத்தானின் மூலம் அவர்களை அணுகலாம். எங்கள் பெண்கள் பயணிகளின் தனியுரிமையை பாதுகாக்க நாங்கள் எண் மறைப்பு அம்சத்தை வழங்குகிறோம்."
+        }
+      ],
+      "actionTranslations": [],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "महिला सवारियों की सुरक्षा के लिए कौन-कौन से फीचर्स उपलब्ध हैं?"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ಮಹಿಳಾ ಸವಾರರ ಭದ್ರತೆಗಾಗಿ ಲಭ್ಯವಿರುವ ವೈಶಿಷ್ಟ್ಯಗಳಾವುವು?"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "మహిళా రైడర్ భద్రత కోసం లభించే ఫీచర్స్ ఏమిటి?"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "பெண்கள் பயணிகள் பாதுகாப்புக்காக கிடைக்கக்கூடிய அம்சங்கள் என்ன?"
+        }
+      ],
+      "options": []
+    }
+  ]
+}

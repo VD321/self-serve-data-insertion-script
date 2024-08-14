@@ -1,0 +1,46 @@
+{
+    "label": null,
+    "message": "{#BODY#}Click on the ride page and you will see a share option on the right hand corner and you can share the ride with your friend or family.",
+    "messageTitle": "How can I track my ride?",
+    "priority": 13,
+    "referenceCategoryId": null,
+    "referenceOptionId": null,
+    "messageTranslations": [
+        {
+            "language": "HINDI",
+            "translation": "{#BODY#}राइड पेज पर क्लिक करें और आपको दाहिने कोने में एक शेयर ऑप्शन मिलेगा, जिसके माध्यम से आप अपनी राइड को अपने मित्र या परिवार के साथ साझा कर सकते हैं।"
+        },
+        {
+            "language": "KANNADA",
+            "translation": "{#BODY#}ರೈಡ್ ಪುಟವನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿದಾಗ, ನಿಮಗೆ ಬಲ ತುದಿಯಲ್ಲಿ ಒಂದು ಹಂಚಿಕೆ ಆಯ್ಕೆಯನ್ನು ಕಾಣಬಹುದಾಗಿದೆ ಮತ್ತು ನೀವು ನಿಮ್ಮ ಸ್ನೇಹಿತ ಅಥವಾ ಕುಟುಂಬದೊಂದಿಗೆ ರೈಡ್ ಹಂಚಿಕೊಳ್ಳಬಹುದು."
+        },
+        {
+            "language": "TELUGU",
+            "translation": "{#BODY#}రైడ్ పేజీపై క్లిక్ చేస్తే, మీరు కుడి పై మూలలో ఒక షేర్ ఆప్షన్ చూడగలరు మరియు మీ ప్రయాణాన్ని మీ మిత్రులు లేదా కుటుంబంతో పంచుకోగలరు."
+        },
+        {
+            "language": "TAMIL",
+            "translation": "{#BODY#}ரைடு பக்கத்தை கிளிக் செய்யும் போது, வலது மேல் மூலையில் ஒரு பகிர்வு விருப்பத்தை காணலாம், அதைப் பயன்படுத்தி உங்கள் பயணத்தை உங்கள் நண்பர் அல்லது குடும்பத்துடன் பகிரலாம்."
+        }
+    ],
+    "actionTranslations": [],
+    "titleTranslations": [
+        {
+            "language": "HINDI",
+            "translation": "मैं अपनी राइड को कैसे ट्रैक कर सकता हूँ?"
+        },
+        {
+            "language": "KANNADA",
+            "translation": "ನಾನು ನನ್ನ ರೈಡ್ ಅನ್ನು ಹೇಗೆ ಟ್ರ್ಯಾಕ್ ಮಾಡಬಹುದು?"
+        },
+        {
+            "language": "TELUGU",
+            "translation": "నేను నా రైడ్‌ను ఎలా ట్రాక్ చేయగలను?"
+        },
+        {
+            "language": "TAMIL",
+            "translation": "நான் என் ரைட்களை எவ்வாறு பின்தொடரலாம்?"
+        }
+    ],
+    "options": []
+}

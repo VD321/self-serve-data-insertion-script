@@ -1,84 +1,288 @@
 {
-    "category": "General Enquiry",
-    "categoryType": "FAQ",
-    "isRideRequired": false,
-    "isActive": "{{IS_ACTIVE_FAQ}}",
-    "logoUrl": "ny_ic_other_issues,https://assets.moving.tech/beckn/common/common/images/ny_ic_other_issues.png",
-    "maxAllowedRideAge": 86400,
-    "priority": 6,
-    "translations": [],
-    "messages": [
-      {
-        "label": null,
-        "message": "{#BODY#}Currently, we are live in multiple cities: <br> Namma Yatri - Bangalore, Chennai, Delhi NCR, Kochi <br> Yatri Sathi - Kolkata <br> Yatri - Kochi, Delhi NCR <br> Mana Yatri - Hyderabad <br> We are rolling out our services in a lot more cities each day.",
-        "messageTitle": "In which all cities do we have this service available ?",
-        "priority": 1,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}Before you request a ride, your app displays an approximate arrival time for the nearby drivers. You are also provided with an estimated time for the driver to arrive at your pickup location, before your trip starts.",
-        "messageTitle": "How does ETA work?",
-        "priority": 2,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}You will be provided with an option to tip your driver before booking a ride or after ending the trip.",
-        "messageTitle": "How can I tip the driver?",
-        "priority": 3,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}Go to app info and turn off the notifications. If you turn off the notification you will not be able to download the trip invoice.",
-        "messageTitle": "How do I turn off the notifications?",
-        "priority": 4,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}As soon as the driver clicks on the \"I've arrived\" button post reaching your location, the waiting timer will start. <br> There are no charges for the first 3 mins only, post which you will be charged at ₹1.5/min.",
-        "messageTitle": "How is the waiting charges calculated?",
-        "priority": 5,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}Night charges are calculated in accordance with government regulations. Here are the details: <br> 1. For Autos: Night hours are from 10:00 PM to 5:00 AM. During this period, the total estimated fare is 1.5 times the estimated fare that would be charged during the rest of the time for the same distance, representing a 50% increase. <br> 2. For Cabs: Night hours are from 12:00 AM to 6:00 AM. During this period, the total estimated fare is 1.1 times the estimated fare that would be charged during the rest of the time for the same distance, indicating a 10% increase.",
-        "messageTitle": "How are the night charges calculated?",
-        "priority": 6,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      }
-    ]
-  }
+  "category": "General Enquiry",
+  "categoryType": "FAQ",
+  "isRideRequired": false,
+  "isActive": "{{IS_ACTIVE_FAQ}}",
+  "logoUrl": "ny_ic_other_issues,https://assets.moving.tech/beckn/common/common/images/ny_ic_other_issues.png",
+  "maxAllowedRideAge": 86400,
+  "priority": 6,
+  "translations": [],
+  "messages": [
+    {
+      "label": null,
+      "message": "{#BODY#}Currently, we are live in multiple cities: <br> Namma Yatri - Bangalore, Chennai, Delhi NCR, Kochi <br> Yatri Sathi - Kolkata <br> Yatri - Kochi, Delhi NCR <br> Mana Yatri - Hyderabad <br> We are rolling out our services in a lot more cities each day.",
+      "messageTitle": "In which all cities do we have this service available?",
+      "priority": 1,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}वर्तमान में, हम कई शहरों में लाइव हैं: <br> नम्मा यात्री - बेंगलुरु, चेन्नई, दिल्ली एनसीआर, कोच्चि <br> यात्री साथी - कोलकाता <br> यात्री - कोच्चि, दिल्ली एनसीआर <br> मना यात्री - हैदराबाद <br> हम हर दिन कई और शहरों में अपनी सेवाएं शुरू कर रहे हैं।"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}ಪ್ರಸ್ತುತ, ನಾವು ಅನೇಕ ನಗರಗಳಲ್ಲಿ ಲೈವ್‌ನಲ್ಲಿ ಇದ್ದೇವೆ: <br> ನಮ್ಮಾ ಯಾತ್ರಿ - ಬೆಂಗಳೂರು, ಚೆನ್ನೈ, ಡೆಲ್ಲಿ NCR, ಕೊಚ್ಚಿ <br> ಯಾತ್ರಿ ಸಾಥಿ - ಕೊಲ್ಕತ್ತಾ <br> ಯಾತ್ರಿ - ಕೊಚ್ಚಿ, ಡೆಲ್ಲಿ NCR <br> ಮನಾ ಯಾತ್ರಿ - ಹೈದರಾಬಾದ್ <br> ನಾವು ಪ್ರತಿದಿನವೂ ಹೆಚ್ಚಿನ ನಗರಗಳಲ್ಲಿ ನಮ್ಮ ಸೇವೆಗಳನ್ನು ವಿಸ್ತರಿಸುತ್ತಿದ್ದೇವೆ."
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}ప్రస్తుతం, మనం పలు నగరాల్లో ప్రత్యక్షంగా ఉన్నాము: <br> నమ్మ యాత్రి - బెంగళూరు, చెన్నై, ఢిల్లీ NCR, కొచ్చి <br> యాత్రి సATHీ - కోల్‌కతా <br> యాత్రి - కొచ్చి, ఢిల్లీ NCR <br> మానా యాత్రి - హైదరాబాద్ <br> మేము ప్రతి రోజు మరిన్ని నగరాల్లో మా సేవలను విస్తరించుకుంటున్నాము."
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}தற்போது, நாங்கள் பல நகரங்களில் நேரடியாக உள்ளோம்: <br> நம்மா யாத்ரி - பெங்களூரு, சென்னை, டெல்லி NCR, கொச்சி <br> யாத்ரி சATHி - கொல்கத்தா <br> யாத்ரி - கொச்சி, டெல்லி NCR <br> மனா யாத்ரி - ஹைதராபாத் <br> நாங்கள் ஒவ்வொரு நாளும் அதிகமான நகரங்களில் எங்கள் சேவைகளை உருவாக்கிக்கொண்டிருக்கிறோம்."
+        }
+      ],
+      "actionTranslations": [],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "हमारे पास यह सेवा किस-किस शहर में उपलब्ध है?"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ನಮ್ಮ ಸೇವೆ ಎಲ್ಲಾ ನಗರಗಳಲ್ಲಿ ಯಾವುವರೆಗೆ ಲಭ್ಯವಿದೆ?"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "మా సేవ ఏ ఏ నగరాల్లో అందుబాటులో ఉంది?"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "எங்கள் சேவை எங்கு எங்கு கிடைக்கிறது?"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": null,
+      "message": "{#BODY#}Before you request a ride, your app displays an approximate arrival time for the nearby drivers. You are also provided with an estimated time for the driver to arrive at your pickup location, before your trip starts.",
+      "messageTitle": "How does ETA work?",
+      "priority": 2,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}आपके यात्रा के अनुरोध से पहले, आपका ऐप नजदीकी ड्राइवरों के लिए एक अनुमानित आगमन समय प्रदर्शित करता है। आपकी यात्रा शुरू होने से पहले, आपको ड्राइवर के आपके पिकअप स्थान पर पहुंचने का अनुमानित समय भी प्रदान किया जाता है।"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}ನೀವು ಪ್ರಯಾಣವನ್ನು ವಿನಂತಿಸುವ ಮುನ್ನ, ನಿಮ್ಮ ಆ್ಯಪ್‌ ಹತ್ತಿರದ ಡ್ರೈವರ್ಸ್‌ಗಾಗಿ ಅಂದಾಜು ಆಗಮನ ಸಮಯವನ್ನು ತೋರಿಸುತ್ತದೆ. ನಿಮ್ಮ ಪ್ರಯಾಣ ಶುರುವಾಗುವ ಮೊದಲು, ನೀವು ಡ್ರೈವರ್ನ ваши ಪಿಕ್‌ಅಪ್ ಸ್ಥಳಕ್ಕೆ ಬರಲು ಅಂದಾಜು ಮಾಡಿದ ಸಮಯವನ್ನು ಕೂಡ ಒದಗಿಸಲಾಗುತ್ತದೆ."
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}మీరు రైడ్‌ను అభ్యర్థించే ముందు, మీ యాప్ సమీప డ్రైవర్లకు సుమారుగా వచ్చే సమయాన్ని చూపిస్తుంది. మీ ప్రయాణం ప్రారంభం కాని ముందు, డ్రైవర్ మీ పికప్ స్థలానికి రావడానికి అంచనా సమయాన్ని కూడా అందిస్తారు."
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}நீங்கள் பயணத்தை கோரும் முன், உங்கள் பயன்பாடு அருகிலுள்ள டிரைவர்களுக்கு சுமார் வருகை நேரத்தை காட்டுகிறது. உங்கள் பயணம் துவங்குமாறு, டிரைவர் உங்கள் எடுக்கல்களில் வருவதற்கான கணிப்புகள் தரப்படும்."
+        }
+      ],
+      "actionTranslations": [],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "ETA कैसे काम करता है?"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ETA ಹೇಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ?"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "ETA ఎలా పని చేస్తుంది?"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "ETA எப்படி செயல்படுகிறது?"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": null,
+      "message": "{#BODY#}You will be provided with an option to tip your driver before booking a ride or after ending the trip.",
+      "messageTitle": "How can I tip the driver?",
+      "priority": 3,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}आपको यात्रा बुक करने से पहले या यात्रा समाप्त करने के बाद अपने ड्राइवर को टिप देने का विकल्प प्रदान किया जाएगा।"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}ನೀವು ಪ್ರಯಾಣವನ್ನು ಬುಕ್ಕಿಂಗ್ ಮಾಡುವ ಮೊದಲು ಅಥವಾ ಪ್ರವಾಸವನ್ನು ಮುಗಿಸಿದ ನಂತರ ನಿಮ್ಮ ಡ್ರೈವರಿಗೆ ಟಿಪ್ ನೀಡುವ ಆಯ್ಕೆ ನೀಡಲಾಗುತ್ತದೆ."
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}మీరు రైడ్ బుక్ చేసుకునే ముందు లేదా ప్రయాణం ముగిసిన తర్వాత మీ డ్రైవర్‌కు టిప్ ఇవ్వాలని మీరు ఆప్షన్ అందించబడతారు."
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}நீங்கள் ஒரு பயணத்தை முன்பதிவு செய்வதற்கு முன் அல்லது பயணம் முடிந்த பிறகு உங்கள் டிரைவருக்கு டிப் வழங்கும் விருப்பம் வழங்கப்படும்."
+        }
+      ],
+      "actionTranslations": [],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "मैं ड्राइवर को कैसे टिप दे सकता हूँ?"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ನಾನು ಡ್ರೈವರಿಗೆ ಹೇಗೆ ಟಿಪ್ ನೀಡಬಹುದು?"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "నేను డ్రైవర్‌కు ఎలా టిప్ ఇవ్వవచ్చు?"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "நான் டிரைவருக்கு எப்படி டிப் தரலாம்?"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": null,
+      "message": "{#BODY#}Go to app info and turn off the notifications. If you turn off the notification you will not be able to download the trip invoice.",
+      "messageTitle": "How do I turn off the notifications?",
+      "priority": 4,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}ऐप जानकारी पर जाएं और सूचनाएं बंद कर दें। यदि आप सूचनाएं बंद कर देंगे तो आप यात्रा का चालान डाउनलोड नहीं कर सकेंगे।"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}ಆ್ಯಪ್ ಮಾಹಿತಿಗೆ ಹೋಗಿ ಮತ್ತು ಸೂಚನೆಗಳನ್ನು ಆಫ್ ಮಾಡಿ. ನೀವು ಸೂಚನೆಗಳನ್ನು ಆಫ್ ಮಾಡಿದರೆ, ನೀವು ಪ್ರವಾಸದ ಚೀಟಿ ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ."
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}యాప్ సమాచారం వద్దకి వెళ్లి నోటిఫికేషన్‌లను ఆపివేయండి. మీరు నోటిఫికేషన్‌లను ఆపితే, మీరు ట్రిప్ ఇన్వాయిస్ను డౌన్‌లోడ్ చేయలేం."
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}ஆப் தகவலுக்கு செல்லவும் மற்றும் அறிவிப்புகளை நிறுத்தவும். நீங்கள் அறிவிப்புகளை நிறுத்தితే, பயணச் சான்றிதழை பதிவிறக்க முடியாது."
+        }
+      ],
+      "actionTranslations": [],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "मैं सूचनाएं कैसे बंद कर सकता हूँ?"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ನಾನು ಸೂಚನೆಗಳನ್ನು ಹೇಗೆ ಆಫ್ ಮಾಡಬಹುದು?"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "నేను నోటిఫికేషన్‌లను ఎలా ఆపవచ్చు?"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "நான் அறிவிப்புகளை எப்படி நிறுத்தலாம்?"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": null,
+      "message": "{#BODY#}As soon as the driver clicks on the \"I've arrived\" button post reaching your location, the waiting timer will start. <br> There are no charges for the first 3 mins only, post which you will be charged at ₹1.5/min.",
+      "messageTitle": "How is the waiting charges calculated?",
+      "priority": 5,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}ड्राइवर आपके स्थान पर पहुँचने के बाद \"मैं आ गया हूँ\" बटन पर क्लिक करते ही वेटिंग टाइमर चालू हो जाएगा। <br> पहले 3 मिनट के लिए कोई चार्ज नहीं है, इसके बाद आपको ₹1.5/मिनट के हिसाब से चार्ज किया जाएगा।"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}ನೀವು ಸ್ಥಳವನ್ನು ತಲುಪಿದ ನಂತರ ಡ್ರೈವರ್ನು \"ನಾನು ಆಗಲೇ ಬಂದಿದ್ದೇನೆ\" ಬಟನ್‌ನಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿದಂತೆ, ವೀಕ್ಷಣಾ ಟೈಮರ್ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ. <br> ಮೊದಲ 3 ನಿಮಿಷಗಳಿಗಾಗಿ ಯಾವುದೇ ಶುಲ್ಕವಿಲ್ಲ, ಇದುವರೆಗೆ ₹1.5/ನಿಮಿಷದಂತೆ ಶುಲ್ಕ ಮಾಡಲಾಗುತ್ತದೆ."
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}డ్రైవర్ మీ స్థలానికి చేరిన తర్వాత \"నేను చేరుకున్నాను\" బటన్‌ను క్లిక్ చేస్తే, వేచి ఉండే టైమర్ ప్రారంభమవుతుంది. <br> మొదటి 3 నిమిషాలకు ఏ చార్జీలు లేవు, ఆపై మీకు ₹1.5/నిమిషం చార్జ్ చేస్తారు."
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}டிரைவர் உங்கள் இடத்தில் சேர்ந்த பிறகு \"நான் வந்துவிட்டேன்\" பொத்தானை கிளிக் செய்யும் போது, காத்திருக்கும் டைமர் துவங்கும். <br> முதல் 3 நிமிடங்களுக்கு எந்தச் சாவிடமும் இல்லை, அதன் பிறகு ₹1.5/நிமிடம் எனக் கட்டணம் வசூலிக்கப்படும்."
+        }
+      ],
+      "actionTranslations": [],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "वेटिंग चार्ज कैसे गणना किया जाता है?"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ವೀಕ್ಷಣಾ ಶುಲ್ಕ ಹೇಗೆ ಲೆಕ್ಕಹಾಕಲಾಗುತ್ತದೆ?"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "వేచి ఉండే ఛార్జీలు ఎలా లెక్కించబడతాయి?"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "நிலைகாலச் சாவிடுகள் எப்படி கணக்கிடப்படுகிறது?"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": null,
+      "message": "{#BODY#}Night charges are calculated in accordance with government regulations. Here are the details: <br> 1. For Autos: Night hours are from 10:00 PM to 5:00 AM. During this period, the total estimated fare is 1.5 times the estimated fare that would be charged during the rest of the time for the same distance, representing a 50% increase. <br> 2. For Cabs: Night hours are from 12:00 AM to 6:00 AM. During this period, the total estimated fare is 1.1 times the estimated fare that would be charged during the rest of the time for the same distance, indicating a 10% increase.",
+      "messageTitle": "How are the night charges calculated?",
+      "priority": 6,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}रात्री के चार्ज सरकारी नियमों के अनुसार गणना किए जाते हैं। विवरण इस प्रकार हैं: <br> 1. ऑटोस के लिए: रात्री के घंटे 10:00 PM से 5:00 AM तक होते हैं। इस अवधि के दौरान, कुल अनुमानित किराया 1.5 गुना होता है जो समान दूरी के लिए बाकी समय में चार्ज किया जाएगा, यह 50% वृद्धि को दर्शाता है। <br> 2. कैब्स के लिए: रात्री के घंटे 12:00 AM से 6:00 AM तक होते हैं। इस अवधि के दौरान, कुल अनुमानित किराया 1.1 गुना होता है जो समान दूरी के लिए बाकी समय में चार्ज किया जाएगा, यह 10% वृद्धि को दर्शाता है।"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}ರಾತ್ರಿ ಶುಲ್ಕಗಳನ್ನು ಸರ್ಕಾರಿ ನಿಯಮಾವಳಿಗಳಿಗೆ ಅನುಗುಣವಾಗಿ ಲೆಕ್ಕಹಾಕಲಾಗುತ್ತದೆ. ವಿವರಗಳು ಈ ಬಗೆಯಿವೆ: <br> 1. ಆಟೋಗಳಿಗೆ: ರಾತ್ರಿ ಗಂಟೆಗಳು 10:00 PM ರಿಂದ 5:00 AM ವರೆಗೆ ಇರುತ್ತವೆ. ಈ ಅವಧಿಯಲ್ಲ, ಒಟ್ಟು ಅಂದಾಜು ಪ್ರಯಾಣ ಶುಲ್ಕವು ಸನ್ನಿವೇಶದ ಅಗಲ ಸಮಯದಲ್ಲಿ ಲೆಕ್ಕಹಾಕಲಾಗುವಂತೆ 1.5 ಪಟ್ಟು ಆಗುತ್ತದೆ, ಇದು 50% ಹೆಚ್ಚಳವನ್ನು ಸೂಚಿಸುತ್ತದೆ. <br> 2. ಕ್ಯಾಬ್‌ಗಳಿಗೆ: ರಾತ್ರಿ ಗಂಟೆಗಳು 12:00 AM ರಿಂದ 6:00 AM ವರೆಗೆ ಇರುತ್ತವೆ. ಈ ಅವಧಿಯಲ್ಲ, ಒಟ್ಟು ಅಂದಾಜು ಪ್ರಯಾಣ ಶುಲ್ಕವು 1.1 ಪಟ್ಟು ಆಗುತ್ತದೆ, ಇದು 10% ಹೆಚ್ಚಳವನ್ನು ಸೂಚಿಸುತ್ತದೆ."
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}రాత్రి ఛార్జీలు ప్రభుత్వ నియమాల ప్రకారంగా లెక్కించబడతాయి. వివరాలు ఈ విధంగా ఉన్నాయి: <br> 1. ఆటోలు: రాత్రి గంటలు 10:00 PM నుండి 5:00 AM వరకు ఉంటాయి. ఈ కాలంలో, మొత్తం అంచనా ప్రయాణ రేటు 1.5 రెట్లు పెరుగుతుంది, ఇది అదే దూరం కోసం మిగిలిన సమయానికి చార్జ్ చేసే రేటు కంటే 50% పెరుగుదలను సూచిస్తుంది. <br> 2. కాబ్స్: రాత్రి గంటలు 12:00 AM నుండి 6:00 AM వరకు ఉంటాయి. ఈ కాలంలో, మొత్తం అంచనా ప్రయాణ రేటు 1.1 రెట్లు పెరుగుతుంది, ఇది 10% పెరుగుదలను సూచిస్తుంది."
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}ராத்திரி கட்டணங்கள் அரசாங்க விதிமுறைகளுக்கேற்ப கணக்கிடப்படுகின்றன. விவரங்கள் இந்தவகையில் உள்ளன: <br> 1. ஆட்டோக்களுக்கு: ராத்திரி நேரங்கள் 10:00 PM முதல் 5:00 AM வரை ஆகும். இந்தக் காலத்தில், ஒரே தூரத்திற்கு மற்ற நேரங்களில் விலைப்படுத்தப்படும் சராசரி கட்டணம் 1.5 மடங்கு ஆகும், இது 50% அதிகரிப்பை குறிக்கிறது. <br> 2. காட்கள்: ராத்திரி நேரங்கள் 12:00 AM முதல் 6:00 AM வரை ஆகும். இந்தக் காலத்தில், ஒரே தூரத்திற்கு மற்ற நேரங்களில் விலைப்படுத்தப்படும் சராசரி கட்டணம் 1.1 மடங்கு ஆகும், இது 10% அதிகரிப்பை குறிக்கிறது."
+        }
+      ],
+      "actionTranslations": [],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "रात्री के चार्ज कैसे गणना किए जाते हैं?"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ರಾತ್ರಿ ಶುಲ್ಕಗಳನ್ನು ಹೇಗೆ ಲೆಕ್ಕಹಾಕಲಾಗುತ್ತದೆ?"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "రాత్రి ఛార్జీలు ఎలా లెక్కించబడతాయి?"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "இரவு கட்டணங்கள் எப்படி கணக்கிடப்படுகின்றன?"
+        }
+      ],
+      "options": []
+    }
+  ]
+}

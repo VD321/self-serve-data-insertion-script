@@ -1,0 +1,47 @@
+{
+    "label": "SELECT_RIDE",
+    "message": "{#BODY#}You can directly contact the driver to check for any belongings if the trip ended within 24 hours. If it has been more than 24 hours since the trip was completed, please reach out to our customer support for assistance.",
+    "messageAction": "Raise a ticket",
+    "messageTitle": "What should I do if I left my belongings in the vehicle?",
+    "priority": 10,
+    "referenceCategoryId": "{{RIDE_RELATED_FAQ_10_REF_CAT_ID}}",
+    "referenceOptionId": null,
+    "messageTranslations": [
+        {
+            "language": "HINDI",
+            "translation": "{#BODY#}यदि यात्रा 24 घंटे के भीतर समाप्त हो गई है तो आप चालक से सीधे संपर्क कर सकते हैं ताकि किसी भी सामान की जांच की जा सके। यदि यात्रा समाप्त होने के बाद 24 घंटे से अधिक हो चुके हैं, तो कृपया सहायता के लिए हमारे ग्राहक समर्थन से संपर्क करें।"
+        },
+        {
+            "language": "KANNADA",
+            "translation": "{#BODY#}ಯಾತನ 24 ಗಂಟೆಗಳ ಒಳಗಾಗಿ ಮುಗಿದರೆ, ನೀವು ಯಾವುದೇ ಸಾಮಾನುಗಳನ್ನು ಪರಿಶೀಲಿಸಲು ನೇರವಾಗಿ ಚಾಲಕನನ್ನು ಸಂಪರ್ಕಿಸಬಹುದು. ಪ್ರಯಾಣ ಪೂರ್ಣಗೊಂಡು 24 ಗಂಟೆಗಳ ಹೆಚ್ಚುವಾದರೆ, ಸಹಾಯಕ್ಕಾಗಿ ನಮ್ಮ ಗ್ರಾಹಕ ಬೆಂಬಲವನ್ನು ಸಂಪರ್ಕಿಸಿ."
+        },
+        {
+            "language": "TELUGU",
+            "translation": "{#BODY#}యాత్ర 24 గంటలలో ముగిసినట్లయితే, మీరు ఎవరైనా వస్తువులను తనిఖీ చేయడానికి డ్రైవర్‌తో నేరుగా సంప్రదించవచ్చు. అయితే, ప్రయాణం ముగిసిన 24 గంటల కంటే ఎక్కువ సమయం అయితే, సహాయం కోసం మా కస్టమర్ సపోర్ట్‌ను సంప్రదించండి."
+        },
+        {
+            "language": "TAMIL",
+            "translation": "{#BODY#}செயல்முறை 24 மணி நேரத்திற்குள் முடிந்தால், நீங்கள் உங்களுடைய பொருட்களைச் சோதிக்க டிரைவரை நேரடியாக தொடர்பு கொள்ளலாம். பயணம் முடிந்த பிறகு 24 மணி நேரம் கடந்துவிட்டால், உதவிக்கு எங்கள் வாடிக்கையாளர் ஆதரவை அணுகவும்."
+        }
+    ],
+    "actionTranslations": [],
+    "titleTranslations": [
+        {
+            "language": "HINDI",
+            "translation": "यदि मैंने वाहनத்தில் எதாவது பொருட்கள் விட்டுவிட்டால் என்ன செய்ய வேண்டும்?"
+        },
+        {
+            "language": "KANNADA",
+            "translation": "ನಾನು ವಾಹನದಲ್ಲಿ ನನ್ನ ಸಾಮಾನುಗಳನ್ನು ಬಿಡಿದ್ದರೆ, ನಾನು ಏನು ಮಾಡಬೇಕು?"
+        },
+        {
+            "language": "TELUGU",
+            "translation": "నేను వాహనంలో నా వస్తువులను వదిలేస్తే, నేను ఏమి చేయాలి?"
+        },
+        {
+            "language": "TAMIL",
+            "translation": "நான் வாகனத்தில் என் பொருட்களை விட்டுவிட்டால், என்ன செய்ய வேண்டும்?"
+        }
+    ],
+    "options": []
+}

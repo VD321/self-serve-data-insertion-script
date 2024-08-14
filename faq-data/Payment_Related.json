@@ -1,59 +1,214 @@
 {
-    "category": "Payment Related",
-    "categoryType": "FAQ",
-    "isRideRequired": true,
-    "isActive": "{{IS_ACTIVE_FAQ}}",
-    "logoUrl": "ny_ic_fare_related_issue.png,https://assets.moving.tech/beckn/common/common/images/ny_ic_fare_related_issue.png",
-    "maxAllowedRideAge": 86400,
-    "priority": 4,
-    "translations": [],
-    "messages": [
-      {
-        "label": null,
-        "message": "{#BODY#}You can enter the drop location and select the booking preference to check the estimated total fare for your ride.",
-        "messageTitle": "How to check the fare for my ride?",
-        "priority": 1,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}You can check the total fare for your ride on Namma Yatri app by entering the drop loaction. On entering the drop location you will be able to view the estimated fare.",
-        "messageTitle": "I want to check my fare breakup",
-        "priority": 2,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}You can make the payment by cash or UPI",
-        "messageTitle": "What are the payment options available?",
-        "priority": 3,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": "SELECT_RIDE",
-        "message": "{#BODY#}You can contact our support centre, our advisor will get in touch with the driver and resolve your issue within 48hrs.",
-        "messageAction": "Raise a ticket",
-        "messageTitle": "I have made a double payment, how will I receive the refund?",
-        "priority": 4,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      }
-    ]
-  }
+  "category": "Payment Related",
+  "categoryType": "FAQ",
+  "isRideRequired": true,
+  "isActive": "{{IS_ACTIVE_FAQ}}",
+  "logoUrl": "ny_ic_fare_related_issue.png,https://assets.moving.tech/beckn/common/common/images/ny_ic_fare_related_issue.png",
+  "maxAllowedRideAge": 86400,
+  "priority": 4,
+  "translations": [],
+  "messages": [
+    {
+      "label": null,
+      "message": "{#BODY#}You can enter the drop location and select the booking preference to check the estimated total fare for your ride.",
+      "messageTitle": "How to check the fare for my ride?",
+      "priority": 1,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}आप ड्रॉप स्थान दर्ज करके और बुकिंग प्राथमिकता का चयन करके अपनी यात्रा के लिए अनुमानित कुल किराया जांच सकते हैं।"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}ನೀವು ಡ್ರಾಪ್ ಸ್ಥಳವನ್ನು ನಿಕ್ಸಿದಂತೆ ಮತ್ತು ಬುಕ್ಕಿಂಗ್ ಮೆಚ್ಚುಗೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡುವ ಮೂಲಕ ನಿಮ್ಮ ಪ್ರಯಾಣದ ಒಟ್ಟು ಅಂದಾಜು ಶುಲ್ಕವನ್ನು ಪರಿಶೀಲಿಸಬಹುದು."
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}మీరు డ్రాప్ లొకేషన్‌ను నమోదు చేసి, బుకింగ్ ప్రాధాన్యతను ఎంచుకుని, మీ ప్రయాణానికి అంచనా మొత్తం చార్జీని తనిఖీ చేయవచ్చు."
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}உங்கள் பயணத்திற்கு எதிர்பார்க்கப்படும் மொத்த கட்டணத்தைச் சரிபார்க்க, நீங்கள் இறக்குமதி இடத்தைச் செருகி, புத்தக விருப்பத்தைத் தேர்வு செய்யலாம்."
+        }
+      ],
+      "actionTranslations": [],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "मैं अपनी यात्रा का किराया कैसे जांच सकता हूँ?"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ನಾನು ನನ್ನ ಪ್ರಯಾಣದ ಶುಲ್ಕವನ್ನು ಹೇಗೆ ಪರಿಶೀಲಿಸಬಹುದು?"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "నేను నా ప్రయాణానికి చార్జీని ఎలా తనిఖీ చేయవచ్చు?"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "என் பயணத்திற்கு கட்டணத்தை எப்படி சரிபார்க்கலாம்?"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": null,
+      "message": "{#BODY#}You can check the total fare for your ride on {#MERCHANT#} app by entering the drop location. On entering the drop location you will be able to view the estimated fare.",
+      "messageTitle": "I want to check my fare breakup",
+      "priority": 2,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}आप {#MERCHANT#} ऐप पर ड्रॉप स्थान दर्ज करके अपनी यात्रा का कुल किराया जांच सकते हैं। ड्रॉप स्थान दर्ज करने पर आप अनुमानित किराया देख सकेंगे।"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}ನೀವು ಡ್ರಾಪ್ ಸ್ಥಳವನ್ನು ಸೇರಿಸುವ ಮೂಲಕ {#MERCHANT#} ಆಪ್‌ನಲ್ಲಿ ನಿಮ್ಮ ಪ್ರಯಾಣದ ಒಟ್ಟು ಶುಲ್ಕವನ್ನು ಪರಿಶೀಲಿಸಬಹುದು. ಡ್ರಾಪ್ ಸ್ಥಳವನ್ನು ಸೇರಿಸಿದ ಮೇಲೆ ನೀವು ಅಂದಾಜು ಶ್ರಮವನ್ನು ನೋಡಬಹುದು."
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}మీరు డ్రాప్ లొకేషన్‌ను నమోదు చేసి, {#MERCHANT#} యాప్‌లో మీ ప్రయాణం యొక్క మొత్తం ఛార్జీని తనిఖీ చేయవచ్చు. డ్రాప్ లొకేషన్‌ను నమోదు చేస్తే, మీరు అంచనా ఫేర్‌ను చూడగలరు."
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}நீங்கள் இறக்குமதி இடத்தைச் செருகிய பிறகு, {#MERCHANT#} ஆப்பில் உங்கள் பயணத்தின் மொத்த கட்டணத்தைச் சரிபார்க்கலாம். இறக்குமதி இடத்தைச் செருகியதும், எதிர்பார்க்கப்படும் கட்டணத்தைப் பார்க்க முடியும்."
+        }
+      ],
+      "actionTranslations": [],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "मैं अपने किराए की ब्रेकअप कैसे देख सकता हूँ?"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ನಾನು ನನ್ನ ಶುಲ್ಕವನ್ನು ಹೇಗೆ ಪರಿಶೀಲಿಸಬಹುದು?"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "నేను నా ఫేర్ బ్రేకప్‌ని ఎలా చూడవచ్చు?"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "என் கட்டணத்தைப் பார்க்க எப்படி?"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": null,
+      "message": "{#BODY#}You can make the payment by cash or UPI",
+      "messageTitle": "What are the payment options available?",
+      "priority": 3,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}आप नकद या UPI के माध्यम से भुगतान कर सकते हैं"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}ನೀವು ನಗದು ಅಥವಾ UPI ಮೂಲಕ ಪಾವತಿ ಮಾಡಬಹುದು"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}మీరు క్యాష్ లేదా UPI ద్వారా చెల్లించవచ్చు"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}நீங்கள் நகதோ அல்லது UPI மூலம் பணம் செலுத்தலாம்"
+        }
+      ],
+      "actionTranslations": [],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "उपलब्ध भुगतान विकल्प क्या हैं?"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ಲಭ್ಯವಿರುವ ಪಾವತಿ ಆಯ್ಕೆಗಳು ಏನು?"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "అందుబాటులో ఉన్న చెల్లింపు ఎంపికలు ఏమిటి?"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "எந்தெந்த செலுத்தும் முறைகள் உள்ளன?"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "SELECT_RIDE",
+      "message": "{#BODY#}You can contact our support centre, our advisor will get in touch with the driver and resolve your issue within 48hrs.",
+      "messageAction": "Raise a ticket",
+      "messageTitle": "I have made a double payment, how will I receive the refund?",
+      "priority": 4,
+      "referenceCategoryId": "{{PAYMENT_RELATED_FAQ_4_REF_CAT_ID}}",
+      "referenceOptionId": "{{PAYMENT_RELATED_FAQ_4_REF_OPTION_ID}}",
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}आप हमारे सहायता केंद्र से संपर्क कर सकते हैं, हमारे सलाहकार ड्राइवर के साथ संपर्क में रहेंगे और आपकी समस्या को 48 घंटों के भीतर हल कर देंगे।"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}ನೀವು ನಮ್ಮ ಬೆಂಬಲ ಕೇಂದ್ರವನ್ನು ಸಂಪರ್ಕಿಸಬಹುದು, ನಮ್ಮ ಸಲಹೆಗಾರ ಚಾಲಕನೊಂದಿಗೆ ಸಂಪರ್ಕ ಸಾಧಿಸಿ, ನಿಮ್ಮ ಸಮಸ್ಯೆಯನ್ನು 48 ಗಂಟೆಗಳ ಒಳಗೆ ಪರಿಹರಿಸಲಿದ್ದಾರೆ."
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}మీరు మా సహాయం కేంద్రాన్ని సంప్రదించవచ్చు, మా సలహాదారు డ్రైవర్‌తో సంప్రదించి, మీ సమస్యను 48 గంటల్లో పరిష్కరిస్తారు."
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}நீங்கள் எங்கள் ஆதரவு மையத்தைத் தொடர்பு கொள்ளலாம், எங்கள் ஆலோசகர் டிரைவருடன் தொடர்பு கொண்டு, 48 மணி நேரத்தில் உங்கள் பிரச்சினையைத் தீர்த்து விடுவார்."
+        }
+      ],
+      "actionTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "टिकट उठाएँ"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ಟಿಕೆಟ್ ಹೂಡಿಕೆ ಮಾಡಿ"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "టికెట్ ఎత్తండి"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "முடிவெடுக்கவும்"
+        }
+      ],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "मैंने दोहरा भुगतान किया है, मुझे धनवापसी कैसे प्राप्त होगी?"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ನಾನು ದ್ವಿತೀಯ ಪಾವತಿ ಮಾಡಿದ್ದೇನೆ, ನನಗೆ ಮರುಪಾವತಿ ಹೇಗೆ ದೊರೆಯುತ್ತದೆ?"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "నేను ద్వంద్వ చెల్లింపు చేసాను, నాకు రిఫండ్ ఎలా వస్తుంది?"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "நான் இரட்டை கட்டணம் செலுத்திவிட்டேன், எனக்கு பணம் திரும்ப எப்படித் தருவீர்கள்?"
+        }
+      ],
+      "options": []
+    }
+  ]
+}

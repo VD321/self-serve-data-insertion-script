@@ -1,0 +1,46 @@
+{
+    "label": null,
+    "message": "{#BODY#}You can rate a ride between 1 to 5 stars and share your feedback every time you complete a trip.",
+    "messageTitle": "How can I rate my ride?",
+    "priority": 14,
+    "referenceCategoryId": null,
+    "referenceOptionId": null,
+    "messageTranslations": [
+        {
+            "language": "HINDI",
+            "translation": "{#BODY#}आप एक राइड को 1 से 5 सितारों के बीच रेट कर सकते हैं और हर बार यात्रा पूरी होने पर अपनी प्रतिक्रिया साझा कर सकते हैं।"
+        },
+        {
+            "language": "KANNADA",
+            "translation": "{#BODY#}ನೀವು ಒಂದು ರೈಡ್ ಅನ್ನು 1 ರಿಂದ 5 ನಕ್ಷತ್ರಗಳ ನಡುವಿನ ಶ್ರೇಣಿಯಲ್ಲು ರೇಟು ಮಾಡಬಹುದು ಮತ್ತು ಪ್ರತಿಯೊಮ್ಮೆ ನೀವು ಪ್ರಯಾಣವನ್ನು ಪೂರ್ಣಗೊಳಿಸಿದಾಗ ನಿಮ್ಮ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಹಂಚಿಕೊಳ್ಳಬಹುದು."
+        },
+        {
+            "language": "TELUGU",
+            "translation": "{#BODY#}మీరు 1 నుండి 5 స్టార్‌ల మధ్య రేటు చేయగలరు మరియు ప్రతి సారిగా మీరు ప్రయాణం పూర్తి చేసినప్పుడు మీ అభిప్రాయాన్ని పంచుకోవచ్చు."
+        },
+        {
+            "language": "TAMIL",
+            "translation": "{#BODY#}நீங்கள் ஒரு பயணத்தை 1 முதல் 5 நட்சத்திரங்கள் வரை மதிப்பீடு செய்யலாம் மற்றும் ஒவ்வொரு முறை பயணத்தை முடித்த பிறகு உங்கள் கருத்துகளைப் பகிரலாம்."
+        }
+    ],
+    "actionTranslations": [],
+    "titleTranslations": [
+        {
+            "language": "HINDI",
+            "translation": "मैं अपनी राइड को कैसे रेट कर सकता हूँ?"
+        },
+        {
+            "language": "KANNADA",
+            "translation": "ನಾನು ನನ್ನ ರೈಡ್ ಅನ್ನು ಹೇಗೆ ರೇಟು ಮಾಡಬಹುದು?"
+        },
+        {
+            "language": "TELUGU",
+            "translation": "నేను నా రైడ్‌ను ఎలా రేట్ చేయగలను?"
+        },
+        {
+            "language": "TAMIL",
+            "translation": "நான் என் ரைட்களை எவ்வாறு மதிப்பீடு செய்யலாம்?"
+        }
+    ],
+    "options": []
+}

@@ -2,8 +2,9 @@
     "category": "Lost And Found",
     "categoryType": "Category",
     "isRideRequired": true,
-    "isActive": true,
+    "isActive": "{{IS_ACTIVE_CATEGORY}}",
     "logoUrl": "ny_ic_lost_and_found,https://assets.moving.tech/beckn/common/common/images/ny_ic_lost_and_found.png",
+    "allowedRideStatuses": ["R_COMPLETED"],
     "maxAllowedRideAge": 86400,
     "priority": 3,
     "translations": [

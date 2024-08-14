@@ -1,0 +1,46 @@
+{
+    "label": null,
+    "message": "{#BODY#}It depends on the vehicle and the driver, please check with the driver if you have too much luggage.",
+    "messageTitle": "How much luggage can I carry?",
+    "priority": 11,
+    "referenceCategoryId": null,
+    "referenceOptionId": null,
+    "messageTranslations": [
+        {
+            "language": "HINDI",
+            "translation": "{#BODY#}यह वाहन और चालक पर निर्भर करता है, कृपया अधिक सामान होने पर चालक से जांच करें।"
+        },
+        {
+            "language": "KANNADA",
+            "translation": "{#BODY#}ಇದು ವಾಹನ ಮತ್ತು ಚಾಲಕನ ಮೇಲೆ ಅವಲಂಬಿತವಾಗಿರುತ್ತದೆ, ನೀವು ಹೆಚ್ಚು ಒಯ್ಯುವ ಸಾಮಾನು ಹೊಂದಿದ್ದರೆ, ದಯವಿಟ್ಟು ಚಾಲಕನೊಂದಿಗೆ ಪರಿಶೀಲಿಸಿ."
+        },
+        {
+            "language": "TELUGU",
+            "translation": "{#BODY#}ఇది వాహనం మరియు డ్రైవర్ పై ఆధారపడి ఉంటుంది, మీరు చాలా సామాను తీసుకెళ్లవలసి ఉంటే డ్రైవర్‌తో చెక్ చేసుకోండి."
+        },
+        {
+            "language": "TAMIL",
+            "translation": "{#BODY#}இது வாகனத்தினதும் டிரைவரின் நிலைமையினதும் சார்ந்தது, நீங்கள் அதிகமான போக்குவரத்து சுமை உள்ளீர்கள் என்றால், டிரைவருடன் சரிபார்க்கவும்."
+        }
+    ],
+    "actionTranslations": [],
+    "titleTranslations": [
+        {
+            "language": "HINDI",
+            "translation": "मैं कितना सामान ले जा सकता हूँ?"
+        },
+        {
+            "language": "KANNADA",
+            "translation": "ನಾನು ಎಷ್ಟು ಸಾಮಾನು ಒಯ್ಯಬಹುದು?"
+        },
+        {
+            "language": "TELUGU",
+            "translation": "నేను ఎంత మొత్తం సామాను తీసుకెళ్లవచ్చు?"
+        },
+        {
+            "language": "TAMIL",
+            "translation": "நான் எவ்வளவு சுமை கொண்டோ எடுக்க முடியும்?"
+        }
+    ],
+    "options": []
+}

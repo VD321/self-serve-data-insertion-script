@@ -1,228 +1,380 @@
 {
-    "category": "Ride Related",
-    "categoryType": "FAQ",
-    "isRideRequired": true,
-    "isActive": "{{IS_ACTIVE_FAQ}}",
-    "logoUrl": "ny_ic_ride_related_issue,https://assets.moving.tech/beckn/common/common/images/ny_ic_ride_related_issue.png",
-    "maxAllowedRideAge": 86400,
-    "priority": 2,
-    "translations": [],
-    "messages": [
-      {
-        "label": null,
-        "message": "{#BODY#}To book a ride on Namma Yatri, follow these steps: <br> 1. Click on \"Where to\" at the top of your screen. <br> 2. Enter the address and select your destination. You can also move the pointer on the map to select the destination. <br> 3. Confirm your current location. <br> 4. You will be presented with an estimated total fare for different categories of vehicles available. <br> 5. Choose the vehicle category of your choice and click on the Book button.<br> <br> For visual guidance on how to book a ride with Namma Yatri, please refer to the following images.",
-        "messageTitle": "How can I book a ride on Namma Yatri?",
-        "priority": 1,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}Unfortunately, we do not have an edit drop location feature, currently. However, please note that we are continuously working on improving our app and releasing new features. Stay tuned for updates, and thank you for your patience!",
-        "messageTitle": "How can I change the drop location once the ride is assigned?",
-        "priority": 2,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}Unfortunately, you cannot add more than 1 location, currently. However, please note that we are continuously working on improving our app and releasing new features. Stay tuned for updates, and thank you for your patience!",
-        "messageTitle": "Can I add more than 1 drop locations?",
-        "priority": 3,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}You can directly pay the driver by cash or UPI.",
-        "messageTitle": "How can I make the payment for the ride?",
-        "priority": 4,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}No. Namma Yatri is a SaaS platform for drivers following a P2P and Open network and is not involved in the collection of the trip fare.",
-        "messageTitle": "Can I make the payment through the app?",
-        "priority": 5,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}You will receive an OTP via push notification once the booking is confirmed. You will also be able to see the OTP on the ride screen. Please see the following image:",
-        "messageTitle": "Where can I find the OTP for my ride?",
-        "priority": 6,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}No",
-        "messageTitle": "Is surge pricing applicable for my ride?",
-        "priority": 7,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}Unfortunately, you cannot pre-book a ride currently. However, please note that we are continuously working on improving our app and releasing new features. Stay tuned for updates, and thank you for your patience!",
-        "messageTitle": "Can I pre-book a ride?",
-        "priority": 8,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}As per the rules, we won't be able to share the driver details.",
-        "messageTitle": "Can I get the driver's details?",
-        "priority": 9,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": "SELECT_RIDE",
-        "message": "{#BODY#}You can directly contact the driver to check for any belongings if the trip ended within 24 hours. If it has been more than 24 hours since the trip was completed, please reach out to our customer support for assistance.",
-        "messageAction": "Raise a ticket",
-        "messageTitle": "What should I do if I left my belongings in the vehicle?",
-        "priority": 10,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}It depends on the vehicle and the driver, please check with the driver if you have too much luggage.",
-        "messageTitle": "How much luggage can I carry?",
-        "priority": 11,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}It is essential to ensure that your pickup location is correct before you tap CONFIRM to make a booking. Once the booking is confirmed you will be unable to change your pickup location.",
-        "messageTitle": "How can I change the pickup address for my ride?",
-        "priority": 12,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}Click on the ride page and you will see a share option on the right hand corner and you can share the ride with your friend or family.",
-        "messageTitle": "How can I track my ride?",
-        "priority": 13,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}You can rate a ride between 1 to 5 stars and share your feedback everytime you complete a trip.",
-        "messageTitle": "How can I rate my ride?",
-        "priority": 14,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}To confirm service availability: <br> 1. Enter your drop location and select your desired destination from the suggested locations. <br> 2. Check the message displayed on your Namma Yatri App screens. If the drop location is not serviceable, you will see a message stating \"Location Unserviceable\"",
-        "messageTitle": "How can I check the service availability at my pickup or drop loaction ?",
-        "priority": 15,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": "MY_RIDES",
-        "message": "{#BODY#}To download the invoice for a ride, please follow these steps: <br> 1. Navigate to Menu > My Rides. <br> 2. Click on the ride for which you need the invoice. <br> 3. Click on View Driver Receipt. <br> 4. Click on Download PDF.<br> <br> For visual guidance, please refer to the following images",
-        "messageAction": "My Rides",
-        "messageTitle": "How can I download ride invoice?",
-        "priority": 16,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}You will receive a notification, after your ride is confirmed. You can check the driver details including the contact information on the ride page.",
-        "messageTitle": "Where can I find the driver details?",
-        "priority": 17,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      },
-      {
-        "label": null,
-        "message": "{#BODY#}Once your booking is successful, you will be able to contact the driver via the call option available on the ride page.",
-        "messageTitle": "How can I contact the driver?",
-        "priority": 18,
-        "referenceCategoryId": null,
-        "referenceOptionId": null,
-        "messageTranslations": [],
-        "actionTranslations": [],
-        "titleTranslations": [],
-        "options": []
-      }
-    ]
-  }
+  "category": "Ride Related",
+  "categoryType": "FAQ",
+  "isRideRequired": true,
+  "isActive": "{{IS_ACTIVE_FAQ}}",
+  "logoUrl": "ny_ic_ride_related_issue,https://assets.moving.tech/beckn/common/common/images/ny_ic_ride_related_issue.png",
+  "maxAllowedRideAge": 86400,
+  "priority": 2,
+  "translations": [],
+  "messages": [
+    {
+      "label": null,
+      "message": "{#BODY#}To book a ride on {#MERCHANT#}, follow these steps: <br> 1. Click on \"Where to\" at the top of your screen. <br> 2. Enter the address and select your destination. You can also move the pointer on the map to select the destination. <br> 3. Confirm your current location. <br> 4. You will be presented with an estimated total fare for different categories of vehicles available. <br> 5. Choose the vehicle category of your choice and click on the Book button.<br> <br> For visual guidance on how to book a ride with {#MERCHANT#}, please refer to the following images.",
+      "messageTitle": "How can I book a ride on {#MERCHANT#}?",
+      "priority": 1,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}{#MERCHANT#} पर राइड बुक करने के लिए, इन चरणों का पालन करें: <br> 1. अपनी स्क्रीन के शीर्ष पर \"कहाँ जाना है\" पर क्लिक करें। <br> 2. पता दर्ज करें और अपने गंतव्य का चयन करें। आप गंतव्य चुनने के लिए मानचित्र पर सूचक को भी स्थानांतरित कर सकते हैं। <br> 3. अपने वर्तमान स्थान की पुष्टि करें। <br> 4. आपको उपलब्ध विभिन्न श्रेणियों के वाहनों के लिए अनुमानित कुल किराया प्रस्तुत किया जाएगा। <br> 5. अपनी पसंद की वाहन श्रेणी चुनें और बुक बटन पर क्लिक करें।<br> <br> {#MERCHANT#} के साथ राइड बुक करने के तरीके के लिए दृश्य मार्गदर्शन के लिए कृपया निम्नलिखित चित्र देखें।"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}{#MERCHANT#} ನಲ್ಲಿ ಸವಾರಿ ಬುಕ್ ಮಾಡಲು, ಈ ಹಂತಗಳನ್ನು ಅನುಸರಿಸಿ: <br> 1. ನಿಮ್ಮ ಪರದೆದ ಮೇಲ್ಭಾಗದಲ್ಲಿ \"ಎಲ್ಲಿ ಹೋಗಬೇಕು\" ಕ್ಲಿಕ್ ಮಾಡಿ. <br> 2. ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ ಮತ್ತು ನಿಮ್ಮ ತಲುಪುವಿಕೆಯ ಸ್ಥಾನವನ್ನು ಆಯ್ಕೆಮಾಡಿ. ತಲುಪುವಿಕೆಯ ಸ್ಥಳವನ್ನು ಆಯ್ಕೆಮಾಡಲು ನೀವು ನಕ್ಷೆಯಲ್ಲಿ ಸೂಚಿಯನ್ನು ಸರಿಸಬಹುದು. <br> 3. ನಿಮ್ಮ ಪ್ರಸ್ತುತ ಸ್ಥಳವನ್ನು ದೃಢೀಕರಿಸಿ. <br> 4. ಲಭ್ಯವಿರುವ ವಿವಿಧ ವಾಹನಗಳ ವರ್ಗಗಳಿಗೆ ಅಂದಾಜು ಮಾಡಲಾದ ಒಟ್ಟು ಭಾದ್ರತಾ ಹಣವನ್ನು ನಿಮಗೆ ನೀಡಲಾಗುತ್ತದೆ. <br> 5. ನಿಮ್ಮ ಆಯ್ಕೆಯ ವಾಹನ ವರ್ಗವನ್ನು ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು ಬುಕ್ ಬಟನ್ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ.<br> <br> {#MERCHANT#} ಗೆ ಸಂಬಂಧಿಸಿದಂತೆ ಸವಾರಿ ಬುಕ್ ಮಾಡುವ ಪ್ರಕ್ರಿಯೆಗೆ ದೃಶ್ಯ ಮಾರ್ಗದರ್ಶನಕ್ಕಾಗಿ ದಯವಿಟ್ಟು ಕೆಳಗಿನ ಚಿತ್ರಗಳನ್ನು ನೋಡಿ."
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}{#MERCHANT#} పై రైడ్ బుక్ చేయడానికి, ఈ దశలను అనుసరించండి: <br> 1. మీ స్క్రీన్ పైభాగంలో \"ఎక్కడికి వెళ్ళాలి\" క్లిక్ చేయండి. <br> 2. చిరునామా నమోదు చేసి మీ గమ్యస్థానాన్ని ఎంచుకోండి. గమ్యస్థానాన్ని ఎంచుకోవడానికి మీరు మ్యాప్లో సూచికను కూడా కదిలించవచ్చు. <br> 3. మీ ప్రస్తుత స్థానం ధృవీకరించండి. <br> 4. అందుబాటులో ఉన్న వాహనాల వర్గాల కోసం అంచనా వేసిన మొత్తం భాద్రతా మొత్తాన్ని మీకు అందించబడుతుంది. <br> 5. మీ ఎంపిక వాహన వర్గాన్ని ఎంచుకుని బుక్ బటన్‌పై క్లిక్ చేయండి.<br> <br> {#MERCHANT#} తో రైడ్ బుక్ చేసే విధానంపై విజువల్ గైడెన్స్ కోసం దయచేసి క్రింది చిత్రాలను చూడండి."
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}{#MERCHANT#} இல் ஒரு பயணத்தைப் பதிவு செய்ய, இந்த நடைமுறைகளைப் பின்பற்றவும்: <br> 1. உங்கள் திரையின் மேல் உள்ள \"எங்கு\" கிளிக் செய்க. <br> 2. முகவரியை உள்ளிடு மற்றும் உங்கள் இலக்கைக் குறிப்பிடவும். இலக்கைக் குறிப்பிட தளத்தில் கூடிய சுட்டியை நகர்த்தவும். <br> 3. உங்கள் தற்போதைய இருப்பிடத்தை உறுதிசெய்க. <br> 4. கிடைக்கும் வாகன வகைகளுக்கான எstimானிக்கப்பட்ட மொத்த கட்டணத்தை நீங்கள் காணலாம். <br> 5. உங்கள் விருப்ப வாகன வகையைத் தேர்ந்தெடுத்து புத்தகம் பொத்தானை அழுத்தவும்.<br> <br> {#MERCHANT#} மூலம் ஒரு பயணத்தைப் பதிவு செய்வது எப்படி என்று பார்க்க காட்சி வழிகாட்டலுக்கான படங்களைப் பார்க்கவும்."
+        }
+      ],
+      "actionTranslations": [],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "मैं {#MERCHANT#} पर राइड कैसे बुक कर सकता हूँ?"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ನಾನು {#MERCHANT#} ನಲ್ಲಿ ಸವಾರಿ ಹೇಗೆ ಬುಕ್ ಮಾಡಬಹುದು?"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "నేను {#MERCHANT#} పై రైడ్ ఎలా బుక్ చేయగలను?"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "நான் {#MERCHANT#} இல் ஒரு பயணத்தை எவ்வாறு பதிவு செய்யலாம்?"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": null,
+      "message": "{#BODY#}Unfortunately, we do not have an edit drop location feature, currently. However, please note that we are continuously working on improving our app and releasing new features. Stay tuned for updates, and thank you for your patience!",
+      "messageTitle": "How can I change the drop location once the ride is assigned?",
+      "priority": 2,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}दुर्भाग्य से, वर्तमान में हमारे पास ड्रॉप लोकेशन संपादित करने की सुविधा नहीं है। हालाँकि, कृपया ध्यान दें कि हम लगातार अपने ऐप को बेहतर बनाने और नई सुविधाओं को जारी करने पर काम कर रहे हैं। अपडेट के लिए बने रहें, और आपके धैर्य के लिए धन्यवाद!"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}ದುರ್ಭಾಗ್ಯವಶಾತ್, ಪ್ರಸ್ತುತ ನಮ್ಮಲ್ಲಿ ಡ್ರಾಪ್ ಸ್ಥಳವನ್ನು ಸಂಪಾದಿಸಲು ವೈಶಿಷ್ಟ್ಯವಿಲ್ಲ. ಆದಾಗ್ಯೂ, ದಯವಿಟ್ಟು ಗಮನಿಸಿ ನಾವು ನಮ್ಮ ಆಪ್ ಅನ್ನು ಸುಧಾರಿಸಲು ಮತ್ತು ಹೊಸ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಬಿಡುಗಡೆ ಮಾಡಲು ನಿರಂತರವಾಗಿ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದೇವೆ. ನವೀಕರಣಗಳಿಗಾಗಿ ಕಾದಿರಿ, ಮತ್ತು ನಿಮ್ಮ ಸಹನೆಯಿಗಾಗಿ ಧನ್ಯವಾದಗಳು!"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}దురదృష్టవశాత్తు, ప్రస్తుతం మన దగ్గర డ్రాప్ లొకేషన్ ఎడిట్ చేసే ఫీచర్ లేదు. అయితే, దయచేసి గమనించండి, మేము నిరంతరం మా యాప్‌ను మెరుగుపరచడం మరియు కొత్త ఫీచర్‌లను విడుదల చేయడం కోసం కృషి చేస్తున్నాము. నవీకరణల కోసం అప్రమత్తంగా ఉండండి, మీ సహనానికి ధన్యవాదాలు!"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}துரதிருஷ்டவசமாக, தற்பொழுது நமக்கு டிராப் இடத்தைத் திருத்தும் வசதி இல்லை. இருப்பினும், எங்கள் செயலியைப் மேம்படுத்துவதிலும் புதிய அம்சங்களை வெளியிடுவதிலும் தொடர்ந்து உழைத்து வருகிறோம் என்பதை நினைவில் கொள்ளுங்கள். புதுப்பிப்புகளைப் பெறவும், உங்கள் பொறுமைக்கு நன்றி!"
+        }
+      ],
+      "actionTranslations": [],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "राइड असाइन होने के बाद ड्रॉप लोकेशन कैसे बदलें?"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ಸವಾರಿ ಹಂಚಿದ ನಂತರ ಡ್ರಾಪ್ ಸ್ಥಳವನ್ನು ಹೇಗೆ ಬದಲಿಸಬಹುದು?"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "రైడ్ కేటాయించిన తర్వాత డ్రాప్ లొకేషన్‌ను ఎలా మార్చాలి?"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "பயணம் ஒதுக்கப்பட்ட பிறகு இடத்தை எவ்வாறு மாற்றுவது?"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": null,
+      "message": "{#BODY#}Unfortunately, you cannot add more than 1 location, currently. However, please note that we are continuously working on improving our app and releasing new features. Stay tuned for updates, and thank you for your patience!",
+      "messageTitle": "Can I add more than 1 drop location?",
+      "priority": 3,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}दुर्भाग्य से, वर्तमान में आप एक से अधिक स्थान नहीं जोड़ सकते। हालाँकि, कृपया ध्यान दें कि हम लगातार अपने ऐप को बेहतर बनाने और नई सुविधाओं को जारी करने पर काम कर रहे हैं। अपडेट के लिए बने रहें, और आपके धैर्य के लिए धन्यवाद!"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}ದುರ್ಭಾಗ್ಯವಶಾತ್, ಪ್ರಸ್ತುತ ನೀವು ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ಸ್ಥಳವನ್ನು ಸೇರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಆದಾಗ್ಯೂ, ದಯವಿಟ್ಟು ಗಮನಿಸಿ ನಾವು ನಮ್ಮ ಆಪ್ ಅನ್ನು ಸುಧಾರಿಸಲು ಮತ್ತು ಹೊಸ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಬಿಡುಗಡೆ ಮಾಡಲು ನಿರಂತರವಾಗಿ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದೇವೆ. ನವೀಕರಣಗಳಿಗಾಗಿ ಕಾದಿರಿ, ಮತ್ತು ನಿಮ್ಮ ಸಹನೆಯಿಗಾಗಿ ಧನ್ಯವಾದಗಳು!"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}దురదృష్టవశాత్తు, ప్రస్తుతం మీరు ఒకకన్నా ఎక్కువ స్థానాలను జోడించలేరు. అయితే, దయచేసి గమనించండి, మేము నిరంతరం మా యాప్‌ను మెరుగుపరచడం మరియు కొత్త ఫీచర్‌లను విడుదల చేయడం కోసం కృషి చేస్తున్నాము. నవీకరణల కోసం అప్రమత్తంగా ఉండండి, మీ సహనానికి ధన్యవాదాలు!"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}துரதிருஷ்டவசமாக, தற்போது நீங்கள் 1க்கும் மேற்பட்ட இடங்களைச் சேர்க்க முடியாது. இருப்பினும், நாங்கள் எங்கள் செயலியை மேம்படுத்தவும் புதிய அம்சங்களை வெளியிடவும் தொடர்ந்து செயல்பட்டு வருகிறோம் என்பதை நினைவில் கொள்ளுங்கள். புதுப்பிப்புகளுக்காக காத்திருங்கள், உங்கள் பொறுமைக்கு நன்றி!"
+        }
+      ],
+      "actionTranslations": [],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "क्या मैं एक से अधिक ड्रॉप लोकेशन जोड़ सकता हूँ?"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ನಾನು ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ಡ್ರಾಪ್ ಸ್ಥಳಗಳನ್ನು ಸೇರಿಸಬಹುದೇ?"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "నేను ఒక కన్నా ఎక్కువ డ్రాప్ లొకేషన్‌లను జోడించవచ్చా?"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "நான் 1க்கும் மேற்பட்ட இடங்களைச் சேர்க்க முடியுமா?"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": null,
+      "message": "{#BODY#}You can directly pay the driver by cash or UPI.",
+      "messageTitle": "How can I make the payment for the ride?",
+      "priority": 4,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}आप नकद या यूपीआई द्वारा सीधे ड्राइवर को भुगतान कर सकते हैं।"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}ನೀವು ನಗದು ಅಥವಾ ಯುಪಿಐ ಮೂಲಕ ನೇರವಾಗಿ ಚಾಲಕರಿಗೆ ಪಾವತಿ ಮಾಡಬಹುದು."
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}మీరు నగదు లేదా UPI ద్వారా నేరుగా డ్రైవర్‌కు చెల్లించవచ్చు."
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}நீங்கள் நேரடியாக காசோலை அல்லது UPI மூலம் டிரைவருக்கு கட்டணம் செலுத்தலாம்."
+        }
+      ],
+      "actionTranslations": [],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "मैं राइड के लिए भुगतान कैसे कर सकता हूँ?"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ನಾನು ಸವಾರಿ ಪಾವತಿಯನ್ನು ಹೇಗೆ ಮಾಡಬಹುದು?"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "నేను రైడ్ కోసం చెల్లింపు ఎలా చేయగలను?"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "நான் பயணத்திற்கு பணம் செலுத்துவது எப்படி?"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": null,
+      "message": "{#BODY#}No. {#MERCHANT#} is a SaaS platform for drivers following a P2P and Open network and is not involved in the collection of the trip fare.",
+      "messageTitle": "Can I make the payment through the app?",
+      "priority": 5,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}नहीं। {#MERCHANT#} एक SaaS प्लेटफॉर्म है जो P2P और ओपन नेटवर्क का अनुसरण करने वाले ड्राइवरों के लिए है और यह यात्रा किराया संग्रह में शामिल नहीं है।"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}ಇಲ್ಲ. {#MERCHANT#} ಪಿ2ಪಿ ಮತ್ತು ಓಪನ್ ನೆಟ್‌ವರ್ಕ್ ಅನ್ನು ಅನುಸರಿಸುವ ಚಾಲಕರಿಗಾಗಿ ಎಸ್‌ಎಎಸ್‌ ಪ್ರಾಟ್ಫಾರ್ಮ್ ಆಗಿದ್ದು, ಪ್ರಯಾಣದ ಭಾಡಿ ಸಂಗ್ರಹಣೆಯಲ್ಲಿ ಭಾಗವಹಿಸುತ್ತಿಲ್ಲ."
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}లేదు. {#MERCHANT#} అనేది డ్రైవర్ల కోసం P2P మరియు ఓపెన్ నెట్‌వర్క్‌ను అనుసరించే SaaS ప్లాట్‌ఫారమ్ మరియు ట్రిప్ ఫేర్ సేకరణలో భాగస్వామ్యం కాదు."
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}இல்லை. {#MERCHANT#} என்பது P2P மற்றும் ஓப்பன் நெட்வொர்க் பின்பற்றும் டிரைவர்களுக்கான SaaS தளம் ஆகும் மற்றும் பயண கட்டண சேகரிப்பில் ஈடுபடுவதில்லை."
+        }
+      ],
+      "actionTranslations": [],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "क्या मैं ऐप के माध्यम से भुगतान कर सकता हूँ?"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ನಾನು ಆಪ್ ಮೂಲಕ ಪಾವತಿಸಬಹುದೇ?"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "నేను యాప్ ద్వారా చెల్లింపును చేయవచ్చా?"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "நான் ஆப்ஸின் மூலம் பணம் செலுத்த முடியுமா?"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": null,
+      "message": "{#BODY#}You will receive an OTP via push notification once the booking is confirmed. You will also be able to see the OTP on the ride screen. Please see the following image:",
+      "messageTitle": "Where can I find the OTP for my ride?",
+      "priority": 6,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}बुकिंग की पुष्टि होने पर आपको पुश नोटिफिकेशन के माध्यम से एक ओटीपी प्राप्त होगा। आप सवारी स्क्रीन पर भी ओटीपी देख पाएंगे। कृपया निम्नलिखित छवि देखें:"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}ಬುಕಿಂಗ್ ದೃಢೀಕರಣದ ನಂತರ ನೀವು ಪುಷ್ ನೋಟಿಫಿಕೇಶನ್ ಮೂಲಕ OTP ಸ್ವೀಕರಿಸುತ್ತೀರಿ. ನಿಮ್ಮ ಸವಾರಿ ಪರದೆಯಲ್ಲಿಯೂ OTP ಅನ್ನು ನೀವು ನೋಡಬಹುದು. ದಯವಿಟ್ಟು ಕೆಳಗಿನ ಚಿತ್ರವನ್ನು ನೋಡಿ:"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}బుకింగ్ ధృవీకరించబడిన తర్వాత మీరు పుష్ నోటిఫికేషన్ ద్వారా OTPని స్వీకరిస్తారు. మీరు రైడ్ స్క్రీన్‌లో కూడా OTPని చూడవచ్చు. దయచేసి క్రింది చిత్రాన్ని చూడండి:"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}புக்மகிங் உறுதிசெய்யப்பட்டவுடன், நீங்கள் ஒரு OTP-ஐ புஷ் அறிவிப்பின் மூலம் பெறுவீர்கள். நீங்கள் ரைட் திரையில் OTPயைப் பார்க்கலாம். தயவுசெய்து பின்வரும் படத்தைப் பார்க்கவும்:"
+        }
+      ],
+      "actionTranslations": [],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "मुझे अपनी सवारी के लिए ओटीपी कहाँ मिल सकता है?"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ನಾನು ನನ್ನ ಸವಾರಿ OTP ಅನ್ನು ಎಲ್ಲಿ ಕಾಣಬಹುದು?"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "నా రైడ్ కోసం OTPని నేను ఎక్కడ చూడవచ్చు?"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "நான் என் பயண OTPயை எங்கு பார்க்கலாம்?"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": null,
+      "message": "{#BODY#}No",
+      "messageTitle": "Is surge pricing applicable for my ride?",
+      "priority": 7,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}नहीं"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}ಇಲ್ಲ"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}లేదు"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}இல்லை"
+        }
+      ],
+      "actionTranslations": [],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "क्या मेरी सवारी के लिए सर्ज प्राइसिंग लागू है?"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ನನ್ನ ಸವಾರಿ ಮೇಲೆ ಸರ್ಜ್ ಪ್ರೈಸಿಂಗ್ ಅನ್ವಯಿಸುತ್ತದೆವೇ?"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "నా రైడ్‌కు సర్జ్ ప్రైసింగ్ వర్తించబడుతుందా?"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "என் பயணத்திற்கு சர்ஜ் ப்ரைஸிங் பொருந்துமா?"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": null,
+      "message": "{#BODY#}Unfortunately, you cannot pre-book a ride currently. However, please note that we are continuously working on improving our app and releasing new features. Stay tuned for updates, and thank you for your patience!",
+      "messageTitle": "Can I pre-book a ride?",
+      "priority": 8,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "{#BODY#}दुर्भाग्यवश, आप वर्तमान में सवारी को पूर्व-बुक नहीं कर सकते हैं। हालांकि, कृपया ध्यान दें कि हम अपने ऐप में सुधार करने और नई सुविधाओं को जारी करने के लिए लगातार काम कर रहे हैं। अपडेट के लिए जुड़े रहें, और आपके धैर्य के लिए धन्यवाद!"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "{#BODY#}ದುರದೃಷ್ಟವಶಾತ್, ನೀವು ಪ್ರಸ್ತುತ ಓಟವನ್ನು ಪೂರ್ವ-ಬುಕ್ ಮಾಡಲಾಗುವುದಿಲ್ಲ. ಆದರೆ, ದಯವಿಟ್ಟು ಗಮನಿಸಿ, ನಾವು ನಮ್ಮ ಆ್ಯಪ್ ಅನ್ನು ಸುಧಾರಿಸಲು ಮತ್ತು ಹೊಸ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಬಿಡುಗಡೆ ಮಾಡಲು ನಿರಂತರವಾಗಿ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದೇವೆ. ನವೀಕರಣಗಳಿಗಾಗಿ ಬದಲಾಗಿಲ್ಲ, ಮತ್ತು ನಿಮ್ಮ ಸಹನಿಗಾಗಿ ಧನ್ಯವಾದಗಳು!"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "{#BODY#}దురదృష్టవశాత్తు, మీరు ప్రస్తుతం ప్రయాణాన్ని ముందుగా బుక్ చేయలేరు. అయితే, దయచేసి గమనించండి, మేము మా యాప్‌ను మెరుగుపరచడానికి మరియు కొత్త లక్షణాలను విడుదల చేయడానికి నిరంతరం పని చేస్తున్నాము. నవీకరణల కోసం మమ్మల్ని ఆశ్రయించండి, మరియు మీ సహనానికి ధన్యవాదాలు!"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "{#BODY#}துரதிர்ஷ்டவசமாக, தற்பொழுது நீங்கள் ஒரு பயணத்தை முன்பதிவு செய்ய முடியாது. இருப்பினும், நாங்கள் எங்கள் செயலியை மேம்படுத்த மற்றும் புதிய அம்சங்களை வெளியிட தொடர்ந்து வேலை செய்து வருகிறோம் என்பதைத் தெரிந்து கொள்ளுங்கள். மேம்படுத்தல்களை எதிர்பார்த்து இருங்கள், உங்களின் பொறுமைக்கு நன்றி!"
+        }
+      ],
+      "actionTranslations": [],
+      "titleTranslations": [
+        {
+          "language": "HINDI",
+          "translation": "क्या मैं सवारी पूर्व-बुक कर सकता हूँ?"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ನಾನು ಓಟವನ್ನು ಪೂರ್ವ-ಬುಕ್ ಮಾಡಬಹುದೇ?"
+        },
+        {
+          "language": "TELUGU",
+          "translation": "నేను రైడ్‌ను ముందుగా బుక్ చేయవచ్చా?"
+        },
+        {
+          "language": "TAMIL",
+          "translation": "நான் ஒரு பயணத்தை முன்பதிவு செய்ய முடியுமா?"
+        }
+      ],
+      "options": []
+    }
+  ]
+}

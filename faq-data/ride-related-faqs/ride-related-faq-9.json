@@ -1,0 +1,46 @@
+{
+    "label": null,
+    "message": "{#BODY#}As per the rules, we won't be able to share the driver details.",
+    "messageTitle": "Can I get the driver's details?",
+    "priority": 9,
+    "referenceCategoryId": null,
+    "referenceOptionId": null,
+    "messageTranslations": [
+        {
+            "language": "HINDI",
+            "translation": "{#BODY#}नियमों के अनुसार, हम चालक के विवरण को साझा नहीं कर पाएंगे।"
+        },
+        {
+            "language": "KANNADA",
+            "translation": "{#BODY#}ನಿಯಮಗಳ ಪ್ರಕಾರ, ನಾವು ಚಾಲಕನ ವಿವರಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ."
+        },
+        {
+            "language": "TELUGU",
+            "translation": "{#BODY#}నియమాల ప్రకారం, మేము డ్రైవర్ యొక్క వివరాలను పంచుకోలేము."
+        },
+        {
+            "language": "TAMIL",
+            "translation": "{#BODY#}சட்டங்களின் படி, நாங்கள் டிரைவரின் விவரங்களை பகிர முடியாது."
+        }
+    ],
+    "actionTranslations": [],
+    "titleTranslations": [
+        {
+            "language": "HINDI",
+            "translation": "क्या मैं चालक के विवरण प्राप्त कर सकता हूँ?"
+        },
+        {
+            "language": "KANNADA",
+            "translation": "ನಾನು ಚಾಲಕನ ವಿವರಗಳನ್ನು ಪಡೆಯಬಹುದೇ?"
+        },
+        {
+            "language": "TELUGU",
+            "translation": "నేను డ్రైవర్ వివరాలను పొందవచ్చా?"
+        },
+        {
+            "language": "TAMIL",
+            "translation": "நான் டிரைவரின் விவரங்களைப் பெற முடியுமா?"
+        }
+    ],
+    "options": []
+}

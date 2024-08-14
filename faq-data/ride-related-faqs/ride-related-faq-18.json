@@ -1,0 +1,46 @@
+{
+    "label": null,
+    "message": "{#BODY#}Once your booking is successful, you will be able to contact the driver via the call option available on the ride page.",
+    "messageTitle": "How can I contact the driver?",
+    "priority": 18,
+    "referenceCategoryId": null,
+    "referenceOptionId": null,
+    "messageTranslations": [
+        {
+            "language": "HINDI",
+            "translation": "{#BODY#}जब आपकी बुकिंग सफल हो जाती है, तो आप राइड पेज पर उपलब्ध कॉल विकल्प के माध्यम से ड्राइवर से संपर्क कर सकते हैं।"
+        },
+        {
+            "language": "KANNADA",
+            "translation": "{#BODY#}ನಿಮ್ಮ ಬುಕ್ಕಿಂಗ್ ಯಶಸ್ವಿಯಾಗಿ ಪೂರ್ಣಗೊಂಡ ನಂತರ, ನೀವು ರೈಡ್ ಪುಟದಲ್ಲಿ ಲಭ್ಯವಿರುವ ಕಾಲ್ ಆಯ್ಕೆಯ ಮೂಲಕ ಡ್ರೈವರ್ನ ಸಂಪರ್ಕವನ್ನು ಹೊಂದಬಹುದು."
+        },
+        {
+            "language": "TELUGU",
+            "translation": "{#BODY#}మీ బుకింగ్ విజయవంతమయ్యాక, మీరు రైడ్ పేజీలో అందుబాటులో ఉన్న కాల్ ఎంపిక ద్వారా డ్రైవర్‌ను సంప్రదించవచ్చు."
+        },
+        {
+            "language": "TAMIL",
+            "translation": "{#BODY#}உங்கள் முன்பதிவு வெற்றிகரமாகக் கிடைத்த பிறகு, நீங்கள் பயணப் பக்கத்தில் கிடைக்கும் அழைப்பு விருப்பத்தின் மூலம் டிரைவரை தொடர்பு கொள்ளலாம்."
+        }
+    ],
+    "actionTranslations": [],
+    "titleTranslations": [
+        {
+            "language": "HINDI",
+            "translation": "मैं ड्राइवर से कैसे संपर्क कर सकता हूँ?"
+        },
+        {
+            "language": "KANNADA",
+            "translation": "ನಾನು ಡ್ರೈವರ್ನ ಸಂಪರ್ಕವನ್ನು ಹೇಗೆ ಹೊಂದಬಹುದು?"
+        },
+        {
+            "language": "TELUGU",
+            "translation": "నేను డ్రైవర్‌ను ఎలా సంప్రదించగలను?"
+        },
+        {
+            "language": "TAMIL",
+            "translation": "நான் டிரைவரை எவ்வாறு தொடர்பு கொள்ளலாம்?"
+        }
+    ],
+    "options": []
+}

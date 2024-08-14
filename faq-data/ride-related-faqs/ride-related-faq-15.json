@@ -1,0 +1,46 @@
+{
+    "label": null,
+    "message": "{#BODY#}To confirm service availability: <br> 1. Enter your drop location and select your desired destination from the suggested locations. <br> 2. Check the message displayed on your {#MERCHANT#} App screens. If the drop location is not serviceable, you will see a message stating \"Location Unserviceable\"",
+    "messageTitle": "How can I check the service availability at my pickup or drop location?",
+    "priority": 15,
+    "referenceCategoryId": null,
+    "referenceOptionId": null,
+    "messageTranslations": [
+        {
+            "language": "HINDI",
+            "translation": "{#BODY#}सेवा की उपलब्धता की पुष्टि करने के लिए: <br> 1. अपना ड्रॉप स्थान दर्ज करें और सुझाए गए स्थानों से अपनी इच्छित मंजिल चुनें। <br> 2. {#MERCHANT#} ऐप स्क्रीन पर प्रदर्शित संदेश को जांचें। यदि ड्रॉप स्थान सेवा योग्य नहीं है, तो आपको \"स्थान सेवा योग्य नहीं है\" का संदेश दिखाई देगा।"
+        },
+        {
+            "language": "KANNADA",
+            "translation": "{#BODY#}ಸೇವೆಯ ಲಭ್ಯತೆಯನ್ನು ದೃಢಪಡಿಸಲು: <br> 1. ನಿಮ್ಮ ಡ್ರಾಪ್ ಸ್ಥಳವನ್ನು ನಮೂದಿಸಿ ಮತ್ತು ಶಿಫಾರಸು ಮಾಡಿದ ಸ್ಥಳಗಳಿಂದ ನಿಮ್ಮ ಇಚ್ಛಿತ ಗಮ್ಯಸ್ಥಾನವನ್ನು ಆಯ್ಕೆಮಾಡಿ. <br> 2. {#MERCHANT#} ಅಪ್ಲಿಕೇಶನ್ ಪರದೆಯಲ್ಲಿ ತೋರಿಸಲಾದ ಸಂದೇಶವನ್ನು ಪರಿಶೀಲಿಸಿ. ಡ್ರಾಪ್ ಸ್ಥಳ ಸೇವಾತ್ಮಕವಾಗಿಲ್ಲದಿದ್ದರೆ, \"ಸ್ಥಳ ಸೇವಾತ್ಮಕವಲ್ಲ\" ಎಂಬ ಸಂದೇಶವನ್ನು ನೀವು ನೋಡುತ್ತೀರಿ."
+        },
+        {
+            "language": "TELUGU",
+            "translation": "{#BODY#}సేవా లభ్యతను నిర్ధారించడానికి: <br> 1. మీ డ్రాప్ లొకేషన్‌ను నమోదు చేయండి మరియు సూచించిన లొకేషన్లలో మీ కావలసిన గమ్యస్థానాన్ని ఎంచుకోండి. <br> 2. మీ {#MERCHANT#} యాప్ స్క్రీన్లలో ప్రదర్శించబడిన సందేశాన్ని తనిఖీ చేయండి. డ్రాప్ లొకేషన్ సేవా లభ్యం కాదు అయితే, \"స్థానం సేవా లభ్యం కాదు\" అనే సందేశం మీకు కనిపిస్తుంది."
+        },
+        {
+            "language": "TAMIL",
+            "translation": "{#BODY#}சேவையின் கிடைக்காமையை உறுதிப்படுத்த: <br> 1. உங்கள் விடுப்பு இடத்தை உள்ளீடு செய்யவும் மற்றும் கொடுக்கப்பட்ட இடங்களில் உங்கள் விரும்பிய இடத்தைத் தேர்வுசெய்யவும். <br> 2. {#MERCHANT#} பயன்பாட்டின் திரைகளைப் பார்க்கவும். விடுப்பு இடம் சேவையாக்கப்படாததாக இருந்தால், \"இடம் சேவையல்ல\" எனும் செய்தி காணப்படும்."
+        }
+    ],
+    "actionTranslations": [],
+    "titleTranslations": [
+        {
+            "language": "HINDI",
+            "translation": "मैं अपने पिकअप या ड्रॉप स्थान पर सेवा की उपलब्धता कैसे जांच सकता हूँ?"
+        },
+        {
+            "language": "KANNADA",
+            "translation": "ನಾನು ನನ್ನ ಪಿಕಪ್ ಅಥವಾ ಡ್ರಾಪ್ ಸ್ಥಳದಲ್ಲಿ ಸೇವೆಯ ಲಭ್ಯತೆಯನ್ನು ಹೇಗೆ ಪರಿಶೀಲಿಸಬಹುದು?"
+        },
+        {
+            "language": "TELUGU",
+            "translation": "నేను నా పికప్ లేదా డ్రాప్ లొకేషన్ వద్ద సేవా లభ్యతను ఎలా సోదా చేయగలను?"
+        },
+        {
+            "language": "TAMIL",
+            "translation": "நான் என் பிக் அப் அல்லது டிராப் இடத்தில் சேவையின் கிடைக்கும் நிலையை எவ்வாறு சரிபார்க்கலாம்?"
+        }
+    ],
+    "options": []
+}
