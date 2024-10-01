@@ -7,7 +7,7 @@ require('dotenv').config();
 
 // Data Directories
 const deactivationCsvFile = "./deactivation-data";
-const selfServeCategoryDirectory = "./new-issue-categories";
+const selfServeCategoryDirectory = "./new-issue-categories-v2";
 const faqDirectory = "./faq-data";
 const rideRelatedFaqDirectory = "./faq-data/ride-related-faqs"
 
@@ -28,7 +28,7 @@ function delay(ms) {
 function parseToBool(value){
     if (value.toLowerCase() === 'true') return true;
     else if (value.toLowerCase() === 'false') return false;
-    else throw new Error('Incorrect value for boolean variable in env.') 
+    else throw new Error('Incorrect value for boolean variable in env.')
 }
 
 // Function to load and process JSON with environment variables
@@ -199,7 +199,7 @@ async function createIndividualFAQs(faqPathDirectory, categoryId) {
                         'token': authToken
                     }
                 });
-                
+
                 console.log(`Created FAQ from file ${file} with id ${response.data.messageId}`);
                 await delay(3000);
             } catch (error) {
@@ -222,7 +222,7 @@ async function createIndividualFAQs(faqPathDirectory, categoryId) {
 
             const newIssueCategories = await createCategoriesFromJson(selfServeCategoryDirectory);
             console.log("Created New Self Serve Categories with following Ids - " + JSON.stringify(newIssueCategories));
-            
+
             if (deactivateExistingCategories) {
                 console.log('Deactivating Old Categories');
                 await updateCategories(oldIssueCategories, false);
@@ -236,10 +236,10 @@ async function createIndividualFAQs(faqPathDirectory, categoryId) {
             if (deactivateExistingCategories) {
                 oldIssueCategories = await fetchCategoryIds("FAQ");
             }
-            
+
             const newIssueCategories = await createCategoriesFromJson(faqDirectory);
             console.log("Created New FAQ Categories with following Ids - " + JSON.stringify(newIssueCategories));
-            
+
             const rideRelatedCategory = newIssueCategories.find(category => category.categoryName === "Ride_Related.json");
             console.log("CategoryId for ride related faq category = " + JSON.stringify(rideRelatedCategory));
 

@@ -1,0 +1,238 @@
+{
+    "category": "App Related",
+    "categoryType": "Category",
+    "label": null,
+    "isRideRequired": false,
+    "isActive": "{{IS_ACTIVE_CATEGORY}}",
+    "logoUrl": "ny_ic_app_related_issue,https://assets.moving.tech/beckn/common/common/images/ny_ic_app_related_issue.png",
+    "maxAllowedRideAge": 259200,
+    "priority": 2,
+    "translations": [],
+    "messages": [
+        {
+            "label": null,
+            "message": "Hi! We're sorry about your experience. Let us know the issue so we can help.",
+            "messageAction": null,
+            "messageTitle": null,
+            "priority": 1,
+            "referenceCategoryId": null,
+            "referenceOptionId": null,
+            "messageTranslations": [],
+            "actionTranslations": [],
+            "titleTranslations": [],
+            "options": [
+                {
+                    "isActive": true,
+                    "label": null,
+                    "option": "I am stuck on the previous ride",
+                    "priority": 1,
+                    "translations": [
+                        {
+                            "language": "HINDI",
+                            "translation": "मैं पिछले सवारी पर फंस गया हूँ"
+                        },
+                        {
+                            "language": "KANNADA",
+                            "translation": "ನಾನು ಹಿಂದಿನ ಪ್ರಯಾಣದಲ್ಲಿ ಸಿಕ್ಕಿ ಹೋಗಿದ್ದೇನೆ"
+                        },
+                        {
+                            "language": "TAMIL",
+                            "translation": "நான் முந்தைய பயணத்தில் சிக்கிக்கொண்டு இருக்கிறேன்"
+                        },
+                        {
+                            "language": "TELUGU",
+                            "translation": "నేను గత రైడ్‌లో చిక్కుకున్నాను"
+                        },
+                        {
+                            "language": "MALAYALAM",
+                            "translation": "ഞാൻ മുൻപത്തെ യാത്രയിൽ കുടുങ്ങിക്കിടക്കുകയാണ്"
+                        }
+                    ],
+                    "messages": [
+                        {
+                            "label": "CREATE_TICKET",
+                            "message": "Please provide additional information so that we can assist you better",
+                            "messageTitle": null,
+                            "priority": 1,
+                            "referenceCategoryId": null,
+                            "referenceOptionId": null,
+                            "messageTranslations": [
+                                {
+                                    "language": "HINDI",
+                                    "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                                },
+                                {
+                                    "language": "KANNADA",
+                                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                                },
+                                {
+                                    "language": "TAMIL",
+                                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                                },
+                                {
+                                    "language": "TELUGU",
+                                    "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                                },
+                                {
+                                    "language": "MALAYALAM",
+                                    "translation": "ഞങ്ങൾ നിങ്ങളെ മികച്ച രീതിയിൽ സഹായിക്കുന്നതിന് കൂടുതൽ വിവരങ്ങൾ നൽകാൻ ദയവായി"
+                                }
+                            ],
+                            "actionTranslations": [],
+                            "titleTranslations": [],
+                            "options": []
+                        }
+                    ]
+                },
+                {
+                    "isActive": true,
+                    "label": null,
+                    "option": "Location not found or inaccurate",
+                    "priority": 2,
+                    "translations": [],
+                    "messages": [
+                        {
+                            "label": "CREATE_TICKET",
+                            "message": "Please provide additional information so that we can assist you better",
+                            "messageTitle": null,
+                            "priority": 1,
+                            "referenceCategoryId": null,
+                            "referenceOptionId": null,
+                            "messageTranslations": [
+                                {
+                                    "language": "HINDI",
+                                    "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                                },
+                                {
+                                    "language": "KANNADA",
+                                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                                },
+                                {
+                                    "language": "TAMIL",
+                                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                                },
+                                {
+                                    "language": "TELUGU",
+                                    "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                                },
+                                {
+                                    "language": "MALAYALAM",
+                                    "translation": "ഞങ്ങൾ നിങ്ങളെ മികച്ച രീതിയിൽ സഹായിക്കുന്നതിന് കൂടുതൽ വിവരങ്ങൾ നൽകാൻ ദയവായി"
+                                }
+                            ],
+                            "actionTranslations": [],
+                            "titleTranslations": [],
+                            "options": []
+                        }
+                    ]
+                },
+                {
+                    "isActive": true,
+                    "label": null,
+                    "option": "My app is not responding",
+                    "priority": 3,
+                    "showOnlyWhenUserBlocked": true,
+                    "translations": [],
+                    "messages": [
+                        {
+                            "label": "CREATE_TICKET",
+                            "message": "Please provide additional information so that we can assist you better",
+                            "messageTitle": null,
+                            "priority": 1,
+                            "referenceCategoryId": null,
+                            "referenceOptionId": null,
+                            "messageTranslations": [
+                                {
+                                    "language": "HINDI",
+                                    "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                                },
+                                {
+                                    "language": "KANNADA",
+                                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                                },
+                                {
+                                    "language": "TAMIL",
+                                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                                },
+                                {
+                                    "language": "TELUGU",
+                                    "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                                },
+                                {
+                                    "language": "MALAYALAM",
+                                    "translation": "ഞങ്ങൾ നിങ്ങളെ മികച്ച രീതിയിൽ സഹായിക്കുന്നതിന് കൂടുതൽ വിവരങ്ങൾ നൽകാൻ ദയവായി"
+                                }
+                            ],
+                            "actionTranslations": [],
+                            "titleTranslations": [],
+                            "options": []
+                        }
+                    ]
+                },
+                {
+                    "isActive": true,
+                    "label": null,
+                    "option": "Other",
+                    "priority": 4,
+                    "translations": [
+                        {
+                            "language": "HINDI",
+                            "translation": "अन्य"
+                        },
+                        {
+                            "language": "KANNADA",
+                            "translation": "ಇತರ"
+                        },
+                        {
+                            "language": "TAMIL",
+                            "translation": "மற்றவை"
+                        },
+                        {
+                            "language": "TELUGU",
+                            "translation": "ఇతరము"
+                        },
+                        {
+                            "language": "MALAYALAM",
+                            "translation": "മറ്റുള്ളവ"
+                        }
+                    ],
+                    "messages": [
+                        {
+                            "label": "CREATE_TICKET",
+                            "message": "Please provide additional information so that we can assist you better",
+                            "messageTitle": null,
+                            "priority": 1,
+                            "referenceCategoryId": null,
+                            "referenceOptionId": null,
+                            "messageTranslations": [
+                                {
+                                    "language": "HINDI",
+                                    "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                                },
+                                {
+                                    "language": "KANNADA",
+                                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                                },
+                                {
+                                    "language": "TAMIL",
+                                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                                },
+                                {
+                                    "language": "TELUGU",
+                                    "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                                },
+                                {
+                                    "language": "MALAYALAM",
+                                    "translation": "ഞങ്ങൾ നിങ്ങളെ മികച്ച രീതിയിൽ സഹായിക്കുന്നതിന് കൂടുതൽ വിവരങ്ങൾ നൽകാൻ ദയവായി"
+                                }
+                            ],
+                            "actionTranslations": [],
+                            "titleTranslations": [],
+                            "options": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
