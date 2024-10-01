@@ -17,6 +17,12 @@ const city = process.env.CITY;
 const baseUrl = process.env.BASE_URL;
 const authToken = process.env.AUTH_TOKEN;
 
+//Other Env Variables
+const separateOptionsDirectory = process.env.SEPARATE_OPTIONS_DIRECTORY;
+const categoryIdForOptionFlow = process.env.CATEGORY_ID_FOR_OPTION_FLOW;
+const messageIdForOptionFlow = process.env.MESSAGE_ID_FOR_OPTION_FLOW;
+
+
 // Conditionals
 const executionFlow = process.env.FLOW_EXECUTION;
 const deactivateExistingCategories = parseToBool(process.env.DEACTIVATE_EXISTING_CATEGORIES);
@@ -209,9 +215,39 @@ async function createIndividualFAQs(faqPathDirectory, categoryId) {
     }
 }
 
+// Function to create options from JSON files in the specified directory
+async function createOptionsFromJson(pathDirectory) {
+    const jsonFiles = fs.readdirSync(pathDirectory);
+
+    for (const file of jsonFiles) {
+        if (path.extname(file) === '.json') {
+            const filePath = path.join(pathDirectory, file);
+            const requestBody = loadJsonWithEnv(filePath);
+
+            const url = `${baseUrl}/${merchantId}/${city}/issueV2/option/create?issueCategoryId=${categoryIdForOptionFlow}&issueMessageId=${messageIdForOptionFlow}`;
+
+            try {
+                const response = await axios.post(url, requestBody, {
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'token': authToken
+                    }
+                });
+                console.log(`Created option from file: ${file} with ID: ${response.data.optionId}`);
+
+                // Introduce delay between requests to avoid hitting the API too quickly
+                await delay(3000);
+            } catch (error) {
+                console.error(`Error creating option from file: ${file}`, error.response?.data || error.message);
+                throw error;
+            }
+        }
+    }
+}
+
 (async () => {
     try {
-        console.log("INSIDE FAQ EXECUTION FLOW-" + executionFlow);
+        console.log("INSIDE EXECUTION FLOW-" + executionFlow);
 
         if (executionFlow === 'ISSUE_FLOW') {
             let oldIssueCategories = [];
@@ -253,6 +289,13 @@ async function createIndividualFAQs(faqPathDirectory, categoryId) {
                 console.log('Reactivating new self Serve Categories');
                 await updateCategories(newIssueCategories, true);
             }
+
+        } else if (executionFlow === 'ISSUE_OPTION') {
+            console.log("Creating options for ISSUE_OPTION flow");
+
+            // Call the function to create options from the directory
+            await createOptionsFromJson(separateOptionsDirectory);
+
         } else {
             throw new Error("Invalid Parameters Supplied");
         }
