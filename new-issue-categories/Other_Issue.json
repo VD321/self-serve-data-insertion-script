@@ -22,6 +22,10 @@
         {
             "language": "TELUGU",
             "translation": "ఇతర"
+        },
+        {
+            "language": "MALAYALAM",
+            "translation": "മറ്റുള്ളവ"
         }
     ],
     "messages": [
@@ -49,6 +53,10 @@
                 {
                     "language": "TELUGU",
                     "translation": "దయచేసి మీరు ఎదుర్కొంటున్న సమస్య రకాన్ని ఎంచుకోండి, తద్వారా మేము మీకు మెరుగైన సహాయం చేయగలము"
+                },
+                {
+                    "language": "MALAYALAM",
+                    "translation": "നിങ്ങൾ നേരിടുന്ന പ്രശ്നത്തിന്റെ തരം തിരഞ്ഞെടുക്കുക, ഞങ്ങൾ നിങ്ങളെ കൂടുതൽ സഹായിക്കും."
                 }
             ],
             "actionTranslations": [],
@@ -75,6 +83,10 @@
                         {
                             "language": "TELUGU",
                             "translation": "సామాన్య విచారణ"
+                        },
+                        {
+                            "language": "MALAYALAM",
+                            "translation": "സാധാരണ അന്വേഷണങ്ങൾ"
                         }
                     ],
                     "messages": [
@@ -101,6 +113,10 @@
                                 {
                                     "language": "TELUGU",
                                     "translation": "మీకు మెరుగైన సహాయం అందించడానికి దయచేసి అదనపు సమాచారాన్ని అందించండి."
+                                },
+                                {
+                                    "language": "MALAYALAM",
+                                    "translation": "നിങ്ങളെ മികച്ച രീതിയിൽ സഹായിക്കാൻ ദയവായി അധിക വിവരം നൽകുക."
                                 }
                             ],
                             "actionTranslations": [],
@@ -130,6 +146,10 @@
                         {
                             "language": "TELUGU",
                             "translation": "ప్రత్యేక రైడ్ సంబంధిత"
+                        },
+                        {
+                            "language": "MALAYALAM",
+                            "translation": "കുറിച്ചുള്ള പ്രത്യേക യാത്ര"
                         }
                     ],
                     "messages": [
@@ -156,6 +176,10 @@
                                 {
                                     "language": "TELUGU",
                                     "translation": "మీకు మెరుగైన సహాయం అందించడానికి దయచేసి అదనపు సమాచారాన్ని అందించండి."
+                                },
+                                {
+                                    "language": "MALAYALAM",
+                                    "translation": "നിങ്ങളെ മികച്ച രീതിയിൽ സഹായിക്കാൻ ദയവായി അധിക വിവരം നൽകുക."
                                 }
                             ],
                             "actionTranslations": [],
@@ -185,6 +209,10 @@
                         {
                             "language": "TELUGU",
                             "translation": "ప్రతిస్పందన, ప్రమోషన్ లేదా సూచనలు"
+                        },
+                        {
+                            "language": "MALAYALAM",
+                            "translation": "ഫീഡ്ബാക്ക്, പ്രമോഷൻ അല്ലെങ്കിൽ നിർദേശങ്ങൾ"
                         }
                     ],
                     "messages": [
@@ -211,6 +239,10 @@
                                 {
                                     "language": "TELUGU",
                                     "translation": "దయచేసి {#SUPPORT_MAIL#} వద్ద మాకు వ్రాయండి."
+                                },
+                                {
+                                    "language": "MALAYALAM",
+                                    "translation": "{#SUPPORT_MAIL#} ലേക്ക് ഞങ്ങൾക്ക് എഴുതുക."
                                 }
                             ],
                             "actionTranslations": [],

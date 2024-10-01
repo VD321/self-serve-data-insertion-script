@@ -24,6 +24,10 @@
         {
             "language": "TELUGU",
             "translation": "చెల్లింపు మరియు అద్దె సంబంధిత"
+        },
+        {
+            "language": "MALAYALAM",
+            "translation": "പെയ്മെന്റ് & ഫെയർ ബന്ധപ്പെട്ട"
         }
     ],
     "messages": [
@@ -50,6 +54,10 @@
                 {
                     "language": "TELUGU",
                     "translation": "హే, మీరు చెల్లింపు సంబంధించిన సమస్యలను ఎదుర్కొంటున్నారని వినడం చాలా బాధగా ఉంది."
+                },
+                {
+                    "language": "MALAYALAM",
+                    "translation": "ഹേ, നിങ്ങൾക്ക് പെയ്മെന്റ് ബന്ധപ്പെട്ട പ്രശ്നങ്ങൾ നേരിടേണ്ടി വന്നതിൽ ഞങ്ങൾ വളരെ ഖേദിക്കുന്നു."
                 }
             ],
             "actionTranslations": [],
@@ -80,6 +88,10 @@
                 {
                     "language": "TELUGU",
                     "translation": "దయచేసి మీరు ఎదుర్కొంటున్న సమస్య రకాన్ని ఎంచుకోండి, తద్వారా మేము మీకు మెరుగైన సహాయం చేయగలము"
+                },
+                {
+                    "language": "MALAYALAM",
+                    "translation": "ദയവായി നിങ്ങള്‍ നേരിടുന്ന പ്രശ്‌നം ആരായും നിങ്ങൾക്ക് കൂടുതൽ സഹായം ചെയ്യാൻ ഞങ്ങൾക്കാകും."
                 }
             ],
             "actionTranslations": [],
@@ -106,6 +118,10 @@
                         {
                             "language": "TELUGU",
                             "translation": "నాకు యాప్‌లో చూపించిన కంటే ఎక్కువ చార్జ్ చేశారు"
+                        },
+                        {
+                            "language": "MALAYALAM",
+                            "translation": "എനിക്ക് ആപ്പിൽ കാണിച്ചിരിക്കുന്നത് മാത്രമേ ആയിരിയ്ക്കാൻ  കൂടുതൽ ചാർജു ചെയ്തു."
                         }
                     ],
                     "messages": [
@@ -132,6 +148,10 @@
                                 {
                                     "language": "TELUGU",
                                     "translation": "అంచనా → తుదిరేటు: <br> <b> {#ESTIMATED_FARE#} → {#FINAL_FARE#} <span style=\"color:#2194FF\"> ({#FARE_DIFFERENCE#}{#FARE_ARROW#}) </span> </b> <br> <br> అంచనా → తుదిదూరం: <br> <b> {#ESTIMATED_DISTANCE#} కి.మీ → {#FINAL_DISTANCE#} కి.మీ <span style=\"color:#2194FF\"> ({#DISTANCE_DIFFERENCE#} కి.మీ{#DISTANCE_ARROW#}) </span> </b> <br> <br> డ్రైవర్ పికప్ ఛార్జీలు: <br> <b> {#DRIVER_PICKUP_CHARGE#} </b> <br> <br> డ్రైవర్ అదనపు ఛార్జీలు: <br> <b> {#DRIVER_ADDITIONS#} </b> <br> <br> టోల్ ఛార్జీలు: <br> <b> {#TOLL_CHARGES#} </b> <br> <br> చిట్టి చేర్చబడింది: <br> <b> {#TIP_ADDED#} </b> <br> <br> అంచనా రేటు కేవలం సూచిక సూచన మాత్రమే. తుదిరేటు నిజమైన ప్రయాణ దూరం ఆధారంగా మారవచ్చు. మరిన్ని సమాచారం కోసం, దయచేసి వివరమైన రేటు విధానాన్ని చూడండి. <br>"
+                                },
+                                {
+                                    "language": "MALAYALAM",
+                                    "translation": "അവകാശപ്പെടുന്നു → അന്തിമ കണക്കുകൂട്ടൽ: <br> <b> {#ESTIMATED_FARE#} → {#FINAL_FARE#} <span style=\"color:#2194FF\"> ({#FARE_DIFFERENCE#}{#FARE_ARROW#}) </span> </b> <br> <br> കണക്കാക്കുക → അന്തിമ അകലം: <br> <b> {#ESTIMATED_DISTANCE#} കിലോമീറ്റർ → {#FINAL_DISTANCE#} കിലോമീറ്റർ <span style=\"color:#2194FF\"> ({#DISTANCE_DIFFERENCE#} കിലോമീറ്റർ{#DISTANCE_ARROW#}) </span> </b> <br> <br> ഡ്രൈവർ പിക്കപ്പ് ചാർജുകൾ: <br> <b> {#DRIVER_PICKUP_CHARGE#} </b> <br> <br> ഡ്രൈവർ കൂട്ടിച്ചേർത്തത്: <br> <b> {#DRIVER_ADDITIONS#} </b> <br> <br> ടോൾ ചാർജുകൾ: <br> <b> {#TOLL_CHARGES#} </b> <br> <br> ടിപ് ചേർത്തത്: <br> <b> {#TIP_ADDED#} </b> <br> <br> ചെലവ് കണക്കുകൂട്ടൽ ഒരു സൂചന മാത്രമാണ്. അന്തിമ ചെലവ് യഥാർത്ഥ യാത്രയുടെ അകലത്തിന്റെ അടിസ്ഥാനത്തിൽ മാറാം. കൂടുതൽ വിവരങ്ങൾക്ക്, ദയവായി വിശദമായ ചാർജ് നയം കാണുക. <br>"
                                 }
                             ],
                             "actionTranslations": [],
@@ -151,6 +171,10 @@
                                 {
                                     "language": "TELUGU",
                                     "translation": "మీ రైడ్ గురించి కొన్ని సమాచారం ఇక్కడ ఉంది."
+                                },
+                                {
+                                    "language": "MALAYALAM",
+                                    "translation": "നിങ്ങളുടെ യാത്രയെക്കുറിച്ചുള്ള ചില വിവരങ്ങൾ ഇവയാണ്."
                                 }
                             ],
                             "options": []
@@ -178,6 +202,10 @@
                                 {
                                     "language": "TELUGU",
                                     "translation": "ఇది సహాయకరంగా ఉందా?"
+                                },
+                                {
+                                    "language": "MALAYALAM",
+                                    "translation": "ഇത് സഹായകരമായിരുന്നോ?"
                                 }
                             ],
                             "actionTranslations": [],
@@ -213,6 +241,10 @@
                                                 {
                                                     "language": "TELUGU",
                                                     "translation": "మీ ప్రశ్నలకు సహాయం చేసినందుకు మేము సంతోషిస్తున్నాము. భవిష్యత్ ప్రశ్నలు లేదా ఆందోళనల కోసం యాప్‌లో సహాయం ఫీచర్‌ను ఉపయోగించడంలో సందేహించకండి."
+                                                },
+                                                {
+                                                    "language": "MALAYALAM",
+                                                    "translation": "നിങ്ങളുടെ അന്വേഷണങ്ങൾക്ക് സഹായം ചെയ്തതിൽ ഞങ്ങൾ സന്തോഷിക്കുന്നു. ഭാവിയിലും ചോദ്യങ്ങൾക്കോ ആശങ്കകൾക്കോ സഹായ ഫീച്ചർ ഉപയോഗിക്കാതിരിക്കേണ്ടത് എന്ന് സംശയമില്ല."
                                                 }
                                             ],
                                             "actionTranslations": [],
@@ -251,6 +283,10 @@
                                                 {
                                                     "language": "TELUGU",
                                                     "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                                                },
+                                                {
+                                                    "language": "MALAYALAM",
+                                                    "translation": "ഞങ്ങൾ നിങ്ങളെ മികച്ച രീതിയിൽ സഹായിക്കുന്നതിന് കൂടുതൽ വിവരങ്ങൾ നൽകാൻ ദയവായി"
                                                 }
                                             ],
                                             "actionTranslations": [],
@@ -267,7 +303,7 @@
                     "isActive": true,
                     "label": null,
                     "option": "Driver demanded more than the final fare shown.",
-                    "priority": 1,
+                    "priority": 2,
                     "translations": [
                         {
                             "language": "HINDI",
@@ -284,6 +320,10 @@
                         {
                             "language": "TELUGU",
                             "translation": "డ్రైవర్ తుదిరేటు కంటే ఎక్కువగా డిమాండ్ చేశాడు."
+                        },
+                        {
+                            "language": "MALAYALAM",
+                            "translation": "ഡ്രൈവറെച്ചതു തിരുത്തേണ്ടതിന് ആധിക്യമായ വാടക ചോദിച്ചു."
                         }
                     ],
                     "messages": [
@@ -310,6 +350,10 @@
                                 {
                                     "language": "TELUGU",
                                     "translation": "ఇది విన్నందుకు దుఖంగా ఉంది. మేము మీకు మెరుగైన సహాయం చేయగలిగేందుకు, దయచేసి అదనపు సమాచారం ఇవ్వండి."
+                                },
+                                {
+                                    "language": "MALAYALAM",
+                                    "translation": "ഇത് കേട്ടതിൽ ദുഖമുണ്ട്. ഞങ്ങൾ നിങ്ങൾക്കു മികച്ച സഹായം ചെയ്യാൻ ദയവായി അധിക വിവരങ്ങൾ നൽകുക."
                                 }
                             ],
                             "actionTranslations": [],
@@ -322,7 +366,7 @@
                     "isActive": true,
                     "label": null,
                     "option": "Excess amount paid to the driver",
-                    "priority": 1,
+                    "priority": 3,
                     "translations": [
                         {
                             "language": "HINDI",
@@ -339,6 +383,10 @@
                         {
                             "language": "TELUGU",
                             "translation": "డ్రైవర్‌కు ఎక్కువ మొత్తం చెల్లించబడింది"
+                        },
+                        {
+                            "language": "MALAYALAM",
+                            "translation": "ഡ്രൈവർക്ക് കൂടുതൽ തുക നൽകി"
                         }
                     ],
                     "messages": [
@@ -365,6 +413,10 @@
                                 {
                                     "language": "TELUGU",
                                     "translation": "ఇది విన్నందుకు దుఖంగా ఉంది. మేము మీకు మెరుగైన సహాయం చేయగలిగేందుకు, దయచేసి అదనపు సమాచారం ఇవ్వండి."
+                                },
+                                {
+                                    "language": "MALAYALAM",
+                                    "translation": "ഇത് കേട്ടത് ദുഃഖകരമാണ്. നമുക്ക് നിങ്ങളെ മികച്ച രീതിയിൽ സഹായിക്കാൻ, ദയവായി അധിക വിവരങ്ങൾ നൽകുക."
                                 }
                             ],
                             "actionTranslations": [],
@@ -375,9 +427,9 @@
                 },
                 {
                     "isActive": true,
-                    "label": "CREATE_TICKET",
+                    "label": "DRIVER_TOLL_RELATED_ISSUE",
                     "option": "Driver demanded toll/parking charges which were already included in the fare",
-                    "priority": 1,
+                    "priority": 4,
                     "translations": [
                         {
                             "language": "HINDI",
@@ -394,6 +446,10 @@
                         {
                             "language": "TELUGU",
                             "translation": "డ్రైవర్ ఇప్పటికే చెల్లించిన భాడిలో భాగమైన టోల్/పార్కింగ్ ఛార్జ్‌ను అడిగాడు"
+                        },
+                        {
+                            "language": "MALAYALAM",
+                            "translation": "ഡ്രൈവർ അങ്ങനെ പറഞ്ഞതിൽ കണക്കാക്കിയ ടോൾ/പാർക്കിംഗ് ചാർജുകൾക്ക് ആവശ്യപ്പെട്ടു, ഇത് മുമ്പ് നിരക്കിൽ ഉൾപ്പെടുത്തിയിരുന്നു"
                         }
                     ],
                     "messages": [
@@ -420,6 +476,10 @@
                                 {
                                     "language": "TELUGU",
                                     "translation": "ఇది విన్నందుకు దుఖంగా ఉంది. మేము మీకు మెరుగైన సహాయం చేయగలిగేందుకు, దయచేసి అదనపు సమాచారం ఇవ్వండి."
+                                },
+                                {
+                                    "language": "MALAYALAM",
+                                    "translation": "ഇത് കേൾക്കാൻ ദുഃഖകരമാണ്. ഞങ്ങൾ നിങ്ങളെ മികച്ച രീതിയിൽ സഹായിക്കാൻ, ദയവായി അധിക വിവരങ്ങൾ നൽകുക."
                                 }
                             ],
                             "actionTranslations": [],
