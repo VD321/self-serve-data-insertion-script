@@ -7,6 +7,7 @@
   "maxAllowedRideAge": 86400,
   "priority": 2,
   "translations": [],
+  "label" : "RIDE_RELATED_FAQ",
   "messages": [
     {
       "label": null,

@@ -3,7 +3,7 @@
   "categoryType": "FAQ",
   "isRideRequired": false,
   "isActive": "{{IS_ACTIVE_FAQ}}",
-  "logoUrl": "ny_ic_referral_related.png,https://assets.moving.tech/beckn/common/common/images/ny_ic_referral_related.png",
+  "logoUrl": "ny_ic_referral_related.png,https://assets.moving.tech/beckn/common/common/images/ny_ic_referral_related_faq.png",
   "maxAllowedRideAge": 86400,
   "priority": 3,
   "translations": [],

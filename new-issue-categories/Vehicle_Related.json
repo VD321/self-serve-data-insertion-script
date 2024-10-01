@@ -6,6 +6,7 @@
     "logoUrl": "ny_ic_ride_related_issue,https://assets.moving.tech/beckn/common/common/images/ny_ic_ride_related_issue.png",
     "maxAllowedRideAge": 259200,
     "priority": 5,
+    "label" : "RIDE_RELATED",
     "translations": [
         {
             "language": "HINDI",
