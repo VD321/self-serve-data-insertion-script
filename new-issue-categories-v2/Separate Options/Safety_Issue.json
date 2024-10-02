@@ -106,6 +106,7 @@
           "label": null,
           "option": "Met with an accident",
           "priority": 2,
+          "restrictedRideStatuses" : ["R_CANCELLED"],
           "translations": [
             {
               "language": "HINDI",

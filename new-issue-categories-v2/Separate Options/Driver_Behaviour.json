@@ -169,6 +169,7 @@
           "label": null,
           "option": "Rash Driving",
           "priority": 3,
+          "restrictedRideStatuses" : ["R_CANCELLED"],
           "translations": [
             {
               "language": "HINDI",

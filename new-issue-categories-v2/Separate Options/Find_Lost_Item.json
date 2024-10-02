@@ -32,8 +32,7 @@
       "messageAction": null,
       "messageTitle": null,
       "priority": 1,
-      "referenceCategoryId": null,
-      "referenceOptionId": null,
+      "restrictedRideStatuses" : ["R_CANCELLED"],
       "messageTranslations": [
         {
           "language": "HINDI",

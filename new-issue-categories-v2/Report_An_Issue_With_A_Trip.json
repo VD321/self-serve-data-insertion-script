@@ -67,6 +67,7 @@
           "label": null,
           "option": "Fare and Payment",
           "priority": 1,
+          "restrictedRideStatuses" : ["R_CANCELLED"],
           "translations": [
             {
               "language": "HINDI",
