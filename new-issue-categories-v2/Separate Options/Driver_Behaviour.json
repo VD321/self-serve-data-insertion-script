@@ -127,6 +127,7 @@
                     "label": null,
                     "option": "Rash Driving",
                     "priority": 3,
+                    "restrictedBookingStatuses" : ["R_CANCELLED"],
                     "translations": [],
                     "messages": [
                         {

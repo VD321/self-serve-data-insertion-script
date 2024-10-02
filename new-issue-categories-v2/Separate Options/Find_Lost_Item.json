@@ -11,6 +11,7 @@
             "messageAction": null,
             "messageTitle": null,
             "priority": 1,
+            "restrictedBookingStatuses" : ["R_CANCELLED"],
             "referenceCategoryId": null,
             "referenceOptionId": null,
             "messageTranslations": [

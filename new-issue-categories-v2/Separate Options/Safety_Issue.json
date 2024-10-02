@@ -85,6 +85,7 @@
                     "label": null,
                     "option": "Met with an accident",
                     "priority": 2,
+                    "restrictedBookingStatuses" : ["R_CANCELLED"],
                     "translations": [],
                     "messages": [
                         {

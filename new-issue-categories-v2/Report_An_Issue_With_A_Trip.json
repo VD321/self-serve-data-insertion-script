@@ -25,6 +25,7 @@
                     "label": null,
                     "option": "Fare and Payment",
                     "priority": 1,
+                    "restrictedBookingStatuses" : ["R_CANCELLED"],
                     "translations": [],
                     "messages": [
                         {
