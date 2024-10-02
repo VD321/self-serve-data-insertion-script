@@ -1,7 +1,7 @@
 {
     "category": "Account Related",
     "categoryType": "Category",
-    "label": "PAYMENT_AND_FARE_RELATED",
+    "label": "APP_RELATED",
     "isRideRequired": false,
     "isActive": "{{IS_ACTIVE_CATEGORY}}",
     "logoUrl": "ny_ic_app_related_issue,https://assets.moving.tech/beckn/common/common/images/ny_ic_account_related.png",
@@ -54,7 +54,7 @@
                                 },
                                 {
                                     "language": "MALAYALAM",
-                                    "translation": "ഞങ്ങൾ നിങ്ങളെ മികച്ച രീതിയിൽ സഹായിക്കുന്നതിന് കൂടുതൽ വിവരങ്ങൾ നൽകാൻ ദയവായി"
+                                    "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
                                 }
                             ],
                             "actionTranslations": [],
@@ -97,7 +97,7 @@
                                 },
                                 {
                                     "language": "MALAYALAM",
-                                    "translation": "ഞങ്ങൾ നിങ്ങളെ മികച്ച രീതിയിൽ സഹായിക്കുന്നതിന് കൂടുതൽ വിവരങ്ങൾ നൽകാൻ ദയവായി"
+                                    "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
                                 }
                             ],
                             "actionTranslations": [],
@@ -111,28 +111,7 @@
                     "label": null,
                     "option": "Other",
                     "priority": 3,
-                    "translations": [
-                        {
-                            "language": "HINDI",
-                            "translation": "अन्य"
-                        },
-                        {
-                            "language": "KANNADA",
-                            "translation": "ಇತರ"
-                        },
-                        {
-                            "language": "TAMIL",
-                            "translation": "மற்றவை"
-                        },
-                        {
-                            "language": "TELUGU",
-                            "translation": "ఇతరము"
-                        },
-                        {
-                            "language": "MALAYALAM",
-                            "translation": "മറ്റുള്ളവ"
-                        }
-                    ],
+                    "translations": [],
                     "messages": [
                         {
                             "label": "CREATE_TICKET",
@@ -160,7 +139,7 @@
                                 },
                                 {
                                     "language": "MALAYALAM",
-                                    "translation": "ഞങ്ങൾ നിങ്ങളെ മികച്ച രീതിയിൽ സഹായിക്കുന്നതിന് കൂടുതൽ വിവരങ്ങൾ നൽകാൻ ദയവായി"
+                                    "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
                                 }
                             ],
                             "actionTranslations": [],

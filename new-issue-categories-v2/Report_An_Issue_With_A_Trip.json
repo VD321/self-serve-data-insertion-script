@@ -1,8 +1,8 @@
 {
     "category": "Report an Issue with a Trip",
     "categoryType": "Category",
-    "label": null,
-    "isRideRequired": false,
+    "label": "PAYMENT_AND_FARE_RELATED",
+    "isRideRequired": true,
     "isActive": "{{IS_ACTIVE_CATEGORY}}",
     "logoUrl": "ny_ic_app_related_issue,https://assets.moving.tech/beckn/common/common/images/ny_ic_ride_related_issue.png",
     "maxAllowedRideAge": 259200,
@@ -54,7 +54,7 @@
                                 },
                                 {
                                     "language": "MALAYALAM",
-                                    "translation": "നിങ്ങൾ നേരിടുന്ന പ്രശ്നത്തിന്റെ തരം തിരഞ്ഞെടുക്കുക, ഞങ്ങൾ നിങ്ങളെ കൂടുതൽ സഹായിക്കും."
+                                    "translation": "നിങ്ങൾ അഭിമുഖീകരിക്കുന്ന പ്രശ്‌നത്തിൻ്റെ തരം തിരഞ്ഞെടുക്കുക, നിങ്ങളെ കൂടുതൽ സഹായിക്കാൻ ഞങ്ങൾക്കാകും."
                                 }
                             ],
                             "actionTranslations": [],
@@ -63,7 +63,7 @@
                                 {
                                     "isActive": true,
                                     "label": null,
-                                    "option": "Driver demanded more than the final fare shown.",
+                                    "option": "Driver demanded more",
                                     "priority": 1,
                                     "translations": [],
                                     "messages": [
@@ -93,7 +93,7 @@
                                                 },
                                                 {
                                                     "language": "MALAYALAM",
-                                                    "translation": "ഞങ്ങൾ നിങ്ങളെ മികച്ച രീതിയിൽ സഹായിക്കുന്നതിന് കൂടുതൽ വിവരങ്ങൾ നൽകാൻ ദയവായി"
+                                                    "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
                                                 }
                                             ],
                                             "actionTranslations": [],
@@ -135,7 +135,7 @@
                                                 },
                                                 {
                                                     "language": "MALAYALAM",
-                                                    "translation": "അവകാശപ്പെടുന്നു → അന്തിമ കണക്കുകൂട്ടൽ: <br> <b> {#ESTIMATED_FARE#} → {#FINAL_FARE#} <span style=\"color:#2194FF\"> ({#FARE_DIFFERENCE#}{#FARE_ARROW#}) </span> </b> <br> <br> കണക്കാക്കുക → അന്തിമ അകലം: <br> <b> {#ESTIMATED_DISTANCE#} കിലോമീറ്റർ → {#FINAL_DISTANCE#} കിലോമീറ്റർ <span style=\"color:#2194FF\"> ({#DISTANCE_DIFFERENCE#} കിലോമീറ്റർ{#DISTANCE_ARROW#}) </span> </b> <br> <br> ഡ്രൈവർ പിക്കപ്പ് ചാർജുകൾ: <br> <b> {#DRIVER_PICKUP_CHARGE#} </b> <br> <br> ഡ്രൈവർ കൂട്ടിച്ചേർത്തത്: <br> <b> {#DRIVER_ADDITIONS#} </b> <br> <br> ടോൾ ചാർജുകൾ: <br> <b> {#TOLL_CHARGES#} </b> <br> <br> ടിപ് ചേർത്തത്: <br> <b> {#TIP_ADDED#} </b> <br> <br> ചെലവ് കണക്കുകൂട്ടൽ ഒരു സൂചന മാത്രമാണ്. അന്തിമ ചെലവ് യഥാർത്ഥ യാത്രയുടെ അകലത്തിന്റെ അടിസ്ഥാനത്തിൽ മാറാം. കൂടുതൽ വിവരങ്ങൾക്ക്, ദയവായി വിശദമായ ചാർജ് നയം കാണുക. <br>"
+                                                    "translation": "ഏകദേശക്കണക്ക്  → അന്തിമ കണക്ക്: <br> <b> {#ESTIMATED_FARE#} → {#FINAL_FARE#} <span style=\"color:#2194FF\"> ({#FARE_DIFFERENCE#}{#FARE_ARROW#}) </span> </b> <br> <br> ഏകദേശ ദൂരം → അന്തിമ ദൂരം: <br> <b> {#ESTIMATED_DISTANCE#} കിലോമീറ്റർ → {#FINAL_DISTANCE#} കിലോമീറ്റർ <span style=\"color:#2194FF\"> ({#DISTANCE_DIFFERENCE#} കിലോമീറ്റർ{#DISTANCE_ARROW#}) </span> </b> <br> <br> ഡ്രൈവർ പിക്കപ്പ് ചാർജുകൾ: <br> <b> {#DRIVER_PICKUP_CHARGE#} </b> <br> <br> ഡ്രൈവർ അഡിഷൻ: <br> <b> {#DRIVER_ADDITIONS#} </b> <br> <br> ടോൾ ചാർജുകൾ: <br> <b> {#TOLL_CHARGES#} </b> <br> <br> ടിപ് ചേർത്തത്: <br> <b> {#TIP_ADDED#} </b> <br> <br> ഫെയർ കണക്കുകൂട്ടൽ ഒരു ഏകദേശ കണക്ക് മാത്രമാണ്. അന്തിമ ഫെയർ യഥാർത്ഥ യാത്രയുടെ അകലത്തിന്റെ അടിസ്ഥാനത്തിൽ മാറാവുന്നതാണ്. കൂടുതൽ വിവരങ്ങൾക്കായി വിശദമായ ചാർജ് നയം കാണുക. <br>"
                                                 }
                                             ],
                                             "actionTranslations": [],
@@ -167,7 +167,7 @@
                                             "label": null,
                                             "message": "Was this helpful?",
                                             "messageTitle": null,
-                                            "priority": 1,
+                                            "priority": 2,
                                             "referenceCategoryId": null,
                                             "referenceOptionId": null,
                                             "messageTranslations": [
@@ -228,7 +228,7 @@
                                                                 },
                                                                 {
                                                                     "language": "MALAYALAM",
-                                                                    "translation": "നിങ്ങളുടെ അന്വേഷണങ്ങൾക്ക് സഹായം ചെയ്തതിൽ ഞങ്ങൾ സന്തോഷിക്കുന്നു. ഭാവിയിലും ചോദ്യങ്ങൾക്കോ ആശങ്കകൾക്കോ സഹായ ഫീച്ചർ ഉപയോഗിക്കാതിരിക്കേണ്ടത് എന്ന് സംശയമില്ല."
+                                                                    "translation": "താങ്കളുടെ സംശയങ്ങൾക്കു മറുപടി നൽകാൻ കഴിഞ്ഞതിൽ സന്തോഷം. ഇനിയും ചോദ്യങ്ങൾക്കോ ആശങ്കകൾക്കോ ഉത്തരം ലഭിക്കാൻ \"ഹെൽപ്പ്\" വിഭാഗം ഉപയോഗപ്പെടുത്താൻ മടിക്കേണ്ടതില്ല ."
                                                                 }
                                                             ],
                                                             "actionTranslations": [],
@@ -270,7 +270,7 @@
                                                                 },
                                                                 {
                                                                     "language": "MALAYALAM",
-                                                                    "translation": "ഞങ്ങൾ നിങ്ങളെ മികച്ച രീതിയിൽ സഹായിക്കുന്നതിന് കൂടുതൽ വിവരങ്ങൾ നൽകാൻ ദയവായി"
+                                                                    "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
                                                                 }
                                                             ],
                                                             "actionTranslations": [],
@@ -316,7 +316,7 @@
                                                 },
                                                 {
                                                     "language": "MALAYALAM",
-                                                    "translation": "ഞങ്ങൾ നിങ്ങളെ മികച്ച രീതിയിൽ സഹായിക്കുന്നതിന് കൂടുതൽ വിവരങ്ങൾ നൽകാൻ ദയവായി"
+                                                    "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
                                                 }
                                             ],
                                             "actionTranslations": [],
@@ -358,7 +358,7 @@
                                                 },
                                                 {
                                                     "language": "MALAYALAM",
-                                                    "translation": "ഞങ്ങൾ നിങ്ങളെ മികച്ച രീതിയിൽ സഹായിക്കുന്നതിന് കൂടുതൽ വിവരങ്ങൾ നൽകാൻ ദയവായി"
+                                                    "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
                                                 }
                                             ],
                                             "actionTranslations": [],
@@ -400,7 +400,7 @@
                                                 },
                                                 {
                                                     "language": "MALAYALAM",
-                                                    "translation": "ഞങ്ങൾ നിങ്ങളെ മികച്ച രീതിയിൽ സഹായിക്കുന്നതിന് കൂടുതൽ വിവരങ്ങൾ നൽകാൻ ദയവായി"
+                                                    "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
                                                 }
                                             ],
                                             "actionTranslations": [],
@@ -412,30 +412,9 @@
                                 {
                                     "isActive": true,
                                     "label": null,
-                                    "option": "Other Issue",
+                                    "option": "Other",
                                     "priority": 6,
-                                    "translations": [
-                                        {
-                                            "language": "HINDI",
-                                            "translation": "अन्य"
-                                        },
-                                        {
-                                            "language": "KANNADA",
-                                            "translation": "ಇತರೆ"
-                                        },
-                                        {
-                                            "language": "TAMIL",
-                                            "translation": "மற்றவை"
-                                        },
-                                        {
-                                            "language": "TELUGU",
-                                            "translation": "ఇతర"
-                                        },
-                                        {
-                                            "language": "MALAYALAM",
-                                            "translation": "മറ്റുള്ളവ"
-                                        }
-                                    ],
+                                    "translations": [],
                                     "messages": [
                                         {
                                             "label": "CREATE_TICKET",
@@ -463,7 +442,7 @@
                                                 },
                                                 {
                                                     "language": "MALAYALAM",
-                                                    "translation": "ഞങ്ങൾ നിങ്ങളെ മികച്ച രീതിയിൽ സഹായിക്കുന്നതിന് കൂടുതൽ വിവരങ്ങൾ നൽകാൻ ദയവായി"
+                                                    "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
                                                 }
                                             ],
                                             "actionTranslations": [],

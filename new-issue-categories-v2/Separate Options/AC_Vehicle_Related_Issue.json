@@ -32,7 +32,7 @@
                 },
                 {
                     "language": "MALAYALAM",
-                    "translation": "നിങ്ങൾ നേരിടുന്ന പ്രശ്നത്തിന്റെ തരം തിരഞ്ഞെടുക്കുക, ഞങ്ങൾ നിങ്ങളെ കൂടുതൽ സഹായിക്കും."
+                    "translation": "നിങ്ങൾ അഭിമുഖീകരിക്കുന്ന പ്രശ്‌നത്തിൻ്റെ തരം തിരഞ്ഞെടുക്കുക, നിങ്ങളെ കൂടുതൽ സഹായിക്കാൻ ഞങ്ങൾക്കാകും."
                 }
             ],
             "actionTranslations": [],
@@ -251,30 +251,9 @@
                 {
                     "isActive": true,
                     "label": null,
-                    "option": "Other Issue",
+                    "option": "Other",
                     "priority": 6,
-                    "translations": [
-                        {
-                            "language": "HINDI",
-                            "translation": "अन्य"
-                        },
-                        {
-                            "language": "KANNADA",
-                            "translation": "ಇತರೆ"
-                        },
-                        {
-                            "language": "TAMIL",
-                            "translation": "மற்றவை"
-                        },
-                        {
-                            "language": "TELUGU",
-                            "translation": "ఇతర"
-                        },
-                        {
-                            "language": "MALAYALAM",
-                            "translation": "മറ്റുള്ളവ"
-                        }
-                    ],
+                    "translations": [],
                     "messages": [
                         {
                             "label": "CREATE_TICKET",
