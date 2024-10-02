@@ -1,154 +1,259 @@
 {
-    "category": "Account Related",
-    "categoryType": "Category",
-    "label": "APP_RELATED",
-    "isRideRequired": false,
-    "isActive": "{{IS_ACTIVE_CATEGORY}}",
-    "logoUrl": "ny_ic_app_related_issue,https://assets.moving.tech/beckn/common/common/images/ny_ic_account_related.png",
-    "maxAllowedRideAge": 259200,
-    "priority": 3,
-    "translations": [],
-    "messages": [
+  "category": "Account Related",
+  "categoryType": "Category",
+  "label": "APP_RELATED",
+  "isRideRequired": false,
+  "isActive": "{{IS_ACTIVE_CATEGORY}}",
+  "logoUrl": "ny_ic_app_related_issue,https://assets.moving.tech/beckn/common/common/images/ny_ic_account_related.png",
+  "maxAllowedRideAge": 259200,
+  "priority": 3,
+  "translations": [
+    {
+      "language": "HINDI",
+      "translation": "खाता संबंधित"
+    },
+    {
+      "language": "KANNADA",
+      "translation": "ಖಾತೆ ಸಂಬಂಧಿತ"
+    },
+    {
+      "language": "TAMIL",
+      "translation": "கணக்கு தொடர்பானது"
+    },
+    {
+      "language": "TELUGU",
+      "translation": "ఖాతా సంబంధిత"
+    },
+    {
+      "language": "MALAYALAM",
+      "translation": "അക്കൗണ്ട് സംബന്ധമായ"
+    }
+  ],
+  "messages": [
+    {
+      "label": null,
+      "message": "Hi! We're sorry about your experience. Let us know the issue so we can help.",
+      "messageAction": null,
+      "messageTitle": null,
+      "priority": 1,
+      "referenceCategoryId": null,
+      "referenceOptionId": null,
+      "messageTranslations": [
         {
-            "label": null,
-            "message": "Hi! We're sorry about your experience. Let us know the issue so we can help.",
-            "messageAction": null,
-            "messageTitle": null,
-            "priority": 1,
-            "referenceCategoryId": null,
-            "referenceOptionId": null,
-            "messageTranslations": [],
-            "actionTranslations": [],
-            "titleTranslations": [],
-            "options": [
-                {
-                    "isActive": true,
-                    "label": null,
-                    "option": "Unable to login",
-                    "priority": 1,
-                    "translations": [],
-                    "messages": [
-                        {
-                            "label": "CREATE_TICKET",
-                            "message": "Please provide additional information so that we can assist you better",
-                            "messageTitle": null,
-                            "priority": 1,
-                            "referenceCategoryId": null,
-                            "referenceOptionId": null,
-                            "messageTranslations": [
-                                {
-                                    "language": "HINDI",
-                                    "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
-                                },
-                                {
-                                    "language": "KANNADA",
-                                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
-                                },
-                                {
-                                    "language": "TAMIL",
-                                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
-                                },
-                                {
-                                    "language": "TELUGU",
-                                    "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
-                                },
-                                {
-                                    "language": "MALAYALAM",
-                                    "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
-                                }
-                            ],
-                            "actionTranslations": [],
-                            "titleTranslations": [],
-                            "options": []
-                        }
-                    ]
-                },
-                {
-                    "isActive": true,
-                    "label": null,
-                    "option": "Account is blocked",
-                    "showOnlyWhenUserBlocked": true,
-                    "priority": 2,
-                    "translations": [],
-                    "messages": [
-                        {
-                            "label": "CREATE_TICKET",
-                            "message": "Please provide additional information so that we can assist you better",
-                            "messageTitle": null,
-                            "priority": 1,
-                            "referenceCategoryId": null,
-                            "referenceOptionId": null,
-                            "messageTranslations": [
-                                {
-                                    "language": "HINDI",
-                                    "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
-                                },
-                                {
-                                    "language": "KANNADA",
-                                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
-                                },
-                                {
-                                    "language": "TAMIL",
-                                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
-                                },
-                                {
-                                    "language": "TELUGU",
-                                    "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
-                                },
-                                {
-                                    "language": "MALAYALAM",
-                                    "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
-                                }
-                            ],
-                            "actionTranslations": [],
-                            "titleTranslations": [],
-                            "options": []
-                        }
-                    ]
-                },
-                {
-                    "isActive": true,
-                    "label": null,
-                    "option": "Other",
-                    "priority": 3,
-                    "translations": [],
-                    "messages": [
-                        {
-                            "label": "CREATE_TICKET",
-                            "message": "Please provide additional information so that we can assist you better",
-                            "messageTitle": null,
-                            "priority": 1,
-                            "referenceCategoryId": null,
-                            "referenceOptionId": null,
-                            "messageTranslations": [
-                                {
-                                    "language": "HINDI",
-                                    "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
-                                },
-                                {
-                                    "language": "KANNADA",
-                                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
-                                },
-                                {
-                                    "language": "TAMIL",
-                                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
-                                },
-                                {
-                                    "language": "TELUGU",
-                                    "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
-                                },
-                                {
-                                    "language": "MALAYALAM",
-                                    "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
-                                }
-                            ],
-                            "actionTranslations": [],
-                            "titleTranslations": [],
-                            "options": []
-                        }
-                    ]
-                }
-            ]
+          "language": "HINDI",
+          "translation": "नमस्ते! आपके अनुभव के लिए हमें खेद है। हमें समस्या बताएं ताकि हम मदद कर सकें।"
+        },
+        {
+          "language": "KANNADA",
+          "translation": "ನಮಸ್ಕಾರ!ನಿಮ್ಮ ಅನುಭವಕ್ಕಾಗಿ ನಾವು ಕ್ಷಮೆ ಕೇಳುತ್ತೇವೆ.. ಸಮಸ್ಯೆಯನ್ನು ನಮಗೆ ತಿಳಿಸಿ ಇದರಿಂದ ನಾವು ಸಹಾಯ ಮಾಡಬಹುದು."
+        },
+        {
+          "language": "TAMIL",
+          "translation": "வணக்கம்! உங்கள் அனுபவத்திற்கு நாங்கள் \nவருந்துகிறோம் பிரச்சினையை எங்களுக்குத் \nதெரியப்படுத்துங்கள், அப்பொழுது தான் நாங்கள் உதவ \nமுடியும்."
+        },
+        {
+          "language": "TELUGU",
+          "translation": "హలో! మీ అనుభవానికి మేము చింతిస్తున్నాము. మేము సహాయం చేయగలిగేలా సమస్యను మాకు తెలియజేయండి."
+        },
+        {
+          "language": "MALAYALAM",
+          "translation": "ഹായ്! നിങ്ങളുടെ അനുഭവം മോശമായതിൽ ഞങ്ങൾ ഖേദിക്കുന്നു. താങ്കളെ സഹായിക്കുന്നതിനായി, താങ്കൾക്കുണ്ടായ പ്രശ്നം വിവരിക്കുക "
         }
-    ]
+      ],
+      "actionTranslations": [],
+      "titleTranslations": [],
+      "options": [
+        {
+          "isActive": true,
+          "label": null,
+          "option": "Unable to login",
+          "priority": 1,
+          "translations": [
+            {
+              "language": "HINDI",
+              "translation": "लॉगिन करने में असमर्थ"
+            },
+            {
+              "language": "KANNADA",
+              "translation": "ಲಾಗಿನ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ"
+            },
+            {
+              "language": "TAMIL",
+              "translation": "உள்நுழைய முடியவில்லை"
+            },
+            {
+              "language": "TELUGU",
+              "translation": "లాగిన్ చేయలేకపోతున్నాను"
+            },
+            {
+              "language": "MALAYALAM",
+              "translation": "ലോഗിൻ ചെയ്യാൻ കഴിയുന്നില്ല"
+            }
+          ],
+          "messages": [
+            {
+              "label": "CREATE_TICKET",
+              "message": "Please provide additional information so that we can assist you better",
+              "messageTitle": null,
+              "priority": 1,
+              "referenceCategoryId": null,
+              "referenceOptionId": null,
+              "messageTranslations": [
+                {
+                  "language": "HINDI",
+                  "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                },
+                {
+                  "language": "KANNADA",
+                  "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                },
+                {
+                  "language": "TAMIL",
+                  "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                },
+                {
+                  "language": "TELUGU",
+                  "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                },
+                {
+                  "language": "MALAYALAM",
+                  "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
+                }
+              ],
+              "actionTranslations": [],
+              "titleTranslations": [],
+              "options": []
+            }
+          ]
+        },
+        {
+          "isActive": true,
+          "label": null,
+          "option": "Account is blocked",
+          "showOnlyWhenUserBlocked": true,
+          "priority": 2,
+          "translations": [
+            {
+              "language": "HINDI",
+              "translation": "खाता ब्लॉक हो गया है"
+            },
+            {
+              "language": "KANNADA",
+              "translation": "ಖಾತೆಯನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ"
+            },
+            {
+              "language": "TAMIL",
+              "translation": "கணக்கு முடக்கப்பட்டுள்ளது"
+            },
+            {
+              "language": "TELUGU",
+              "translation": "ఖాతా బ్లాక్ చేయబడింది"
+            },
+            {
+              "language": "MALAYALAM",
+              "translation": "അക്കൗണ്ട് ബ്ലോക്ക് ആയിരിക്കുന്നു"
+            }
+          ],
+          "messages": [
+            {
+              "label": "CREATE_TICKET",
+              "message": "Please provide additional information so that we can assist you better",
+              "messageTitle": null,
+              "priority": 1,
+              "referenceCategoryId": null,
+              "referenceOptionId": null,
+              "messageTranslations": [
+                {
+                  "language": "HINDI",
+                  "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                },
+                {
+                  "language": "KANNADA",
+                  "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                },
+                {
+                  "language": "TAMIL",
+                  "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                },
+                {
+                  "language": "TELUGU",
+                  "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                },
+                {
+                  "language": "MALAYALAM",
+                  "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
+                }
+              ],
+              "actionTranslations": [],
+              "titleTranslations": [],
+              "options": []
+            }
+          ]
+        },
+        {
+          "isActive": true,
+          "label": null,
+          "option": "Other",
+          "priority": 3,
+          "translations": [
+            {
+              "language": "HINDI",
+              "translation": "अन्य"
+            },
+            {
+              "language": "KANNADA",
+              "translation": "ಇತರೆ"
+            },
+            {
+              "language": "TAMIL",
+              "translation": "மற்றவை"
+            },
+            {
+              "language": "TELUGU",
+              "translation": "ఇతర"
+            },
+            {
+              "language": "MALAYALAM",
+              "translation": "മറ്റുള്ളവ"
+            }
+          ],
+          "messages": [
+            {
+              "label": "CREATE_TICKET",
+              "message": "Please provide additional information so that we can assist you better",
+              "messageTitle": null,
+              "priority": 1,
+              "referenceCategoryId": null,
+              "referenceOptionId": null,
+              "messageTranslations": [
+                {
+                  "language": "HINDI",
+                  "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                },
+                {
+                  "language": "KANNADA",
+                  "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                },
+                {
+                  "language": "TAMIL",
+                  "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                },
+                {
+                  "language": "TELUGU",
+                  "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                },
+                {
+                  "language": "MALAYALAM",
+                  "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
+                }
+              ],
+              "actionTranslations": [],
+              "titleTranslations": [],
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

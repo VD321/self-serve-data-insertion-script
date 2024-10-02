@@ -196,7 +196,7 @@
                     "label": null,
                     "option": "Rash driving",
                     "priority": 2,
-                    "restrictedBookingStatuses" : ["R_CANCELLED"],
+                    "restrictedRideStatuses" : ["R_CANCELLED"],
                     "translations": [
                         {
                             "language": "HINDI",
