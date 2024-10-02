@@ -1,651 +1,695 @@
 {
-  "category": "Report an Issue with a Trip",
-  "categoryType": "Category",
-  "label": "PAYMENT_AND_FARE_RELATED",
-  "isRideRequired": true,
-  "isActive": "{{IS_ACTIVE_CATEGORY}}",
-  "logoUrl": "ny_ic_app_related_issue,https://assets.moving.tech/beckn/common/common/images/ny_ic_ride_related_issue.png",
-  "maxAllowedRideAge": 259200,
-  "priority": 1,
-  "translations": [
-    {
-      "language": "HINDI",
-      "translation": "यात्रा से संबंधित समस्या की रिपोर्ट करें"
-    },
-    {
-      "language": "KANNADA",
-      "translation": "ಪ್ರಯಾಣದಲ್ಲಿನ ಸಮಸ್ಯೆಯನ್ನು ವರದಿ ಮಾಡಿ"
-    },
-    {
-      "language": "TAMIL",
-      "translation": "பயணம் தொடர்பான பிரச்சனைகளுக்கு புகாரளிக்கவும்"
-    },
-    {
-      "language": "TELUGU",
-      "translation": "ప్రయాణంలో సమస్యను నివేదించండి"
-    },
-    {
-      "language": "MALAYALAM",
-      "translation": "ഒരു യാത്രയുമായി ബന്ധപ്പെട്ട പ്രശ്നം റിപ്പോർട്ട് ചെയ്യുക"
-    }
-  ],
-  "messages": [
-    {
-      "label": null,
-      "message": "Hi! We're sorry about your experience. Let us know the issue so we can help.",
-      "messageTitle": null,
-      "priority": 1,
-      "referenceCategoryId": null,
-      "referenceOptionId": null,
-      "messageTranslations": [
+    "category": "Report an Issue with a Trip",
+    "categoryType": "Category",
+    "label": "PAYMENT_AND_FARE_RELATED",
+    "isRideRequired": true,
+    "isActive": "{{IS_ACTIVE_CATEGORY}}",
+    "logoUrl": "ny_ic_app_related_issue,https://assets.moving.tech/beckn/common/common/images/ny_ic_ride_related_issue.png",
+    "maxAllowedRideAge": 259200,
+    "priority": 1,
+    "translations": [
         {
-          "language": "HINDI",
-          "translation": "नमस्ते! आपके अनुभव के लिए हमें खेद है। हमें समस्या बताएं ताकि हम मदद कर सकें।"
+            "language": "HINDI",
+            "translation": "यात्रा से संबंधित समस्या की रिपोर्ट करें"
         },
         {
-          "language": "KANNADA",
-          "translation": "ನಮಸ್ಕಾರ!ನಿಮ್ಮ ಅನುಭವಕ್ಕಾಗಿ ನಾವು ಕ್ಷಮೆ ಕೇಳುತ್ತೇವೆ.. ಸಮಸ್ಯೆಯನ್ನು ನಮಗೆ ತಿಳಿಸಿ ಇದರಿಂದ ನಾವು ಸಹಾಯ ಮಾಡಬಹುದು."
+            "language": "KANNADA",
+            "translation": "ಪ್ರಯಾಣದಲ್ಲಿನ ಸಮಸ್ಯೆಯನ್ನು ವರದಿ ಮಾಡಿ"
         },
         {
-          "language": "TAMIL",
-          "translation": "வணக்கம்! உங்கள் அனுபவத்திற்கு நாங்கள் \nவருந்துகிறோம் பிரச்சினையை எங்களுக்குத் \nதெரியப்படுத்துங்கள், அப்பொழுது தான் நாங்கள் உதவ \nமுடியும்."
+            "language": "TAMIL",
+            "translation": "பயணம் தொடர்பான பிரச்சனைகளுக்கு புகாரளிக்கவும்"
         },
         {
-          "language": "TELUGU",
-          "translation": "హలో! మీ అనుభవానికి మేము చింతిస్తున్నాము. మేము సహాయం చేయగలిగేలా సమస్యను మాకు తెలియజేయండి."
+            "language": "TELUGU",
+            "translation": "ప్రయాణంలో సమస్యను నివేదించండి"
         },
         {
-          "language": "MALAYALAM",
-          "translation": "ഹായ്! നിങ്ങളുടെ അനുഭവം മോശമായതിൽ ഞങ്ങൾ ഖേദിക്കുന്നു. താങ്കളെ സഹായിക്കുന്നതിനായി, താങ്കൾക്കുണ്ടായ പ്രശ്നം വിവരിക്കുക "
+            "language": "MALAYALAM",
+            "translation": "ഒരു യാത്രയുമായി ബന്ധപ്പെട്ട പ്രശ്നം റിപ്പോർട്ട് ചെയ്യുക"
         }
-      ],
-      "actionTranslations": [],
-      "titleTranslations": [],
-      "options": [
+    ],
+    "messages": [
         {
-          "isActive": true,
-          "label": null,
-          "option": "Fare and Payment",
-          "priority": 1,
-          "restrictedRideStatuses" : ["R_CANCELLED"],
-          "translations": [
-            {
-              "language": "HINDI",
-              "translation": "किराया और भुगतान"
-            },
-            {
-              "language": "KANNADA",
-              "translation": "ದರ ಮತ್ತು ಪಾವತಿ"
-            },
-            {
-              "language": "TAMIL",
-              "translation": "கட்டணம் மற்றும் பணம் செலுத்துதல்"
-            },
-            {
-              "language": "TELUGU",
-              "translation": "ఛార్జీలు మరియు చెల్లింపు"
-            },
-            {
-              "language": "MALAYALAM",
-              "translation": "യാത്രക്കൂലിയും പേയ്മെന്റും"
-            }
-          ],
-          "messages": [
-            {
-              "label": null,
-              "message": "Please select the type of issue you are facing so we can help you out better",
-              "messageAction": null,
-              "messageTitle": null,
-              "priority": 1,
-              "referenceCategoryId": null,
-              "referenceOptionId": null,
-              "messageTranslations": [
+            "label": null,
+            "message": "Hi! We're sorry about your experience. Let us know the issue so we can help.",
+            "messageTitle": null,
+            "priority": 1,
+            "referenceCategoryId": null,
+            "referenceOptionId": null,
+            "messageTranslations": [
                 {
-                  "language": "HINDI",
-                  "translation": "कृपया आप जिस प्रकार की समस्या का सामना कर रहे हैं, उसे चुनें ताकि हम आपकी बेहतर सहायता कर सकें"
+                    "language": "HINDI",
+                    "translation": "नमस्ते! आपके अनुभव के लिए हमें खेद है। हमें समस्या बताएं ताकि हम मदद कर सकें।"
                 },
                 {
-                  "language": "KANNADA",
-                  "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                    "language": "KANNADA",
+                    "translation": "ನಮಸ್ಕಾರ!ನಿಮ್ಮ ಅನುಭವಕ್ಕಾಗಿ ನಾವು ಕ್ಷಮೆ ಕೇಳುತ್ತೇವೆ.. ಸಮಸ್ಯೆಯನ್ನು ನಮಗೆ ತಿಳಿಸಿ ಇದರಿಂದ ನಾವು ಸಹಾಯ ಮಾಡಬಹುದು."
                 },
                 {
-                  "language": "TAMIL",
-                  "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, நீங்கள் சந்திக்கும் சிக்கலின் வகையைத் தேர்ந்தெடுக்கவும்"
+                    "language": "TAMIL",
+                    "translation": "வணக்கம்! உங்கள் அனுபவத்திற்கு நாங்கள் \nவருந்துகிறோம் பிரச்சினையை எங்களுக்குத் \nதெரியப்படுத்துங்கள், அப்பொழுது தான் நாங்கள் உதவ \nமுடியும்."
                 },
                 {
-                  "language": "TELUGU",
-                  "translation": "దయచేసి మీరు ఎదుర్కొంటున్న సమస్య రకాన్ని ఎంచుకోండి, తద్వారా మేము మీకు మెరుగైన సహాయం చేయగలము"
+                    "language": "TELUGU",
+                    "translation": "హలో! మీ అనుభవానికి మేము చింతిస్తున్నాము. మేము సహాయం చేయగలిగేలా సమస్యను మాకు తెలియజేయండి."
                 },
                 {
-                  "language": "MALAYALAM",
-                  "translation": "നിങ്ങൾ അഭിമുഖീകരിക്കുന്ന പ്രശ്‌നത്തിൻ്റെ തരം തിരഞ്ഞെടുക്കുക, നിങ്ങളെ കൂടുതൽ സഹായിക്കാൻ ഞങ്ങൾക്കാകും."
+                    "language": "MALAYALAM",
+                    "translation": "ഹായ്! നിങ്ങളുടെ അനുഭവം മോശമായതിൽ ഞങ്ങൾ ഖേദിക്കുന്നു. താങ്കളെ സഹായിക്കുന്നതിനായി, താങ്കൾക്കുണ്ടായ പ്രശ്നം വിവരിക്കുക "
                 }
-              ],
-              "actionTranslations": [],
-              "titleTranslations": [],
-              "options": [
+            ],
+            "actionTranslations": [],
+            "titleTranslations": [],
+            "options": [
                 {
-                  "isActive": true,
-                  "label": null,
-                  "option": "Driver demanded more",
-                  "priority": 1,
-                  "translations": [
-                    {
-                      "language": "HINDI",
-                      "translation": "ड्राइवर ने अधिक मांगा"
-                    },
-                    {
-                      "language": "KANNADA",
-                      "translation": "ಚಾಲಕ ಹೆಚ್ಚು ಬೇಡಿಕೆ ಮಾಡಿದರು\n"
-                    },
-                    {
-                      "language": "TAMIL",
-                      "translation": "ஓட்டுநர் அதிகம் கேட்டார்"
-                    },
-                    {
-                      "language": "TELUGU",
-                      "translation": "డ్రైవర్ ఎక్కువ డిమాండ్ చేశాడు"
-                    },
-                    {
-                      "language": "MALAYALAM",
-                      "translation": "ഡ്രൈവർ കൂടുതൽ ആവശ്യപ്പെട്ടു"
-                    }
-                  ],
-                  "messages": [
-                    {
-                      "label": "CREATE_TICKET",
-                      "message": "Please provide additional information so that we can assist you better",
-                      "messageTitle": null,
-                      "priority": 1,
-                      "referenceCategoryId": null,
-                      "referenceOptionId": null,
-                      "messageTranslations": [
+                    "isActive": true,
+                    "label": null,
+                    "option": "Fare and Payment",
+                    "priority": 1,
+                    "restrictedRideStatuses": [
+                        "R_CANCELLED"
+                    ],
+                    "translations": [
                         {
-                          "language": "HINDI",
-                          "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                            "language": "HINDI",
+                            "translation": "किराया और भुगतान"
                         },
                         {
-                          "language": "KANNADA",
-                          "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                            "language": "KANNADA",
+                            "translation": "ದರ ಮತ್ತು ಪಾವತಿ"
                         },
                         {
-                          "language": "TAMIL",
-                          "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                            "language": "TAMIL",
+                            "translation": "கட்டணம் மற்றும் பணம் செலுத்துதல்"
                         },
                         {
-                          "language": "TELUGU",
-                          "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                            "language": "TELUGU",
+                            "translation": "ఛార్జీలు మరియు చెల్లింపు"
                         },
                         {
-                          "language": "MALAYALAM",
-                          "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
+                            "language": "MALAYALAM",
+                            "translation": "യാത്രക്കൂലിയും പേയ്മെന്റും"
                         }
-                      ],
-                      "actionTranslations": [],
-                      "titleTranslations": [],
-                      "options": []
-                    }
-                  ]
-                },
-                {
-                  "isActive": true,
-                  "label": null,
-                  "option": "Fare discrepancy",
-                  "priority": 2,
-                  "translations": [
-                    {
-                      "language": "HINDI",
-                      "translation": "किराए में अंतर"
-                    },
-                    {
-                      "language": "KANNADA",
-                      "translation": "ದರದಲ್ಲಿ ವ್ಯತ್ಯಾಸ"
-                    },
-                    {
-                      "language": "TAMIL",
-                      "translation": "கட்டணத்தில் முரண்பாடு"
-                    },
-                    {
-                      "language": "TELUGU",
-                      "translation": "ఛార్జీలలో వ్యత్యాసం"
-                    },
-                    {
-                      "language": "MALAYALAM",
-                      "translation": "യാത്രക്കൂലിയിലെ വ്യത്യാസം"
-                    }
-                  ],
-                  "messages": [
-                    {
-                      "label": null,
-                      "message": "Estimated → Final Fare: <br> <b> {#ESTIMATED_FARE#} → {#FINAL_FARE#} <span style=\"color:#2194FF\"> ({#FARE_DIFFERENCE#}{#FARE_ARROW#}) </span> </b> <br> <br> Estimated → Final Distance: <br> <b> {#ESTIMATED_DISTANCE#} km → {#FINAL_DISTANCE#} km <span style=\"color:#2194FF\"> ({#DISTANCE_DIFFERENCE#} km{#DISTANCE_ARROW#}) </span> </b> <br> <br> Driver Pickup Charges: <br> <b> {#DRIVER_PICKUP_CHARGE#} </b> <br> <br> Driver Additions: <br> <b> {#DRIVER_ADDITIONS#} </b> <br> <br> Toll Charges Incurred: <br> <b> {#TOLL_CHARGES#} </b> <br> <br> Tip Added: <br> <b> {#TIP_ADDED#} </b> <br> <br> The fare estimate is only an indicative figure. The final fare is subject to change based on the actual distance travelled. For more info, please view the detailed fare policy. <br>",
-                      "messageTitle": "Here is some information about your ride.",
-                      "priority": 1,
-                      "referenceCategoryId": null,
-                      "referenceOptionId": null,
-                      "messageTranslations": [
+                    ],
+                    "messages": [
                         {
-                          "language": "HINDI",
-                          "translation": "अनुमानित → अंतिम किराया: <br> <b> {#ESTIMATED_FARE#} → {#FINAL_FARE#} <span style=\"color:#2194FF\"> ({#FARE_DIFFERENCE#}{#FARE_ARROW#}) </span> </b> <br> <br> अनुमानित → अंतिम दूरी: <br> <b> {#ESTIMATED_DISTANCE#} किमी → {#FINAL_DISTANCE#} किमी <span style=\"color:#2194FF\"> ({#DISTANCE_DIFFERENCE#} किमी{#DISTANCE_ARROW#}) </span> </b> <br> <br> चालक पिकअप शुल्क: <br> <b> {#DRIVER_PICKUP_CHARGE#} </b> <br> <br> चालक के अतिरिक्त शुल्क: <br> <b> {#DRIVER_ADDITIONS#} </b> <br> <br> टोल शुल्क: <br> <b> {#TOLL_CHARGES#} </b> <br> <br> टिप जोड़ी गई: <br> <b> {#TIP_ADDED#} </b> <br> <br> किराए का अनुमान केवल एक सांकेतिक आंकड़ा है। वास्तविक यात्रा की दूरी के आधार पर अंतिम किराया बदल सकता है। अधिक जानकारी के लिए, कृपया विस्तृत किराया नीति देखें। <br>"
-                        },
-                        {
-                          "language": "KANNADA",
-                          "translation": "ಅಂದಾಜು → ಅಂತಿಮ ಭಾಡಿ: <br> <b> {#ESTIMATED_FARE#} → {#FINAL_FARE#} <span style=\"color:#2194FF\"> ({#FARE_DIFFERENCE#}{#FARE_ARROW#}) </span> </b> <br> <br> ಅಂದಾಜು → ಅಂತಿಮ ದಾರಿ: <br> <b> {#ESTIMATED_DISTANCE#} ಕಿಮೀ → {#FINAL_DISTANCE#} ಕಿಮೀ <span style=\"color:#2194FF\"> ({#DISTANCE_DIFFERENCE#} ಕಿಮೀ{#DISTANCE_ARROW#}) </span> </b> <br> <br> ಚಾಲಕ ಪಿಕಪ್ ಶುಲ್ಕ: <br> <b> {#DRIVER_PICKUP_CHARGE#} </b> <br> <br> ಚಾಲಕರ ಹೆಚ್ಚುವರಿ ಶುಲ್ಕ: <br> <b> {#DRIVER_ADDITIONS#} </b> <br> <br> ಟೋಲ್ ಶುಲ್ಕಗಳು: <br> <b> {#TOLL_CHARGES#} </b> <br> <br> ಹೆಚ್ಚುವರಿ ಟಿಪ್ಪು: <br> <b> {#TIP_ADDED#} </b> <br> <br> ಭಾಡಿಯ ಅಂದಾಜು ಒಂದು ಸೂಚಕ ಅಂಕಿ ಮಾತ್ರ. ಅಂತಿಮ ಭಾಡಿ ನಿಜವಾದ ಪ್ರಯಾಣದ ದೂರದ ಆಧಾರದ ಮೇಲೆ ಬದಲಾಗಬಹುದು. ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗೆ, ದಯವಿಟ್ಟು ವಿವರವಾದ ಭಾಡಿ ನೀತಿಯನ್ನು ವೀಕ್ಷಿಸಿ. <br>"
-                        },
-                        {
-                          "language": "TAMIL",
-                          "translation": "முன்னறிவிப்பு → இறுதி கட்டணம்: <br> <b> {#ESTIMATED_FARE#} → {#FINAL_FARE#} <span style=\"color:#2194FF\"> ({#FARE_DIFFERENCE#}{#FARE_ARROW#}) </span> </b> <br> <br> முன்னறிவிப்பு → இறுதி தூரம்: <br> <b> {#ESTIMATED_DISTANCE#} கி.மீ → {#FINAL_DISTANCE#} கி.மீ <span style=\"color:#2194FF\"> ({#DISTANCE_DIFFERENCE#} கி.மீ{#DISTANCE_ARROW#}) </span> </b> <br> <br> டிரைவர் பிக்கப் கட்டணங்கள்: <br> <b> {#DRIVER_PICKUP_CHARGE#} </b> <br> <br> டிரைவர் கூடுதல் கட்டணங்கள்: <br> <b> {#DRIVER_ADDITIONS#} </b> <br> <br> தண்டச்சுங்க கட்டணங்கள்: <br> <b> {#TOLL_CHARGES#} </b> <br> <br> குறிப்பு சேர்க்கப்பட்டது: <br> <b> {#TIP_ADDED#} </b> <br> <br> கட்டணத்தின் முன்னறிவிப்பு ஒரு குறிக்குறியாகும். உண்மையான பயணத்தின் தூரத்தைப் பொறுத்து இறுதி கட்டணம் மாறக்கூடும். கூடுதல் தகவலுக்காக, தயவுசெய்து விரிவான கட்டணக் கொள்கையைப் பார்க்கவும். <br>"
-                        },
-                        {
-                          "language": "TELUGU",
-                          "translation": "అంచనా → తుదిరేటు: <br> <b> {#ESTIMATED_FARE#} → {#FINAL_FARE#} <span style=\"color:#2194FF\"> ({#FARE_DIFFERENCE#}{#FARE_ARROW#}) </span> </b> <br> <br> అంచనా → తుదిదూరం: <br> <b> {#ESTIMATED_DISTANCE#} కి.మీ → {#FINAL_DISTANCE#} కి.మీ <span style=\"color:#2194FF\"> ({#DISTANCE_DIFFERENCE#} కి.మీ{#DISTANCE_ARROW#}) </span> </b> <br> <br> డ్రైవర్ పికప్ ఛార్జీలు: <br> <b> {#DRIVER_PICKUP_CHARGE#} </b> <br> <br> డ్రైవర్ అదనపు ఛార్జీలు: <br> <b> {#DRIVER_ADDITIONS#} </b> <br> <br> టోల్ ఛార్జీలు: <br> <b> {#TOLL_CHARGES#} </b> <br> <br> చిట్టి చేర్చబడింది: <br> <b> {#TIP_ADDED#} </b> <br> <br> అంచనా రేటు కేవలం సూచిక సూచన మాత్రమే. తుదిరేటు నిజమైన ప్రయాణ దూరం ఆధారంగా మారవచ్చు. మరిన్ని సమాచారం కోసం, దయచేసి వివరమైన రేటు విధానాన్ని చూడండి. <br>"
-                        },
-                        {
-                          "language": "MALAYALAM",
-                          "translation": "ഏകദേശക്കണക്ക്  → അന്തിമ കണക്ക്: <br> <b> {#ESTIMATED_FARE#} → {#FINAL_FARE#} <span style=\"color:#2194FF\"> ({#FARE_DIFFERENCE#}{#FARE_ARROW#}) </span> </b> <br> <br> ഏകദേശ ദൂരം → അന്തിമ ദൂരം: <br> <b> {#ESTIMATED_DISTANCE#} കിലോമീറ്റർ → {#FINAL_DISTANCE#} കിലോമീറ്റർ <span style=\"color:#2194FF\"> ({#DISTANCE_DIFFERENCE#} കിലോമീറ്റർ{#DISTANCE_ARROW#}) </span> </b> <br> <br> ഡ്രൈവർ പിക്കപ്പ് ചാർജുകൾ: <br> <b> {#DRIVER_PICKUP_CHARGE#} </b> <br> <br> ഡ്രൈവർ അഡിഷൻ: <br> <b> {#DRIVER_ADDITIONS#} </b> <br> <br> ടോൾ ചാർജുകൾ: <br> <b> {#TOLL_CHARGES#} </b> <br> <br> ടിപ് ചേർത്തത്: <br> <b> {#TIP_ADDED#} </b> <br> <br> ഫെയർ കണക്കുകൂട്ടൽ ഒരു ഏകദേശ കണക്ക് മാത്രമാണ്. അന്തിമ ഫെയർ യഥാർത്ഥ യാത്രയുടെ അകലത്തിന്റെ അടിസ്ഥാനത്തിൽ മാറാവുന്നതാണ്. കൂടുതൽ വിവരങ്ങൾക്കായി വിശദമായ ചാർജ് നയം കാണുക. <br>"
-                        }
-                      ],
-                      "actionTranslations": [],
-                      "titleTranslations": [
-                        {
-                          "language": "HINDI",
-                          "translation": "यहाँ आपकी सवारी के बारे में कुछ जानकारी दी गई है।"
-                        },
-                        {
-                          "language": "KANNADA",
-                          "translation": "ನಿಮ್ಮ ಪ್ರಯಾಣದ ಬಗ್ಗೆ ಕೆಲವು ಮಾಹಿತಿ ಇಲ್ಲಿದೆ."
-                        },
-                        {
-                          "language": "TAMIL",
-                          "translation": "உங்கள் பயணத்தின் பற்றி சில தகவல்கள் இதோ."
-                        },
-                        {
-                          "language": "TELUGU",
-                          "translation": "మీ రైడ్ గురించి కొన్ని సమాచారం ఇక్కడ ఉంది."
-                        },
-                        {
-                          "language": "MALAYALAM",
-                          "translation": "നിങ്ങളുടെ യാത്രയെക്കുറിച്ചുള്ള ചില വിവരങ്ങൾ ഇവയാണ്."
-                        }
-                      ],
-                      "options": []
-                    },
-                    {
-                      "label": null,
-                      "message": "Was this helpful?",
-                      "messageTitle": null,
-                      "priority": 2,
-                      "referenceCategoryId": null,
-                      "referenceOptionId": null,
-                      "messageTranslations": [
-                        {
-                          "language": "HINDI",
-                          "translation": "क्या यह सहायक था?"
-                        },
-                        {
-                          "language": "KANNADA",
-                          "translation": "ಇದು ಸಹಾಯಕವಾಗಿತ್ತಾ?"
-                        },
-                        {
-                          "language": "TAMIL",
-                          "translation": "இது உதவியாக இருந்ததா?"
-                        },
-                        {
-                          "language": "TELUGU",
-                          "translation": "ఇది సహాయకరంగా ఉందా?"
-                        },
-                        {
-                          "language": "MALAYALAM",
-                          "translation": "ഇത് സഹായകരമായിരുന്നോ?"
-                        }
-                      ],
-                      "actionTranslations": [],
-                      "titleTranslations": [],
-                      "options": [
-                        {
-                          "isActive": true,
-                          "label": null,
-                          "option": "Yes",
-                          "priority": 1,
-                          "translations": [],
-                          "messages": [
-                            {
-                              "label": "END_FLOW",
-                              "message": "We're happy to have helped you with your inquiries. Don't hesitate to use the help feature on the app for any future questions or concerns.",
-                              "messageTitle": null,
-                              "priority": 1,
-                              "referenceCategoryId": null,
-                              "referenceOptionId": null,
-                              "messageTranslations": [
+                            "label": null,
+                            "message": "Please select the type of issue you are facing so we can help you out better",
+                            "messageAction": null,
+                            "messageTitle": null,
+                            "priority": 1,
+                            "referenceCategoryId": null,
+                            "referenceOptionId": null,
+                            "messageTranslations": [
                                 {
-                                  "language": "HINDI",
-                                  "translation": "हम आपके सवालों में मदद करके खुश हैं। भविष्य में किसी भी प्रश्न या चिंता के लिए ऐप पर मदद सुविधा का उपयोग करने में संकोच न करें।"
+                                    "language": "HINDI",
+                                    "translation": "कृपया आप जिस प्रकार की समस्या का सामना कर रहे हैं, उसे चुनें ताकि हम आपकी बेहतर सहायता कर सकें"
                                 },
                                 {
-                                  "language": "KANNADA",
-                                  "translation": "ನಿಮ್ಮ ಪ್ರಶ್ನೆಗಳಿಗೆ ನಾವು ಸಹಾಯ ಮಾಡಿದಲ್ಲಿ ಸಂತೋಷ. ಭವಿಷ್ಯದಲ್ಲಿ ಯಾವುದೇ ಪ್ರಶ್ನೆಗಳಿಗೂ ಅಥವಾ ಆತಂಕಗಳಿಗೆ ಆಪ್‌ನ ಸಹಾಯ ವೈಶಿಷ್ಟ್ಯವನ್ನು ಬಳಸಲು ಹಿಂಜರಿಯಬೇಡಿ."
+                                    "language": "KANNADA",
+                                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
                                 },
                                 {
-                                  "language": "TAMIL",
-                                  "translation": "உங்கள் கேள்விகளுக்கு உதவியதற்கு நாங்கள் மகிழ்ச்சி அடைகிறோம். எதிர்கால கேள்விகள் அல்லது சிக்கல்களுக்கு ஆபில் உள்ள உதவித் தன்மையைப் பயன்படுத்த தயங்க வேண்டாம்."
+                                    "language": "TAMIL",
+                                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, நீங்கள் சந்திக்கும் சிக்கலின் வகையைத் தேர்ந்தெடுக்கவும்"
                                 },
                                 {
-                                  "language": "TELUGU",
-                                  "translation": "మీ ప్రశ్నలకు సహాయం చేసినందుకు మేము సంతోషిస్తున్నాము. భవిష్యత్ ప్రశ్నలు లేదా ఆందోళనల కోసం యాప్‌లో సహాయం ఫీచర్‌ను ఉపయోగించడంలో సందేహించకండి."
+                                    "language": "TELUGU",
+                                    "translation": "దయచేసి మీరు ఎదుర్కొంటున్న సమస్య రకాన్ని ఎంచుకోండి, తద్వారా మేము మీకు మెరుగైన సహాయం చేయగలము"
                                 },
                                 {
-                                  "language": "MALAYALAM",
-                                  "translation": "താങ്കളുടെ സംശയങ്ങൾക്കു മറുപടി നൽകാൻ കഴിഞ്ഞതിൽ സന്തോഷം. ഇനിയും ചോദ്യങ്ങൾക്കോ ആശങ്കകൾക്കോ ഉത്തരം ലഭിക്കാൻ \"ഹെൽപ്പ്\" വിഭാഗം ഉപയോഗപ്പെടുത്താൻ മടിക്കേണ്ടതില്ല ."
+                                    "language": "MALAYALAM",
+                                    "translation": "നിങ്ങൾ അഭിമുഖീകരിക്കുന്ന പ്രശ്‌നത്തിൻ്റെ തരം തിരഞ്ഞെടുക്കുക, നിങ്ങളെ കൂടുതൽ സഹായിക്കാൻ ഞങ്ങൾക്കാകും."
                                 }
-                              ],
-                              "actionTranslations": [],
-                              "titleTranslations": [],
-                              "options": []
-                            }
-                          ]
-                        },
-                        {
-                          "isActive": true,
-                          "label": null,
-                          "option": "No",
-                          "priority": 2,
-                          "translations": [],
-                          "messages": [
-                            {
-                              "label": "CREATE_TICKET",
-                              "message": "Please provide additional information so that we can assist you better",
-                              "messageTitle": null,
-                              "priority": 1,
-                              "referenceCategoryId": null,
-                              "referenceOptionId": null,
-                              "messageTranslations": [
+                            ],
+                            "actionTranslations": [],
+                            "titleTranslations": [],
+                            "options": [
                                 {
-                                  "language": "HINDI",
-                                  "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                                    "isActive": true,
+                                    "label": null,
+                                    "option": "Driver demanded more",
+                                    "priority": 1,
+                                    "translations": [
+                                        {
+                                            "language": "HINDI",
+                                            "translation": "ड्राइवर ने अधिक मांगा"
+                                        },
+                                        {
+                                            "language": "KANNADA",
+                                            "translation": "ಚಾಲಕ ಹೆಚ್ಚು ಬೇಡಿಕೆ ಮಾಡಿದರು\n"
+                                        },
+                                        {
+                                            "language": "TAMIL",
+                                            "translation": "ஓட்டுநர் அதிகம் கேட்டார்"
+                                        },
+                                        {
+                                            "language": "TELUGU",
+                                            "translation": "డ్రైవర్ ఎక్కువ డిమాండ్ చేశాడు"
+                                        },
+                                        {
+                                            "language": "MALAYALAM",
+                                            "translation": "ഡ്രൈവർ കൂടുതൽ ആവശ്യപ്പെട്ടു"
+                                        }
+                                    ],
+                                    "messages": [
+                                        {
+                                            "label": "CREATE_TICKET",
+                                            "message": "Please provide additional information so that we can assist you better",
+                                            "messageTitle": null,
+                                            "priority": 1,
+                                            "referenceCategoryId": null,
+                                            "referenceOptionId": null,
+                                            "messageTranslations": [
+                                                {
+                                                    "language": "HINDI",
+                                                    "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                                                },
+                                                {
+                                                    "language": "KANNADA",
+                                                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                                                },
+                                                {
+                                                    "language": "TAMIL",
+                                                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                                                },
+                                                {
+                                                    "language": "TELUGU",
+                                                    "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                                                },
+                                                {
+                                                    "language": "MALAYALAM",
+                                                    "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
+                                                }
+                                            ],
+                                            "actionTranslations": [],
+                                            "titleTranslations": [],
+                                            "options": []
+                                        }
+                                    ]
                                 },
                                 {
-                                  "language": "KANNADA",
-                                  "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                                    "isActive": true,
+                                    "label": null,
+                                    "option": "Fare discrepancy",
+                                    "priority": 2,
+                                    "translations": [
+                                        {
+                                            "language": "HINDI",
+                                            "translation": "किराए में अंतर"
+                                        },
+                                        {
+                                            "language": "KANNADA",
+                                            "translation": "ದರದಲ್ಲಿ ವ್ಯತ್ಯಾಸ"
+                                        },
+                                        {
+                                            "language": "TAMIL",
+                                            "translation": "கட்டணத்தில் முரண்பாடு"
+                                        },
+                                        {
+                                            "language": "TELUGU",
+                                            "translation": "ఛార్జీలలో వ్యత్యాసం"
+                                        },
+                                        {
+                                            "language": "MALAYALAM",
+                                            "translation": "യാത്രക്കൂലിയിലെ വ്യത്യാസം"
+                                        }
+                                    ],
+                                    "messages": [
+                                        {
+                                            "label": null,
+                                            "message": "Estimated → Final Fare: <br> <b> {#ESTIMATED_FARE#} → {#FINAL_FARE#} <span style=\"color:#2194FF\"> ({#FARE_DIFFERENCE#}{#FARE_ARROW#}) </span> </b> <br> <br> Estimated → Final Distance: <br> <b> {#ESTIMATED_DISTANCE#} km → {#FINAL_DISTANCE#} km <span style=\"color:#2194FF\"> ({#DISTANCE_DIFFERENCE#} km{#DISTANCE_ARROW#}) </span> </b> <br> <br> Driver Pickup Charges: <br> <b> {#DRIVER_PICKUP_CHARGE#} </b> <br> <br> Driver Additions: <br> <b> {#DRIVER_ADDITIONS#} </b> <br> <br> Toll Charges Incurred: <br> <b> {#TOLL_CHARGES#} </b> <br> <br> Tip Added: <br> <b> {#TIP_ADDED#} </b> <br> <br> The fare estimate is only an indicative figure. The final fare is subject to change based on the actual distance travelled. For more info, please view the detailed fare policy. <br>",
+                                            "messageTitle": "Here is some information about your ride.",
+                                            "priority": 1,
+                                            "referenceCategoryId": null,
+                                            "referenceOptionId": null,
+                                            "messageTranslations": [
+                                                {
+                                                    "language": "HINDI",
+                                                    "translation": "अनुमानित → अंतिम किराया: <br> <b> {#ESTIMATED_FARE#} → {#FINAL_FARE#} <span style=\"color:#2194FF\"> ({#FARE_DIFFERENCE#}{#FARE_ARROW#}) </span> </b> <br> <br> अनुमानित → अंतिम दूरी: <br> <b> {#ESTIMATED_DISTANCE#} किमी → {#FINAL_DISTANCE#} किमी <span style=\"color:#2194FF\"> ({#DISTANCE_DIFFERENCE#} किमी{#DISTANCE_ARROW#}) </span> </b> <br> <br> चालक पिकअप शुल्क: <br> <b> {#DRIVER_PICKUP_CHARGE#} </b> <br> <br> चालक के अतिरिक्त शुल्क: <br> <b> {#DRIVER_ADDITIONS#} </b> <br> <br> टोल शुल्क: <br> <b> {#TOLL_CHARGES#} </b> <br> <br> टिप जोड़ी गई: <br> <b> {#TIP_ADDED#} </b> <br> <br> किराए का अनुमान केवल एक सांकेतिक आंकड़ा है। वास्तविक यात्रा की दूरी के आधार पर अंतिम किराया बदल सकता है। अधिक जानकारी के लिए, कृपया विस्तृत किराया नीति देखें। <br>"
+                                                },
+                                                {
+                                                    "language": "KANNADA",
+                                                    "translation": "ಅಂದಾಜು → ಅಂತಿಮ ಭಾಡಿ: <br> <b> {#ESTIMATED_FARE#} → {#FINAL_FARE#} <span style=\"color:#2194FF\"> ({#FARE_DIFFERENCE#}{#FARE_ARROW#}) </span> </b> <br> <br> ಅಂದಾಜು → ಅಂತಿಮ ದಾರಿ: <br> <b> {#ESTIMATED_DISTANCE#} ಕಿಮೀ → {#FINAL_DISTANCE#} ಕಿಮೀ <span style=\"color:#2194FF\"> ({#DISTANCE_DIFFERENCE#} ಕಿಮೀ{#DISTANCE_ARROW#}) </span> </b> <br> <br> ಚಾಲಕ ಪಿಕಪ್ ಶುಲ್ಕ: <br> <b> {#DRIVER_PICKUP_CHARGE#} </b> <br> <br> ಚಾಲಕರ ಹೆಚ್ಚುವರಿ ಶುಲ್ಕ: <br> <b> {#DRIVER_ADDITIONS#} </b> <br> <br> ಟೋಲ್ ಶುಲ್ಕಗಳು: <br> <b> {#TOLL_CHARGES#} </b> <br> <br> ಹೆಚ್ಚುವರಿ ಟಿಪ್ಪು: <br> <b> {#TIP_ADDED#} </b> <br> <br> ಭಾಡಿಯ ಅಂದಾಜು ಒಂದು ಸೂಚಕ ಅಂಕಿ ಮಾತ್ರ. ಅಂತಿಮ ಭಾಡಿ ನಿಜವಾದ ಪ್ರಯಾಣದ ದೂರದ ಆಧಾರದ ಮೇಲೆ ಬದಲಾಗಬಹುದು. ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗೆ, ದಯವಿಟ್ಟು ವಿವರವಾದ ಭಾಡಿ ನೀತಿಯನ್ನು ವೀಕ್ಷಿಸಿ. <br>"
+                                                },
+                                                {
+                                                    "language": "TAMIL",
+                                                    "translation": "முன்னறிவிப்பு → இறுதி கட்டணம்: <br> <b> {#ESTIMATED_FARE#} → {#FINAL_FARE#} <span style=\"color:#2194FF\"> ({#FARE_DIFFERENCE#}{#FARE_ARROW#}) </span> </b> <br> <br> முன்னறிவிப்பு → இறுதி தூரம்: <br> <b> {#ESTIMATED_DISTANCE#} கி.மீ → {#FINAL_DISTANCE#} கி.மீ <span style=\"color:#2194FF\"> ({#DISTANCE_DIFFERENCE#} கி.மீ{#DISTANCE_ARROW#}) </span> </b> <br> <br> டிரைவர் பிக்கப் கட்டணங்கள்: <br> <b> {#DRIVER_PICKUP_CHARGE#} </b> <br> <br> டிரைவர் கூடுதல் கட்டணங்கள்: <br> <b> {#DRIVER_ADDITIONS#} </b> <br> <br> தண்டச்சுங்க கட்டணங்கள்: <br> <b> {#TOLL_CHARGES#} </b> <br> <br> குறிப்பு சேர்க்கப்பட்டது: <br> <b> {#TIP_ADDED#} </b> <br> <br> கட்டணத்தின் முன்னறிவிப்பு ஒரு குறிக்குறியாகும். உண்மையான பயணத்தின் தூரத்தைப் பொறுத்து இறுதி கட்டணம் மாறக்கூடும். கூடுதல் தகவலுக்காக, தயவுசெய்து விரிவான கட்டணக் கொள்கையைப் பார்க்கவும். <br>"
+                                                },
+                                                {
+                                                    "language": "TELUGU",
+                                                    "translation": "అంచనా → తుదిరేటు: <br> <b> {#ESTIMATED_FARE#} → {#FINAL_FARE#} <span style=\"color:#2194FF\"> ({#FARE_DIFFERENCE#}{#FARE_ARROW#}) </span> </b> <br> <br> అంచనా → తుదిదూరం: <br> <b> {#ESTIMATED_DISTANCE#} కి.మీ → {#FINAL_DISTANCE#} కి.మీ <span style=\"color:#2194FF\"> ({#DISTANCE_DIFFERENCE#} కి.మీ{#DISTANCE_ARROW#}) </span> </b> <br> <br> డ్రైవర్ పికప్ ఛార్జీలు: <br> <b> {#DRIVER_PICKUP_CHARGE#} </b> <br> <br> డ్రైవర్ అదనపు ఛార్జీలు: <br> <b> {#DRIVER_ADDITIONS#} </b> <br> <br> టోల్ ఛార్జీలు: <br> <b> {#TOLL_CHARGES#} </b> <br> <br> చిట్టి చేర్చబడింది: <br> <b> {#TIP_ADDED#} </b> <br> <br> అంచనా రేటు కేవలం సూచిక సూచన మాత్రమే. తుదిరేటు నిజమైన ప్రయాణ దూరం ఆధారంగా మారవచ్చు. మరిన్ని సమాచారం కోసం, దయచేసి వివరమైన రేటు విధానాన్ని చూడండి. <br>"
+                                                },
+                                                {
+                                                    "language": "MALAYALAM",
+                                                    "translation": "ഏകദേശക്കണക്ക്  → അന്തിമ കണക്ക്: <br> <b> {#ESTIMATED_FARE#} → {#FINAL_FARE#} <span style=\"color:#2194FF\"> ({#FARE_DIFFERENCE#}{#FARE_ARROW#}) </span> </b> <br> <br> ഏകദേശ ദൂരം → അന്തിമ ദൂരം: <br> <b> {#ESTIMATED_DISTANCE#} കിലോമീറ്റർ → {#FINAL_DISTANCE#} കിലോമീറ്റർ <span style=\"color:#2194FF\"> ({#DISTANCE_DIFFERENCE#} കിലോമീറ്റർ{#DISTANCE_ARROW#}) </span> </b> <br> <br> ഡ്രൈവർ പിക്കപ്പ് ചാർജുകൾ: <br> <b> {#DRIVER_PICKUP_CHARGE#} </b> <br> <br> ഡ്രൈവർ അഡിഷൻ: <br> <b> {#DRIVER_ADDITIONS#} </b> <br> <br> ടോൾ ചാർജുകൾ: <br> <b> {#TOLL_CHARGES#} </b> <br> <br> ടിപ് ചേർത്തത്: <br> <b> {#TIP_ADDED#} </b> <br> <br> ഫെയർ കണക്കുകൂട്ടൽ ഒരു ഏകദേശ കണക്ക് മാത്രമാണ്. അന്തിമ ഫെയർ യഥാർത്ഥ യാത്രയുടെ അകലത്തിന്റെ അടിസ്ഥാനത്തിൽ മാറാവുന്നതാണ്. കൂടുതൽ വിവരങ്ങൾക്കായി വിശദമായ ചാർജ് നയം കാണുക. <br>"
+                                                }
+                                            ],
+                                            "actionTranslations": [],
+                                            "titleTranslations": [
+                                                {
+                                                    "language": "HINDI",
+                                                    "translation": "यहाँ आपकी सवारी के बारे में कुछ जानकारी दी गई है।"
+                                                },
+                                                {
+                                                    "language": "KANNADA",
+                                                    "translation": "ನಿಮ್ಮ ಪ್ರಯಾಣದ ಬಗ್ಗೆ ಕೆಲವು ಮಾಹಿತಿ ಇಲ್ಲಿದೆ."
+                                                },
+                                                {
+                                                    "language": "TAMIL",
+                                                    "translation": "உங்கள் பயணத்தின் பற்றி சில தகவல்கள் இதோ."
+                                                },
+                                                {
+                                                    "language": "TELUGU",
+                                                    "translation": "మీ రైడ్ గురించి కొన్ని సమాచారం ఇక్కడ ఉంది."
+                                                },
+                                                {
+                                                    "language": "MALAYALAM",
+                                                    "translation": "നിങ്ങളുടെ യാത്രയെക്കുറിച്ചുള്ള ചില വിവരങ്ങൾ ഇവയാണ്."
+                                                }
+                                            ],
+                                            "options": []
+                                        },
+                                        {
+                                            "label": null,
+                                            "message": "Was this helpful?",
+                                            "messageTitle": null,
+                                            "priority": 2,
+                                            "referenceCategoryId": null,
+                                            "referenceOptionId": null,
+                                            "messageTranslations": [
+                                                {
+                                                    "language": "HINDI",
+                                                    "translation": "क्या यह सहायक था?"
+                                                },
+                                                {
+                                                    "language": "KANNADA",
+                                                    "translation": "ಇದು ಸಹಾಯಕವಾಗಿತ್ತಾ?"
+                                                },
+                                                {
+                                                    "language": "TAMIL",
+                                                    "translation": "இது உதவியாக இருந்ததா?"
+                                                },
+                                                {
+                                                    "language": "TELUGU",
+                                                    "translation": "ఇది సహాయకరంగా ఉందా?"
+                                                },
+                                                {
+                                                    "language": "MALAYALAM",
+                                                    "translation": "ഇത് സഹായകരമായിരുന്നോ?"
+                                                }
+                                            ],
+                                            "actionTranslations": [],
+                                            "titleTranslations": [],
+                                            "options": [
+                                                {
+                                                    "isActive": true,
+                                                    "label": null,
+                                                    "option": "Yes",
+                                                    "priority": 1,
+                                                    "translations": [
+                                                        {
+                                                            "language": "HINDI",
+                                                            "translation": "हाँ"
+                                                        },
+                                                        {
+                                                            "language": "KANNADA",
+                                                            "translation": "ಹೌದು"
+                                                        },
+                                                        {
+                                                            "language": "TAMIL",
+                                                            "translation": "ஆம்"
+                                                        },
+                                                        {
+                                                            "language": "TELUGU",
+                                                            "translation": "అవును"
+                                                        },
+                                                        {
+                                                            "language": "MALAYALAM",
+                                                            "translation": "അതെ"
+                                                        }
+                                                    ],
+                                                    "messages": [
+                                                        {
+                                                            "label": "END_FLOW",
+                                                            "message": "We're happy to have helped you with your inquiries. Don't hesitate to use the help feature on the app for any future questions or concerns.",
+                                                            "messageTitle": null,
+                                                            "priority": 1,
+                                                            "referenceCategoryId": null,
+                                                            "referenceOptionId": null,
+                                                            "messageTranslations": [
+                                                                {
+                                                                    "language": "HINDI",
+                                                                    "translation": "हम आपके सवालों में मदद करके खुश हैं। भविष्य में किसी भी प्रश्न या चिंता के लिए ऐप पर मदद सुविधा का उपयोग करने में संकोच न करें।"
+                                                                },
+                                                                {
+                                                                    "language": "KANNADA",
+                                                                    "translation": "ನಿಮ್ಮ ಪ್ರಶ್ನೆಗಳಿಗೆ ನಾವು ಸಹಾಯ ಮಾಡಿದಲ್ಲಿ ಸಂತೋಷ. ಭವಿಷ್ಯದಲ್ಲಿ ಯಾವುದೇ ಪ್ರಶ್ನೆಗಳಿಗೂ ಅಥವಾ ಆತಂಕಗಳಿಗೆ ಆಪ್‌ನ ಸಹಾಯ ವೈಶಿಷ್ಟ್ಯವನ್ನು ಬಳಸಲು ಹಿಂಜರಿಯಬೇಡಿ."
+                                                                },
+                                                                {
+                                                                    "language": "TAMIL",
+                                                                    "translation": "உங்கள் கேள்விகளுக்கு உதவியதற்கு நாங்கள் மகிழ்ச்சி அடைகிறோம். எதிர்கால கேள்விகள் அல்லது சிக்கல்களுக்கு ஆபில் உள்ள உதவித் தன்மையைப் பயன்படுத்த தயங்க வேண்டாம்."
+                                                                },
+                                                                {
+                                                                    "language": "TELUGU",
+                                                                    "translation": "మీ ప్రశ్నలకు సహాయం చేసినందుకు మేము సంతోషిస్తున్నాము. భవిష్యత్ ప్రశ్నలు లేదా ఆందోళనల కోసం యాప్‌లో సహాయం ఫీచర్‌ను ఉపయోగించడంలో సందేహించకండి."
+                                                                },
+                                                                {
+                                                                    "language": "MALAYALAM",
+                                                                    "translation": "താങ്കളുടെ സംശയങ്ങൾക്കു മറുപടി നൽകാൻ കഴിഞ്ഞതിൽ സന്തോഷം. ഇനിയും ചോദ്യങ്ങൾക്കോ ആശങ്കകൾക്കോ ഉത്തരം ലഭിക്കാൻ \"ഹെൽപ്പ്\" വിഭാഗം ഉപയോഗപ്പെടുത്താൻ മടിക്കേണ്ടതില്ല ."
+                                                                }
+                                                            ],
+                                                            "actionTranslations": [],
+                                                            "titleTranslations": [],
+                                                            "options": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "isActive": true,
+                                                    "label": null,
+                                                    "option": "No",
+                                                    "priority": 2,
+                                                    "translations": [
+                                                        {
+                                                            "language": "HINDI",
+                                                            "translation": "नहीं"
+                                                        },
+                                                        {
+                                                            "language": "KANNADA",
+                                                            "translation": "ಇಲ್ಲ"
+                                                        },
+                                                        {
+                                                            "language": "TAMIL",
+                                                            "translation": "இல்லை"
+                                                        },
+                                                        {
+                                                            "language": "TELUGU",
+                                                            "translation": "కాదు"
+                                                        },
+                                                        {
+                                                            "language": "MALAYALAM",
+                                                            "translation": "ഇല്ല"
+                                                        }
+                                                    ],
+                                                    "messages": [
+                                                        {
+                                                            "label": "CREATE_TICKET",
+                                                            "message": "Please provide additional information so that we can assist you better",
+                                                            "messageTitle": null,
+                                                            "priority": 1,
+                                                            "referenceCategoryId": null,
+                                                            "referenceOptionId": null,
+                                                            "messageTranslations": [
+                                                                {
+                                                                    "language": "HINDI",
+                                                                    "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                                                                },
+                                                                {
+                                                                    "language": "KANNADA",
+                                                                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                                                                },
+                                                                {
+                                                                    "language": "TAMIL",
+                                                                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                                                                },
+                                                                {
+                                                                    "language": "TELUGU",
+                                                                    "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                                                                },
+                                                                {
+                                                                    "language": "MALAYALAM",
+                                                                    "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
+                                                                }
+                                                            ],
+                                                            "actionTranslations": [],
+                                                            "titleTranslations": [],
+                                                            "options": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
                                 },
                                 {
-                                  "language": "TAMIL",
-                                  "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                                    "isActive": true,
+                                    "label": null,
+                                    "option": "Paid Twice / Double Debit",
+                                    "priority": 3,
+                                    "translations": [
+                                        {
+                                            "language": "HINDI",
+                                            "translation": "दो बार भुगतान किया / दोहरा डेबिट"
+                                        },
+                                        {
+                                            "language": "KANNADA",
+                                            "translation": "ಎರಡು ಬಾರಿ ಪಾವತಿಸಿದೆ / ಡಬಲ್ ಡೆಬಿಟ್"
+                                        },
+                                        {
+                                            "language": "TAMIL",
+                                            "translation": "இருமுறை பணம் செலுத்தப்பட்டது / இரட்டை \nகட்டணம்"
+                                        },
+                                        {
+                                            "language": "TELUGU",
+                                            "translation": "రెండుసార్లు చెల్లించాను / డబుల్ డెబిట్"
+                                        },
+                                        {
+                                            "language": "MALAYALAM",
+                                            "translation": "രണ്ടുതവണ പണമടച്ചു / ഇരട്ട ഡെബിറ്റ്"
+                                        }
+                                    ],
+                                    "messages": [
+                                        {
+                                            "label": "CREATE_TICKET",
+                                            "message": "Please provide additional information so that we can assist you better",
+                                            "messageTitle": null,
+                                            "priority": 1,
+                                            "referenceCategoryId": null,
+                                            "referenceOptionId": null,
+                                            "messageTranslations": [
+                                                {
+                                                    "language": "HINDI",
+                                                    "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                                                },
+                                                {
+                                                    "language": "KANNADA",
+                                                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                                                },
+                                                {
+                                                    "language": "TAMIL",
+                                                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                                                },
+                                                {
+                                                    "language": "TELUGU",
+                                                    "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                                                },
+                                                {
+                                                    "language": "MALAYALAM",
+                                                    "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
+                                                }
+                                            ],
+                                            "actionTranslations": [],
+                                            "titleTranslations": [],
+                                            "options": []
+                                        }
+                                    ]
                                 },
                                 {
-                                  "language": "TELUGU",
-                                  "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                                    "isActive": true,
+                                    "label": null,
+                                    "option": "Incorrect Toll added",
+                                    "priority": 4,
+                                    "translations": [
+                                        {
+                                            "language": "HINDI",
+                                            "translation": "गलत टोल जोड़ा गया"
+                                        },
+                                        {
+                                            "language": "KANNADA",
+                                            "translation": "ತಪ್ಪಾದ ಟೋಲ್ ಸೇರಿಸಲಾಗಿದೆ"
+                                        },
+                                        {
+                                            "language": "TAMIL",
+                                            "translation": "தவறான சுங்கச்சாவடி கட்டணம் சேர்க்கப்பட்டது"
+                                        },
+                                        {
+                                            "language": "TELUGU",
+                                            "translation": "తప్పుడు టోల్ చేర్చబడింది"
+                                        },
+                                        {
+                                            "language": "MALAYALAM",
+                                            "translation": "തെറ്റായ ടോൾ ചേർത്തു"
+                                        }
+                                    ],
+                                    "messages": [
+                                        {
+                                            "label": "CREATE_TICKET",
+                                            "message": "Please provide additional information so that we can assist you better",
+                                            "messageTitle": null,
+                                            "priority": 1,
+                                            "referenceCategoryId": null,
+                                            "referenceOptionId": null,
+                                            "messageTranslations": [
+                                                {
+                                                    "language": "HINDI",
+                                                    "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                                                },
+                                                {
+                                                    "language": "KANNADA",
+                                                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                                                },
+                                                {
+                                                    "language": "TAMIL",
+                                                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                                                },
+                                                {
+                                                    "language": "TELUGU",
+                                                    "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                                                },
+                                                {
+                                                    "language": "MALAYALAM",
+                                                    "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
+                                                }
+                                            ],
+                                            "actionTranslations": [],
+                                            "titleTranslations": [],
+                                            "options": []
+                                        }
+                                    ]
                                 },
                                 {
-                                  "language": "MALAYALAM",
-                                  "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
+                                    "isActive": true,
+                                    "label": null,
+                                    "option": "Incorrect Parking / Entry Fees",
+                                    "priority": 5,
+                                    "translations": [
+                                        {
+                                            "language": "HINDI",
+                                            "translation": "गलत पार्किंग / प्रवेश शुल्क"
+                                        },
+                                        {
+                                            "language": "KANNADA",
+                                            "translation": "ತಪ್ಪಾದ ಪಾರ್ಕಿಂಗ್ / ಪ್ರವೇಶ ಶುಲ್ಕ"
+                                        },
+                                        {
+                                            "language": "TAMIL",
+                                            "translation": "தவறான நிறுத்துமிட / நுழைவுக் கட்டணங்கள்"
+                                        },
+                                        {
+                                            "language": "TELUGU",
+                                            "translation": "తప్పుడు పార్కింగ్ / ప్రవేశ రుసుము"
+                                        },
+                                        {
+                                            "language": "MALAYALAM",
+                                            "translation": "തെറ്റായ പാർക്കിംഗ് / പ്രവേശന ഫീസ്"
+                                        }
+                                    ],
+                                    "messages": [
+                                        {
+                                            "label": "CREATE_TICKET",
+                                            "message": "Please provide additional information so that we can assist you better",
+                                            "messageTitle": null,
+                                            "priority": 1,
+                                            "referenceCategoryId": null,
+                                            "referenceOptionId": null,
+                                            "messageTranslations": [
+                                                {
+                                                    "language": "HINDI",
+                                                    "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                                                },
+                                                {
+                                                    "language": "KANNADA",
+                                                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                                                },
+                                                {
+                                                    "language": "TAMIL",
+                                                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                                                },
+                                                {
+                                                    "language": "TELUGU",
+                                                    "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                                                },
+                                                {
+                                                    "language": "MALAYALAM",
+                                                    "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
+                                                }
+                                            ],
+                                            "actionTranslations": [],
+                                            "titleTranslations": [],
+                                            "options": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isActive": true,
+                                    "label": null,
+                                    "option": "Other",
+                                    "priority": 6,
+                                    "translations": [
+                                        {
+                                            "language": "HINDI",
+                                            "translation": "अन्य"
+                                        },
+                                        {
+                                            "language": "KANNADA",
+                                            "translation": "ಇತರೆ"
+                                        },
+                                        {
+                                            "language": "TAMIL",
+                                            "translation": "மற்றவை"
+                                        },
+                                        {
+                                            "language": "TELUGU",
+                                            "translation": "ఇతర"
+                                        },
+                                        {
+                                            "language": "MALAYALAM",
+                                            "translation": "മറ്റുള്ളവ"
+                                        }
+                                    ],
+                                    "messages": [
+                                        {
+                                            "label": "CREATE_TICKET",
+                                            "message": "Please provide additional information so that we can assist you better",
+                                            "messageTitle": null,
+                                            "priority": 1,
+                                            "referenceCategoryId": null,
+                                            "referenceOptionId": null,
+                                            "messageTranslations": [
+                                                {
+                                                    "language": "HINDI",
+                                                    "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                                                },
+                                                {
+                                                    "language": "KANNADA",
+                                                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                                                },
+                                                {
+                                                    "language": "TAMIL",
+                                                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                                                },
+                                                {
+                                                    "language": "TELUGU",
+                                                    "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                                                },
+                                                {
+                                                    "language": "MALAYALAM",
+                                                    "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
+                                                }
+                                            ],
+                                            "actionTranslations": [],
+                                            "titleTranslations": [],
+                                            "options": []
+                                        }
+                                    ]
                                 }
-                              ],
-                              "actionTranslations": [],
-                              "titleTranslations": [],
-                              "options": []
-                            }
-                          ]
+                            ]
                         }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "isActive": true,
-                  "label": null,
-                  "option": "Paid Twice / Double Debit",
-                  "priority": 3,
-                  "translations": [
-                    {
-                      "language": "HINDI",
-                      "translation": "दो बार भुगतान किया / दोहरा डेबिट"
-                    },
-                    {
-                      "language": "KANNADA",
-                      "translation": "ಎರಡು ಬಾರಿ ಪಾವತಿಸಿದೆ / ಡಬಲ್ ಡೆಬಿಟ್"
-                    },
-                    {
-                      "language": "TAMIL",
-                      "translation": "இருமுறை பணம் செலுத்தப்பட்டது / இரட்டை \nகட்டணம்"
-                    },
-                    {
-                      "language": "TELUGU",
-                      "translation": "రెండుసార్లు చెల్లించాను / డబుల్ డెబిట్"
-                    },
-                    {
-                      "language": "MALAYALAM",
-                      "translation": "രണ്ടുതവണ പണമടച്ചു / ഇരട്ട ഡെബിറ്റ്"
-                    }
-                  ],
-                  "messages": [
-                    {
-                      "label": "CREATE_TICKET",
-                      "message": "Please provide additional information so that we can assist you better",
-                      "messageTitle": null,
-                      "priority": 1,
-                      "referenceCategoryId": null,
-                      "referenceOptionId": null,
-                      "messageTranslations": [
-                        {
-                          "language": "HINDI",
-                          "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
-                        },
-                        {
-                          "language": "KANNADA",
-                          "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
-                        },
-                        {
-                          "language": "TAMIL",
-                          "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
-                        },
-                        {
-                          "language": "TELUGU",
-                          "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
-                        },
-                        {
-                          "language": "MALAYALAM",
-                          "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
-                        }
-                      ],
-                      "actionTranslations": [],
-                      "titleTranslations": [],
-                      "options": []
-                    }
-                  ]
-                },
-                {
-                  "isActive": true,
-                  "label": null,
-                  "option": "Incorrect Toll added",
-                  "priority": 4,
-                  "translations": [
-                    {
-                      "language": "HINDI",
-                      "translation": "गलत टोल जोड़ा गया"
-                    },
-                    {
-                      "language": "KANNADA",
-                      "translation": "ತಪ್ಪಾದ ಟೋಲ್ ಸೇರಿಸಲಾಗಿದೆ"
-                    },
-                    {
-                      "language": "TAMIL",
-                      "translation": "தவறான சுங்கச்சாவடி கட்டணம் சேர்க்கப்பட்டது"
-                    },
-                    {
-                      "language": "TELUGU",
-                      "translation": "తప్పుడు టోల్ చేర్చబడింది"
-                    },
-                    {
-                      "language": "MALAYALAM",
-                      "translation": "തെറ്റായ ടോൾ ചേർത്തു"
-                    }
-                  ],
-                  "messages": [
-                    {
-                      "label": "CREATE_TICKET",
-                      "message": "Please provide additional information so that we can assist you better",
-                      "messageTitle": null,
-                      "priority": 1,
-                      "referenceCategoryId": null,
-                      "referenceOptionId": null,
-                      "messageTranslations": [
-                        {
-                          "language": "HINDI",
-                          "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
-                        },
-                        {
-                          "language": "KANNADA",
-                          "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
-                        },
-                        {
-                          "language": "TAMIL",
-                          "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
-                        },
-                        {
-                          "language": "TELUGU",
-                          "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
-                        },
-                        {
-                          "language": "MALAYALAM",
-                          "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
-                        }
-                      ],
-                      "actionTranslations": [],
-                      "titleTranslations": [],
-                      "options": []
-                    }
-                  ]
-                },
-                {
-                  "isActive": true,
-                  "label": null,
-                  "option": "Incorrect Parking / Entry Fees",
-                  "priority": 5,
-                  "translations": [
-                    {
-                      "language": "HINDI",
-                      "translation": "गलत पार्किंग / प्रवेश शुल्क"
-                    },
-                    {
-                      "language": "KANNADA",
-                      "translation": "ತಪ್ಪಾದ ಪಾರ್ಕಿಂಗ್ / ಪ್ರವೇಶ ಶುಲ್ಕ"
-                    },
-                    {
-                      "language": "TAMIL",
-                      "translation": "தவறான நிறுத்துமிட / நுழைவுக் கட்டணங்கள்"
-                    },
-                    {
-                      "language": "TELUGU",
-                      "translation": "తప్పుడు పార్కింగ్ / ప్రవేశ రుసుము"
-                    },
-                    {
-                      "language": "MALAYALAM",
-                      "translation": "തെറ്റായ പാർക്കിംഗ് / പ്രവേശന ഫീസ്"
-                    }
-                  ],
-                  "messages": [
-                    {
-                      "label": "CREATE_TICKET",
-                      "message": "Please provide additional information so that we can assist you better",
-                      "messageTitle": null,
-                      "priority": 1,
-                      "referenceCategoryId": null,
-                      "referenceOptionId": null,
-                      "messageTranslations": [
-                        {
-                          "language": "HINDI",
-                          "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
-                        },
-                        {
-                          "language": "KANNADA",
-                          "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
-                        },
-                        {
-                          "language": "TAMIL",
-                          "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
-                        },
-                        {
-                          "language": "TELUGU",
-                          "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
-                        },
-                        {
-                          "language": "MALAYALAM",
-                          "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
-                        }
-                      ],
-                      "actionTranslations": [],
-                      "titleTranslations": [],
-                      "options": []
-                    }
-                  ]
-                },
-                {
-                  "isActive": true,
-                  "label": null,
-                  "option": "Other",
-                  "priority": 6,
-                  "translations": [
-                    {
-                      "language": "HINDI",
-                      "translation": "अन्य"
-                    },
-                    {
-                      "language": "KANNADA",
-                      "translation": "ಇತರೆ"
-                    },
-                    {
-                      "language": "TAMIL",
-                      "translation": "மற்றவை"
-                    },
-                    {
-                      "language": "TELUGU",
-                      "translation": "ఇతర"
-                    },
-                    {
-                      "language": "MALAYALAM",
-                      "translation": "മറ്റുള്ളവ"
-                    }
-                  ],
-                  "messages": [
-                    {
-                      "label": "CREATE_TICKET",
-                      "message": "Please provide additional information so that we can assist you better",
-                      "messageTitle": null,
-                      "priority": 1,
-                      "referenceCategoryId": null,
-                      "referenceOptionId": null,
-                      "messageTranslations": [
-                        {
-                          "language": "HINDI",
-                          "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
-                        },
-                        {
-                          "language": "KANNADA",
-                          "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
-                        },
-                        {
-                          "language": "TAMIL",
-                          "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
-                        },
-                        {
-                          "language": "TELUGU",
-                          "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
-                        },
-                        {
-                          "language": "MALAYALAM",
-                          "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
-                        }
-                      ],
-                      "actionTranslations": [],
-                      "titleTranslations": [],
-                      "options": []
-                    }
-                  ]
+                    ]
                 }
-              ]
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

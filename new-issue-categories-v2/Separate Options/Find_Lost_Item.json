@@ -1,360 +1,381 @@
 {
-  "isActive": true,
-  "label": null,
-  "option": "Find a Lost Item",
-  "priority": 3,
-  "translations": [
-    {
-      "language": "HINDI",
-      "translation": "खोई हुई वस्तु ढूंढें"
-    },
-    {
-      "language": "KANNADA",
-      "translation": "ಕಳೆದುಹೋದ ವಸ್ತುಗಳನ್ನು ಹುಡುಕಿ"
-    },
-    {
-      "language": "TAMIL",
-      "translation": "காணாமல் போன பொருளைக் கண்டுபிடிக்கவும்"
-    },
-    {
-      "language": "TELUGU",
-      "translation": "పోగొట్టుకున్న వస్తువును కనుగొనండి"
-    },
-    {
-      "language": "MALAYALAM",
-      "translation": "നഷ്ടപ്പെട്ട വസ്തു കണ്ടെത്തുക"
-    }
-  ],
-  "messages": [
-    {
-      "label": null,
-      "message": "Please select the type of issue you are facing so we can help you out better",
-      "messageAction": null,
-      "messageTitle": null,
-      "priority": 1,
-      "restrictedRideStatuses" : ["R_CANCELLED"],
-      "messageTranslations": [
+    "isActive": true,
+    "label": null,
+    "option": "Find a Lost Item",
+    "priority": 3,
+    "translations": [
         {
-          "language": "HINDI",
-          "translation": "कृपया आप जिस प्रकार की समस्या का सामना कर रहे हैं, उसे चुनें ताकि हम आपकी बेहतर सहायता कर सकें"
+            "language": "HINDI",
+            "translation": "खोई हुई वस्तु ढूंढें"
         },
         {
-          "language": "KANNADA",
-          "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+            "language": "KANNADA",
+            "translation": "ಕಳೆದುಹೋದ ವಸ್ತುಗಳನ್ನು ಹುಡುಕಿ"
         },
         {
-          "language": "TAMIL",
-          "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, நீங்கள் சந்திக்கும் சிக்கலின் வகையைத் தேர்ந்தெடுக்கவும்"
+            "language": "TAMIL",
+            "translation": "காணாமல் போன பொருளைக் கண்டுபிடிக்கவும்"
         },
         {
-          "language": "TELUGU",
-          "translation": "దయచేసి మీరు ఎదుర్కొంటున్న సమస్య రకాన్ని ఎంచుకోండి, తద్వారా మేము మీకు మెరుగైన సహాయం చేయగలము"
+            "language": "TELUGU",
+            "translation": "పోగొట్టుకున్న వస్తువును కనుగొనండి"
         },
         {
-          "language": "MALAYALAM",
-          "translation": "നിങ്ങൾ അഭിമുഖീകരിക്കുന്ന പ്രശ്‌നത്തിൻ്റെ തരം തിരഞ്ഞെടുക്കുക, നിങ്ങളെ കൂടുതൽ സഹായിക്കാൻ ഞങ്ങൾക്കാകും."
+            "language": "MALAYALAM",
+            "translation": "നഷ്ടപ്പെട്ട വസ്തു കണ്ടെത്തുക"
         }
-      ],
-      "actionTranslations": [],
-      "titleTranslations": [],
-      "options": [
+    ],
+    "messages": [
         {
-          "isActive": true,
-          "label": null,
-          "option": "I lost something",
-          "priority": 1,
-          "translations": [
-            {
-              "language": "HINDI",
-              "translation": "मैंने कुछ खो दिया"
-            },
-            {
-              "language": "KANNADA",
-              "translation": "ನಾನು ಏನನ್ನೋ ಕಳೆದುಕೊಂಡೆ"
-            },
-            {
-              "language": "TAMIL",
-              "translation": "நான் ஏதோ தொலைத்துவிட்டேன்"
-            },
-            {
-              "language": "TELUGU",
-              "translation": "నేను ఏదో పోగొట్టుకున్నాను"
-            },
-            {
-              "language": "MALAYALAM",
-              "translation": "വസ്തു നഷ്ടപ്പെട്ടു "
-            }
-          ],
-          "messages": [
-            {
-              "label": null,
-              "message": "You can reach the driver directly through the app by selecting the specific ride under \"My rides.\" Please note that you can contact the driver within 24 hours of the trip.",
-              "messageTitle": null,
-              "priority": 2,
-              "referenceCategoryId": null,
-              "referenceOptionId": null,
-              "messageTranslations": [
+            "label": null,
+            "message": "Please select the type of issue you are facing so we can help you out better",
+            "messageAction": null,
+            "messageTitle": null,
+            "priority": 1,
+            "restrictedRideStatuses": ["R_CANCELLED"],
+            "messageTranslations": [
                 {
-                  "language": "HINDI",
-                  "translation": "आप \"मेरी सवारी\" के अंतर्गत विशेष सवारी का चयन करके ऐप के माध्यम से सीधे ड्राइवर से संपर्क कर सकते हैं। कृपया ध्यान दें कि आप यात्रा के 24 घंटे के भीतर ड्राइवर से संपर्क कर सकते हैं।"
+                    "language": "HINDI",
+                    "translation": "कृपया आप जिस प्रकार की समस्या का सामना कर रहे हैं, उसे चुनें ताकि हम आपकी बेहतर सहायता कर सकें"
                 },
                 {
-                  "language": "KANNADA",
-                  "translation": "ನೀವು \"ನನ್ನ ಪ್ರಯಾಣಗಳು\" ಅಡಿ ವಿಶೇಷ ಪ್ರಯಾಣವನ್ನು ಆಯ್ಕೆ ಮಾಡುವುದು ಮೂಲಕ ಡ್ರೈವರನೊಂದಿಗೆ ನೇರವಾಗಿ ಸಂಪರ್ಕಿಸಬಹುದು. ಪ್ರಯಾಣದ 24 ಗಂಟೆಗಳ ಒಳಗೆ ನೀವು ಡ್ರೈವರನೊಂದಿಗೆ ಸಂಪರ್ಕಿಸಲು ಸಾಮರ್ಥ್ಯವಿದೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ."
+                    "language": "KANNADA",
+                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
                 },
                 {
-                  "language": "TAMIL",
-                  "translation": "நீங்கள் \"என் பயணங்கள்\" கீழ் குறிப்பிட்ட பயணத்தை தேர்ந்தெடுத்துப் போய், செயலியில் டிரைவரை நேரடியாக அணுகலாம். பயணத்திற்கு 24 மணித்தியாலங்களில் நீங்கள் டிரைவரை தொடர்புகொள்வது தொடர்பாக நினைவில் கொள்ளவும்."
+                    "language": "TAMIL",
+                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, நீங்கள் சந்திக்கும் சிக்கலின் வகையைத் தேர்ந்தெடுக்கவும்"
                 },
                 {
-                  "language": "TELUGU",
-                  "translation": "మీరు \"నా రైడ్స్\" క్రింద ప్రత్యేక రైడ్‌ను ఎంపికచేస్తూ, యాప్ ద్వారా డ్రైవర్‌ను ప్రత్యక్షంగా చేరుకోవచ్చు. ప్రయాణానికి 24 గంటల కాలపరిమితిలో మీరు డ్రైవర్‌ను సంప్రదించవచ్చు."
+                    "language": "TELUGU",
+                    "translation": "దయచేసి మీరు ఎదుర్కొంటున్న సమస్య రకాన్ని ఎంచుకోండి, తద్వారా మేము మీకు మెరుగైన సహాయం చేయగలము"
                 },
                 {
-                  "language": "MALAYALAM",
-                  "translation": "\"എന്റെ റൈഡുകൾ\" എന്നതിൽനിന്നും നിർദ്ദിഷ്‌ട റൈഡ് തിരഞ്ഞെടുത്ത് ആപ്പ് വഴി നിങ്ങൾക്ക് ഡ്രൈവറിനെ നേരിട്ട് ബന്ധപ്പെടാം. യാത്ര അവസാനിച്ചു 24 മണിക്കൂർ വരെ നിങ്ങൾക്ക് ഡ്രൈവറെ ബന്ധപ്പെടാനാകും."
+                    "language": "MALAYALAM",
+                    "translation": "നിങ്ങൾ അഭിമുഖീകരിക്കുന്ന പ്രശ്‌നത്തിൻ്റെ തരം തിരഞ്ഞെടുക്കുക, നിങ്ങളെ കൂടുതൽ സഹായിക്കാൻ ഞങ്ങൾക്കാകും."
                 }
-              ],
-              "actionTranslations": [],
-              "titleTranslations": [],
-              "options": [
+            ],
+            "actionTranslations": [],
+            "titleTranslations": [],
+            "options": [
                 {
-                  "isActive": true,
-                  "label": "CALL_DRIVER",
-                  "option": "Call the driver",
-                  "priority": 1,
-                  "translations": [
-                    {
-                      "language": "HINDI",
-                      "translation": "ड्राइवर को कॉल करें"
-                    },
-                    {
-                      "language": "KANNADA",
-                      "translation": "ಡ್ರೈವರನನ್ನು ಕರೆಸಿರಿ"
-                    },
-                    {
-                      "language": "TAMIL",
-                      "translation": "டிரைவரை அழைக்கவும்"
-                    },
-                    {
-                      "language": "TELUGU",
-                      "translation": "డ్రైవర్‌ను కాల్ చేయండి"
-                    },
-                    {
-                      "language": "MALAYALAM",
-                      "translation": "ഡ്രൈവറിനെ വിളിക്കുക"
-                    }
-                  ],
-                  "messages": [
-                    {
-                      "label": null,
-                      "message": "Still need help?",
-                      "messageTitle": null,
-                      "priority": 1,
-                      "referenceCategoryId": null,
-                      "referenceOptionId": null,
-                      "messageTranslations": [
+                    "isActive": true,
+                    "label": null,
+                    "option": "I lost something",
+                    "priority": 1,
+                    "translations": [
                         {
-                          "language": "HINDI",
-                          "translation": "क्या आपको अभी भी मदद चाहिए?"
+                            "language": "HINDI",
+                            "translation": "मैंने कुछ खो दिया"
                         },
                         {
-                          "language": "KANNADA",
-                          "translation": "ನೀವು ಇನ್ನೂ ಸಹಾಯ ಬೇಕೇ?"
+                            "language": "KANNADA",
+                            "translation": "ನಾನು ಏನನ್ನೋ ಕಳೆದುಕೊಂಡೆ"
                         },
                         {
-                          "language": "TAMIL",
-                          "translation": "இன்னும் உதவி தேவைதா?"
+                            "language": "TAMIL",
+                            "translation": "நான் ஏதோ தொலைத்துவிட்டேன்"
                         },
                         {
-                          "language": "TELUGU",
-                          "translation": "మీకు ఇంకా సహాయం కావాలా?"
+                            "language": "TELUGU",
+                            "translation": "నేను ఏదో పోగొట్టుకున్నాను"
                         },
                         {
-                          "language": "MALAYALAM",
-                          "translation": "ഇനിയും സഹായം വേണമോ?"
+                            "language": "MALAYALAM",
+                            "translation": "വസ്തു നഷ്ടപ്പെട്ടു "
                         }
-                      ],
-                      "actionTranslations": [],
-                      "titleTranslations": [],
-                      "options": [
+                    ],
+                    "messages": [
                         {
-                          "isActive": true,
-                          "label": null,
-                          "option": "Yes",
-                          "priority": 1,
-                          "translations": [
-                            {
-                              "language": "HINDI",
-                              "translation": "हाँ"
-                            },
-                            {
-                              "language": "KANNADA",
-                              "translation": "ಹೌದು"
-                            },
-                            {
-                              "language": "TAMIL",
-                              "translation": "ஆம்"
-                            },
-                            {
-                              "language": "TELUGU",
-                              "translation": "అవును"
-                            },
-                            {
-                              "language": "MALAYALAM",
-                              "translation": "അതെ"
-                            }
-                          ],
-                          "messages": [
-                            {
-                              "label": "CREATE_TICKET",
-                              "message": "Please provide additional information so that we can assist you better",
-                              "messageTitle": null,
-                              "priority": 1,
-                              "referenceCategoryId": null,
-                              "referenceOptionId": null,
-                              "messageTranslations": [
+                            "label": null,
+                            "message": "You can reach the driver directly through the app by selecting the specific ride under \"My rides.\" Please note that you can contact the driver within 24 hours of the trip.",
+                            "messageTitle": null,
+                            "priority": 2,
+                            "referenceCategoryId": null,
+                            "referenceOptionId": null,
+                            "messageTranslations": [
                                 {
-                                  "language": "HINDI",
-                                  "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                                    "language": "HINDI",
+                                    "translation": "आप \"मेरी सवारी\" के अंतर्गत विशेष सवारी का चयन करके ऐप के माध्यम से सीधे ड्राइवर से संपर्क कर सकते हैं। कृपया ध्यान दें कि आप यात्रा के 24 घंटे के भीतर ड्राइवर से संपर्क कर सकते हैं।"
                                 },
                                 {
-                                  "language": "KANNADA",
-                                  "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                                    "language": "KANNADA",
+                                    "translation": "ನೀವು \"ನನ್ನ ಪ್ರಯಾಣಗಳು\" ಅಡಿ ವಿಶೇಷ ಪ್ರಯಾಣವನ್ನು ಆಯ್ಕೆ ಮಾಡುವುದು ಮೂಲಕ ಡ್ರೈವರನೊಂದಿಗೆ ನೇರವಾಗಿ ಸಂಪರ್ಕಿಸಬಹುದು. ಪ್ರಯಾಣದ 24 ಗಂಟೆಗಳ ಒಳಗೆ ನೀವು ಡ್ರೈವರನೊಂದಿಗೆ ಸಂಪರ್ಕಿಸಲು ಸಾಮರ್ಥ್ಯವಿದೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ."
                                 },
                                 {
-                                  "language": "TAMIL",
-                                  "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                                    "language": "TAMIL",
+                                    "translation": "நீங்கள் \"என் பயணங்கள்\" கீழ் குறிப்பிட்ட பயணத்தை தேர்ந்தெடுத்துப் போய், செயலியில் டிரைவரை நேரடியாக அணுகலாம். பயணத்திற்கு 24 மணித்தியாலங்களில் நீங்கள் டிரைவரை தொடர்புகொள்வது தொடர்பாக நினைவில் கொள்ளவும்."
                                 },
                                 {
-                                  "language": "TELUGU",
-                                  "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                                    "language": "TELUGU",
+                                    "translation": "మీరు \"నా రైడ్స్\" క్రింద ప్రత్యేక రైడ్‌ను ఎంపికచేస్తూ, యాప్ ద్వారా డ్రైవర్‌ను ప్రత్యక్షంగా చేరుకోవచ్చు. ప్రయాణానికి 24 గంటల కాలపరిమితిలో మీరు డ్రైవర్‌ను సంప్రదించవచ్చు."
                                 },
                                 {
-                                  "language": "MALAYALAM",
-                                  "translation": "നിങ്ങളുടെ പ്രശ്നം പരിഹരിക്കാൻ കൂടുതൽ വിവരങ്ങൾ നൽകി ഞങ്ങളെ സഹായിക്കൂ."
+                                    "language": "MALAYALAM",
+                                    "translation": "\"എന്റെ റൈഡുകൾ\" എന്നതിൽനിന്നും നിർദ്ദിഷ്‌ട റൈഡ് തിരഞ്ഞെടുത്ത് ആപ്പ് വഴി നിങ്ങൾക്ക് ഡ്രൈവറിനെ നേരിട്ട് ബന്ധപ്പെടാം. യാത്ര അവസാനിച്ചു 24 മണിക്കൂർ വരെ നിങ്ങൾക്ക് ഡ്രൈവറെ ബന്ധപ്പെടാനാകും."
                                 }
-                              ],
-                              "actionTranslations": [],
-                              "titleTranslations": [],
-                              "options": []
-                            }
-                          ]
+                            ],
+                            "actionTranslations": [],
+                            "titleTranslations": [],
+                            "options": [
+                                {
+                                    "isActive": true,
+                                    "label": "CALL_DRIVER",
+                                    "option": "Call the driver",
+                                    "priority": 1,
+                                    "translations": [
+                                        {
+                                            "language": "HINDI",
+                                            "translation": "ड्राइवर को कॉल करें"
+                                        },
+                                        {
+                                            "language": "KANNADA",
+                                            "translation": "ಡ್ರೈವರನನ್ನು ಕರೆಸಿರಿ"
+                                        },
+                                        {
+                                            "language": "TAMIL",
+                                            "translation": "டிரைவரை அழைக்கவும்"
+                                        },
+                                        {
+                                            "language": "TELUGU",
+                                            "translation": "డ్రైవర్‌ను కాల్ చేయండి"
+                                        },
+                                        {
+                                            "language": "MALAYALAM",
+                                            "translation": "ഡ്രൈവറിനെ വിളിക്കുക"
+                                        }
+                                    ],
+                                    "messages": [
+                                        {
+                                            "label": null,
+                                            "message": "Still need help?",
+                                            "messageTitle": null,
+                                            "priority": 1,
+                                            "referenceCategoryId": null,
+                                            "referenceOptionId": null,
+                                            "messageTranslations": [
+                                                {
+                                                    "language": "HINDI",
+                                                    "translation": "क्या आपको अभी भी मदद चाहिए?"
+                                                },
+                                                {
+                                                    "language": "KANNADA",
+                                                    "translation": "ನೀವು ಇನ್ನೂ ಸಹಾಯ ಬೇಕೇ?"
+                                                },
+                                                {
+                                                    "language": "TAMIL",
+                                                    "translation": "இன்னும் உதவி தேவைதா?"
+                                                },
+                                                {
+                                                    "language": "TELUGU",
+                                                    "translation": "మీకు ఇంకా సహాయం కావాలా?"
+                                                },
+                                                {
+                                                    "language": "MALAYALAM",
+                                                    "translation": "ഇനിയും സഹായം വേണമോ?"
+                                                }
+                                            ],
+                                            "actionTranslations": [],
+                                            "titleTranslations": [],
+                                            "options": [
+                                                {
+                                                    "isActive": true,
+                                                    "label": null,
+                                                    "option": "Yes",
+                                                    "priority": 1,
+                                                    "translations": [
+                                                        {
+                                                            "language": "HINDI",
+                                                            "translation": "हाँ"
+                                                        },
+                                                        {
+                                                            "language": "KANNADA",
+                                                            "translation": "ಹೌದು"
+                                                        },
+                                                        {
+                                                            "language": "TAMIL",
+                                                            "translation": "ஆம்"
+                                                        },
+                                                        {
+                                                            "language": "TELUGU",
+                                                            "translation": "అవును"
+                                                        },
+                                                        {
+                                                            "language": "MALAYALAM",
+                                                            "translation": "അതെ"
+                                                        }
+                                                    ],
+                                                    "messages": [
+                                                        {
+                                                            "label": "CREATE_TICKET",
+                                                            "message": "Please provide additional information so that we can assist you better",
+                                                            "messageTitle": null,
+                                                            "priority": 1,
+                                                            "referenceCategoryId": null,
+                                                            "referenceOptionId": null,
+                                                            "messageTranslations": [
+                                                                {
+                                                                    "language": "HINDI",
+                                                                    "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                                                                },
+                                                                {
+                                                                    "language": "KANNADA",
+                                                                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                                                                },
+                                                                {
+                                                                    "language": "TAMIL",
+                                                                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                                                                },
+                                                                {
+                                                                    "language": "TELUGU",
+                                                                    "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                                                                },
+                                                                {
+                                                                    "language": "MALAYALAM",
+                                                                    "translation": "നിങ്ങളുടെ പ്രശ്നം പരിഹരിക്കാൻ കൂടുതൽ വിവരങ്ങൾ നൽകി ഞങ്ങളെ സഹായിക്കൂ."
+                                                                }
+                                                            ],
+                                                            "actionTranslations": [],
+                                                            "titleTranslations": [],
+                                                            "options": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "isActive": true,
+                                                    "label": null,
+                                                    "option": "No",
+                                                    "priority": 2,
+                                                    "translations": [
+                                                        {
+                                                            "language": "HINDI",
+                                                            "translation": "नहीं"
+                                                        },
+                                                        {
+                                                            "language": "KANNADA",
+                                                            "translation": "ಇಲ್ಲ"
+                                                        },
+                                                        {
+                                                            "language": "TAMIL",
+                                                            "translation": "இல்லை"
+                                                        },
+                                                        {
+                                                            "language": "TELUGU",
+                                                            "translation": "కాదు"
+                                                        },
+                                                        {
+                                                            "language": "MALAYALAM",
+                                                            "translation": "ഇല്ല"
+                                                        }
+                                                    ],
+                                                    "messages": [
+                                                        {
+                                                            "label": "END_FLOW",
+                                                            "message": "We're happy to have helped you with your inquiries. Don't hesitate to use the help feature on the app for any future questions or concerns.",
+                                                            "messageTitle": null,
+                                                            "priority": 1,
+                                                            "referenceCategoryId": null,
+                                                            "referenceOptionId": null,
+                                                            "messageTranslations": [
+                                                                {
+                                                                    "language": "HINDI",
+                                                                    "translation": "हम आपके सवालों में मदद करके खुश हैं। भविष्य में किसी भी प्रश्न या चिंता के लिए ऐप पर मदद सुविधा का उपयोग करने में संकोच न करें।"
+                                                                },
+                                                                {
+                                                                    "language": "KANNADA",
+                                                                    "translation": "ನಿಮ್ಮ ಪ್ರಶ್ನೆಗಳಿಗೆ ನಾವು ಸಹಾಯ ಮಾಡಿದಲ್ಲಿ ಸಂತೋಷ. ಭವಿಷ್ಯದಲ್ಲಿ ಯಾವುದೇ ಪ್ರಶ್ನೆಗಳಿಗೂ ಅಥವಾ ಆತಂಕಗಳಿಗೆ ಆಪ್‌ನ ಸಹಾಯ ವೈಶಿಷ್ಟ್ಯವನ್ನು ಬಳಸಲು ಹಿಂಜರಿಯಬೇಡಿ."
+                                                                },
+                                                                {
+                                                                    "language": "TAMIL",
+                                                                    "translation": "உங்கள் கேள்விகளுக்கு உதவியதற்கு நாங்கள் மகிழ்ச்சி அடைகிறோம். எதிர்கால கேள்விகள் அல்லது சிக்கல்களுக்கு ஆபில் உள்ள உதவித் தன்மையைப் பயன்படுத்த தயங்க வேண்டாம்."
+                                                                },
+                                                                {
+                                                                    "language": "TELUGU",
+                                                                    "translation": "మీ ప్రశ్నలకు సహాయం చేసినందుకు మేము సంతోషిస్తున్నాము. భవిష్యత్ ప్రశ్నలు లేదా ఆందోళనల కోసం యాప్‌లో సహాయం ఫీచర్‌ను ఉపయోగించడంలో సందేహించకండి."
+                                                                },
+                                                                {
+                                                                    "language": "MALAYALAM",
+                                                                    "translation": "താങ്കളുടെ സംശയങ്ങൾക്കു മറുപടി നൽകാൻ കഴിഞ്ഞതിൽ സന്തോഷം. ഇനിയും ചോദ്യങ്ങൾക്കോ ആശങ്കകൾക്കോ ഉത്തരം ലഭിക്കാൻ \"ഹെൽപ്പ്\" വിഭാഗം ഉപയോഗപ്പെടുത്താൻ മടിക്കേണ്ടതില്ല.."
+                                                                }
+                                                            ],
+                                                            "actionTranslations": [],
+                                                            "titleTranslations": [],
+                                                            "options": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "isActive": true,
+                    "label": "CREATE_TICKET",
+                    "option": "Friend/Relative lost something",
+                    "priority": 2,
+                    "translations": [
+                        {
+                            "language": "HINDI",
+                            "translation": "मित्र/रिश्तेदार ने कुछ खो दिया"
                         },
                         {
-                          "isActive": true,
-                          "label": null,
-                          "option": "No",
-                          "priority": 2,
-                          "translations": [
-                            {
-                              "language": "HINDI",
-                              "translation": "नहीं"
-                            },
-                            {
-                              "language": "KANNADA",
-                              "translation": "ಇಲ್ಲ"
-                            },
-                            {
-                              "language": "TAMIL",
-                              "translation": "இல்லை"
-                            },
-                            {
-                              "language": "TELUGU",
-                              "translation": "కాదు"
-                            },
-                            {
-                              "language": "MALAYALAM",
-                              "translation": "ഇല്ല"
-                            }
-                          ],
-                          "messages": [
-                            {
-                              "label": "END_FLOW",
-                              "message": "We're happy to have helped you with your inquiries. Don't hesitate to use the help feature on the app for any future questions or concerns.",
-                              "messageTitle": null,
-                              "priority": 1,
-                              "referenceCategoryId": null,
-                              "referenceOptionId": null,
-                              "messageTranslations": [
-                                {
-                                  "language": "HINDI",
-                                  "translation": "हम आपके सवालों में मदद करके खुश हैं। भविष्य में किसी भी प्रश्न या चिंता के लिए ऐप पर मदद सुविधा का उपयोग करने में संकोच न करें।"
-                                },
-                                {
-                                  "language": "KANNADA",
-                                  "translation": "ನಿಮ್ಮ ಪ್ರಶ್ನೆಗಳಿಗೆ ನಾವು ಸಹಾಯ ಮಾಡಿದಲ್ಲಿ ಸಂತೋಷ. ಭವಿಷ್ಯದಲ್ಲಿ ಯಾವುದೇ ಪ್ರಶ್ನೆಗಳಿಗೂ ಅಥವಾ ಆತಂಕಗಳಿಗೆ ಆಪ್‌ನ ಸಹಾಯ ವೈಶಿಷ್ಟ್ಯವನ್ನು ಬಳಸಲು ಹಿಂಜರಿಯಬೇಡಿ."
-                                },
-                                {
-                                  "language": "TAMIL",
-                                  "translation": "உங்கள் கேள்விகளுக்கு உதவியதற்கு நாங்கள் மகிழ்ச்சி அடைகிறோம். எதிர்கால கேள்விகள் அல்லது சிக்கல்களுக்கு ஆபில் உள்ள உதவித் தன்மையைப் பயன்படுத்த தயங்க வேண்டாம்."
-                                },
-                                {
-                                  "language": "TELUGU",
-                                  "translation": "మీ ప్రశ్నలకు సహాయం చేసినందుకు మేము సంతోషిస్తున్నాము. భవిష్యత్ ప్రశ్నలు లేదా ఆందోళనల కోసం యాప్‌లో సహాయం ఫీచర్‌ను ఉపయోగించడంలో సందేహించకండి."
-                                },
-                                {
-                                  "language": "MALAYALAM",
-                                  "translation": "താങ്കളുടെ സംശയങ്ങൾക്കു മറുപടി നൽകാൻ കഴിഞ്ഞതിൽ സന്തോഷം. ഇനിയും ചോദ്യങ്ങൾക്കോ ആശങ്കകൾക്കോ ഉത്തരം ലഭിക്കാൻ \"ഹെൽപ്പ്\" വിഭാഗം ഉപയോഗപ്പെടുത്താൻ മടിക്കേണ്ടതില്ല.."
-                                }
-                              ],
-                              "actionTranslations": [],
-                              "titleTranslations": [],
-                              "options": []
-                            }
-                          ]
+                            "language": "KANNADA",
+                            "translation": "ಸ್ನೇಹಿತ/ಸಂಬಂಧಿ ಏನನ್ನೋ ಕಳೆದುಕೊಂಡರು"
+                        },
+                        {
+                            "language": "TAMIL",
+                            "translation": "நண்பர்/உறவினர் ஏதோ தொலைத்துவிட்டார்"
+                        },
+                        {
+                            "language": "TELUGU",
+                            "translation": "స్నేహితుడు/బంధువు ఏదో పోగొట్టుకున్నారు"
+                        },
+                        {
+                            "language": "MALAYALAM",
+                            "translation": "സുഹൃത്തതിന് / ബന്ധുവിന് വസ്തു നഷ്ടപ്പെട്ടു"
                         }
-                      ]
-                    }
-                  ]
+                    ],
+                    "messages": [
+                        {
+                            "label": "CREATE_TICKET",
+                            "message": "Please provide additional information so that we can assist you better",
+                            "messageTitle": null,
+                            "priority": 1,
+                            "referenceCategoryId": null,
+                            "referenceOptionId": null,
+                            "messageTranslations": [
+                                {
+                                    "language": "HINDI",
+                                    "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                                },
+                                {
+                                    "language": "KANNADA",
+                                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                                },
+                                {
+                                    "language": "TAMIL",
+                                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                                },
+                                {
+                                    "language": "TELUGU",
+                                    "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                                },
+                                {
+                                    "language": "MALAYALAM",
+                                    "translation": "നിങ്ങളുടെ പ്രശ്നം പരിഹരിക്കാൻ കൂടുതൽ വിവരങ്ങൾ നൽകി ഞങ്ങളെ സഹായിക്കൂ."
+                                }
+                            ],
+                            "actionTranslations": [],
+                            "titleTranslations": [],
+                            "options": []
+                        }
+                    ]
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "isActive": true,
-          "label": "CREATE_TICKET",
-          "option": "Friend / Relative lost something",
-          "priority": 2,
-          "translations": [],
-          "messages": [
-            {
-              "label": "CREATE_TICKET",
-              "message": "Please provide additional information so that we can assist you better",
-              "messageTitle": null,
-              "priority": 1,
-              "referenceCategoryId": null,
-              "referenceOptionId": null,
-              "messageTranslations": [
-                {
-                  "language": "HINDI",
-                  "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
-                },
-                {
-                  "language": "KANNADA",
-                  "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
-                },
-                {
-                  "language": "TAMIL",
-                  "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
-                },
-                {
-                  "language": "TELUGU",
-                  "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
-                },
-                {
-                  "language": "MALAYALAM",
-                  "translation": "നിങ്ങളുടെ പ്രശ്നം പരിഹരിക്കാൻ കൂടുതൽ വിവരങ്ങൾ നൽകി ഞങ്ങളെ സഹായിക്കൂ."
-                }
-              ],
-              "actionTranslations": [],
-              "titleTranslations": [],
-              "options": []
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

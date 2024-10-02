@@ -1,423 +1,446 @@
 {
-  "isActive": true,
-  "label": null,
-  "option": "Report a Safety Issue",
-  "priority": 5,
-  "translations": [
-    {
-      "language": "HINDI",
-      "translation": "सुरक्षा समस्या की रिपोर्ट करें"
-    },
-    {
-      "language": "KANNADA",
-      "translation": "ಸುರಕ್ಷತಾ ಸಮಸ್ಯೆಯನ್ನು ವರದಿ ಮಾಡಿ"
-    },
-    {
-      "language": "TAMIL",
-      "translation": "பாதுகாப்பு சிக்கலைப் புகாரளிக்கவும்"
-    },
-    {
-      "language": "TELUGU",
-      "translation": "భద్రతా సమస్యను నివేదించండి"
-    },
-    {
-      "language": "MALAYALAM",
-      "translation": "സുരക്ഷാ പ്രശ്നം റിപ്പോർട്ട് ചെയ്യുക"
-    }
-  ],
-  "messages": [
-    {
-      "label": null,
-      "message": "Please select the type of issue you are facing so we can help you out better",
-      "messageAction": null,
-      "messageTitle": null,
-      "priority": 1,
-      "referenceCategoryId": null,
-      "referenceOptionId": null,
-      "messageTranslations": [
+    "isActive": true,
+    "label": null,
+    "option": "Report a Safety Issue",
+    "priority": 5,
+    "translations": [
         {
-          "language": "HINDI",
-          "translation": "कृपया आप जिस प्रकार की समस्या का सामना कर रहे हैं, उसे चुनें ताकि हम आपकी बेहतर सहायता कर सकें"
+            "language": "HINDI",
+            "translation": "सुरक्षा समस्या की रिपोर्ट करें"
         },
         {
-          "language": "KANNADA",
-          "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+            "language": "KANNADA",
+            "translation": "ಸುರಕ್ಷತಾ ಸಮಸ್ಯೆಯನ್ನು ವರದಿ ಮಾಡಿ"
         },
         {
-          "language": "TAMIL",
-          "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, நீங்கள் சந்திக்கும் சிக்கலின் வகையைத் தேர்ந்தெடுக்கவும்"
+            "language": "TAMIL",
+            "translation": "பாதுகாப்பு சிக்கலைப் புகாரளிக்கவும்"
         },
         {
-          "language": "TELUGU",
-          "translation": "దయచేసి మీరు ఎదుర్కొంటున్న సమస్య రకాన్ని ఎంచుకోండి, తద్వారా మేము మీకు మెరుగైన సహాయం చేయగలము"
+            "language": "TELUGU",
+            "translation": "భద్రతా సమస్యను నివేదించండి"
         },
         {
-          "language": "MALAYALAM",
-          "translation": "നിങ്ങൾ അഭിമുഖീകരിക്കുന്ന പ്രശ്‌നത്തിൻ്റെ തരം തിരഞ്ഞെടുക്കുക, നിങ്ങളെ കൂടുതൽ സഹായിക്കാൻ ഞങ്ങൾക്കാകും."
+            "language": "MALAYALAM",
+            "translation": "സുരക്ഷാ പ്രശ്നം റിപ്പോർട്ട് ചെയ്യുക"
         }
-      ],
-      "actionTranslations": [],
-      "titleTranslations": [],
-      "options": [
+    ],
+    "messages": [
         {
-          "isActive": true,
-          "label": null,
-          "option": "Drink and drive",
-          "priority": 1,
-          "translations": [],
-          "messages": [
-            {
-              "label": "CREATE_TICKET",
-              "message": "Please provide additional information so that we can assist you better",
-              "messageTitle": null,
-              "priority": 1,
-              "referenceCategoryId": null,
-              "referenceOptionId": null,
-              "messageTranslations": [
+            "label": null,
+            "message": "Please select the type of issue you are facing so we can help you out better",
+            "messageAction": null,
+            "messageTitle": null,
+            "priority": 1,
+            "referenceCategoryId": null,
+            "referenceOptionId": null,
+            "messageTranslations": [
                 {
-                  "language": "HINDI",
-                  "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                    "language": "HINDI",
+                    "translation": "कृपया आप जिस प्रकार की समस्या का सामना कर रहे हैं, उसे चुनें ताकि हम आपकी बेहतर सहायता कर सकें"
                 },
                 {
-                  "language": "KANNADA",
-                  "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                    "language": "KANNADA",
+                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
                 },
                 {
-                  "language": "TAMIL",
-                  "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                    "language": "TAMIL",
+                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, நீங்கள் சந்திக்கும் சிக்கலின் வகையைத் தேர்ந்தெடுக்கவும்"
                 },
                 {
-                  "language": "TELUGU",
-                  "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                    "language": "TELUGU",
+                    "translation": "దయచేసి మీరు ఎదుర్కొంటున్న సమస్య రకాన్ని ఎంచుకోండి, తద్వారా మేము మీకు మెరుగైన సహాయం చేయగలము"
                 },
                 {
-                  "language": "MALAYALAM",
-                  "translation": "നിങ്ങളുടെ പ്രശ്നം പരിഹരിക്കാൻ കൂടുതൽ വിവരങ്ങൾ നൽകി ഞങ്ങളെ സഹായിക്കൂ."
+                    "language": "MALAYALAM",
+                    "translation": "നിങ്ങൾ അഭിമുഖീകരിക്കുന്ന പ്രശ്‌നത്തിൻ്റെ തരം തിരഞ്ഞെടുക്കുക, നിങ്ങളെ കൂടുതൽ സഹായിക്കാൻ ഞങ്ങൾക്കാകും."
                 }
-              ],
-              "actionTranslations": [],
-              "titleTranslations": [],
-              "options": []
-            }
-          ]
-        },
-        {
-          "isActive": true,
-          "label": null,
-          "option": "Met with an accident",
-          "priority": 2,
-          "restrictedRideStatuses" : ["R_CANCELLED"],
-          "translations": [
-            {
-              "language": "HINDI",
-              "translation": "दुर्घटना हो गई"
-            },
-            {
-              "language": "KANNADA",
-              "translation": "ಅಪಘಾತಕ್ಕೆ ಒಳಗಾಯಿತು"
-            },
-            {
-              "language": "TAMIL",
-              "translation": "விபத்துக்குள்ளானது"
-            },
-            {
-              "language": "TELUGU",
-              "translation": "ప్రమాదానికి గురైంది"
-            },
-            {
-              "language": "MALAYALAM",
-              "translation": "അപകടം സംഭവിച്ചു"
-            }
-          ],
-          "messages": [
-            {
-              "label": "CREATE_TICKET",
-              "message": "Please provide additional information so that we can assist you better",
-              "messageTitle": null,
-              "priority": 1,
-              "referenceCategoryId": null,
-              "referenceOptionId": null,
-              "messageTranslations": [
+            ],
+            "actionTranslations": [],
+            "titleTranslations": [],
+            "options": [
                 {
-                  "language": "HINDI",
-                  "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                    "isActive": true,
+                    "label": null,
+                    "option": "Drink and drive",
+                    "priority": 1,
+                    "translations": [
+                        {
+                            "language": "HINDI",
+                            "translation": "नशे में गाड़ी चलाना"
+                        },
+                        {
+                            "language": "KANNADA",
+                            "translation": "ಮದ್ಯಪಾನ ಮಾಡಿ ವಾಹನ ಚಲಾಯಿಸುವುದು"
+                        },
+                        {
+                            "language": "TAMIL",
+                            "translation": "குடிபோதையில் வாகனம் ஓட்டுதல்"
+                        },
+                        {
+                            "language": "TELUGU",
+                            "translation": "తాగి వాహనం నడపడం"
+                        },
+                        {
+                            "language": "MALAYALAM",
+                            "translation": "മദ്യപിച്ച് വാഹനമോടിക്കൽ"
+                        }
+                    ],
+                    "messages": [
+                        {
+                            "label": "CREATE_TICKET",
+                            "message": "Please provide additional information so that we can assist you better",
+                            "messageTitle": null,
+                            "priority": 1,
+                            "referenceCategoryId": null,
+                            "referenceOptionId": null,
+                            "messageTranslations": [
+                                {
+                                    "language": "HINDI",
+                                    "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                                },
+                                {
+                                    "language": "KANNADA",
+                                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                                },
+                                {
+                                    "language": "TAMIL",
+                                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                                },
+                                {
+                                    "language": "TELUGU",
+                                    "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                                },
+                                {
+                                    "language": "MALAYALAM",
+                                    "translation": "നിങ്ങളുടെ പ്രശ്നം പരിഹരിക്കാൻ കൂടുതൽ വിവരങ്ങൾ നൽകി ഞങ്ങളെ സഹായിക്കൂ."
+                                }
+                            ],
+                            "actionTranslations": [],
+                            "titleTranslations": [],
+                            "options": []
+                        }
+                    ]
                 },
                 {
-                  "language": "KANNADA",
-                  "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                    "isActive": true,
+                    "label": null,
+                    "option": "Met with an accident",
+                    "priority": 2,
+                    "restrictedRideStatuses": [
+                        "R_CANCELLED"
+                    ],
+                    "translations": [
+                        {
+                            "language": "HINDI",
+                            "translation": "दुर्घटना हो गई"
+                        },
+                        {
+                            "language": "KANNADA",
+                            "translation": "ಅಪಘಾತಕ್ಕೆ ಒಳಗಾಯಿತು"
+                        },
+                        {
+                            "language": "TAMIL",
+                            "translation": "விபத்துக்குள்ளானது"
+                        },
+                        {
+                            "language": "TELUGU",
+                            "translation": "ప్రమాదానికి గురైంది"
+                        },
+                        {
+                            "language": "MALAYALAM",
+                            "translation": "അപകടം സംഭവിച്ചു"
+                        }
+                    ],
+                    "messages": [
+                        {
+                            "label": "CREATE_TICKET",
+                            "message": "Please provide additional information so that we can assist you better",
+                            "messageTitle": null,
+                            "priority": 1,
+                            "referenceCategoryId": null,
+                            "referenceOptionId": null,
+                            "messageTranslations": [
+                                {
+                                    "language": "HINDI",
+                                    "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                                },
+                                {
+                                    "language": "KANNADA",
+                                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                                },
+                                {
+                                    "language": "TAMIL",
+                                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                                },
+                                {
+                                    "language": "TELUGU",
+                                    "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                                },
+                                {
+                                    "language": "MALAYALAM",
+                                    "translation": "നിങ്ങളുടെ പ്രശ്നം പരിഹരിക്കാൻ കൂടുതൽ വിവരങ്ങൾ നൽകി ഞങ്ങളെ സഹായിക്കൂ."
+                                }
+                            ],
+                            "actionTranslations": [],
+                            "titleTranslations": [],
+                            "options": []
+                        }
+                    ]
                 },
                 {
-                  "language": "TAMIL",
-                  "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                    "isActive": true,
+                    "label": null,
+                    "option": "Sexual Harrassment",
+                    "priority": 3,
+                    "translations": [
+                        {
+                            "language": "HINDI",
+                            "translation": "यौन उत्पीड़न"
+                        },
+                        {
+                            "language": "KANNADA",
+                            "translation": "ಲೈಂಗಿಕ ಕಿರುಕುಳ"
+                        },
+                        {
+                            "language": "TAMIL",
+                            "translation": "பாலியல் துன்புறுத்தல்"
+                        },
+                        {
+                            "language": "TELUGU",
+                            "translation": "లైంగిక వేధింపు"
+                        },
+                        {
+                            "language": "MALAYALAM",
+                            "translation": "ലൈംഗിക പീഡനം"
+                        }
+                    ],
+                    "messages": [
+                        {
+                            "label": "CREATE_TICKET",
+                            "message": "Please provide additional information so that we can assist you better",
+                            "messageTitle": null,
+                            "priority": 1,
+                            "referenceCategoryId": null,
+                            "referenceOptionId": null,
+                            "messageTranslations": [
+                                {
+                                    "language": "HINDI",
+                                    "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                                },
+                                {
+                                    "language": "KANNADA",
+                                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                                },
+                                {
+                                    "language": "TAMIL",
+                                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                                },
+                                {
+                                    "language": "TELUGU",
+                                    "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                                },
+                                {
+                                    "language": "MALAYALAM",
+                                    "translation": "നിങ്ങളുടെ പ്രശ്നം പരിഹരിക്കാൻ കൂടുതൽ വിവരങ്ങൾ നൽകി ഞങ്ങളെ സഹായിക്കൂ."
+                                }
+                            ],
+                            "actionTranslations": [],
+                            "titleTranslations": [],
+                            "options": []
+                        }
+                    ]
                 },
                 {
-                  "language": "TELUGU",
-                  "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                    "isActive": true,
+                    "label": null,
+                    "option": "Physical Fights",
+                    "priority": 4,
+                    "translations": [
+                        {
+                            "language": "HINDI",
+                            "translation": "शारीरिक झगड़े"
+                        },
+                        {
+                            "language": "KANNADA",
+                            "translation": "ದೈಹಿಕ ಜಗಳಗಳು"
+                        },
+                        {
+                            "language": "TAMIL",
+                            "translation": "உடல் ரீதியான சண்டைகள்"
+                        },
+                        {
+                            "language": "TELUGU",
+                            "translation": "శారీరక ఘర్షణలు"
+                        },
+                        {
+                            "language": "MALAYALAM",
+                            "translation": "ശാരീരിക സംഘർഷങ്ങൾ"
+                        }
+                    ],
+                    "messages": [
+                        {
+                            "label": "CREATE_TICKET",
+                            "message": "Please provide additional information so that we can assist you better",
+                            "messageTitle": null,
+                            "priority": 1,
+                            "referenceCategoryId": null,
+                            "referenceOptionId": null,
+                            "messageTranslations": [
+                                {
+                                    "language": "HINDI",
+                                    "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                                },
+                                {
+                                    "language": "KANNADA",
+                                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                                },
+                                {
+                                    "language": "TAMIL",
+                                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                                },
+                                {
+                                    "language": "TELUGU",
+                                    "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                                },
+                                {
+                                    "language": "MALAYALAM",
+                                    "translation": "നിങ്ങളുടെ പ്രശ്നം പരിഹരിക്കാൻ കൂടുതൽ വിവരങ്ങൾ നൽകി ഞങ്ങളെ സഹായിക്കൂ."
+                                }
+                            ],
+                            "actionTranslations": [],
+                            "titleTranslations": [],
+                            "options": []
+                        }
+                    ]
                 },
                 {
-                  "language": "MALAYALAM",
-                  "translation": "നിങ്ങളുടെ പ്രശ്നം പരിഹരിക്കാൻ കൂടുതൽ വിവരങ്ങൾ നൽകി ഞങ്ങളെ സഹായിക്കൂ."
+                    "isActive": true,
+                    "label": null,
+                    "option": "Extra Person in the vehicle",
+                    "priority": 5,
+                    "translations": [
+                        {
+                            "language": "HINDI",
+                            "translation": "वाहन में अतिरिक्त व्यक्ति"
+                        },
+                        {
+                            "language": "KANNADA",
+                            "translation": "ವಾಹನದಲ್ಲಿ ಹೆಚ್ಚುವರಿ ವ್ಯಕ್ತಿ"
+                        },
+                        {
+                            "language": "TAMIL",
+                            "translation": "வாகனத்தில் கூடுதல் நபர்"
+                        },
+                        {
+                            "language": "TELUGU",
+                            "translation": "వాహనంలో అదనపు వ్యక్తి"
+                        },
+                        {
+                            "language": "MALAYALAM",
+                            "translation": "വാഹനത്തിൽ അധിക വ്യക്തി"
+                        }
+                    ],
+                    "messages": [
+                        {
+                            "label": "CREATE_TICKET",
+                            "message": "Please provide additional information so that we can assist you better",
+                            "messageTitle": null,
+                            "priority": 1,
+                            "referenceCategoryId": null,
+                            "referenceOptionId": null,
+                            "messageTranslations": [
+                                {
+                                    "language": "HINDI",
+                                    "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                                },
+                                {
+                                    "language": "KANNADA",
+                                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                                },
+                                {
+                                    "language": "TAMIL",
+                                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                                },
+                                {
+                                    "language": "TELUGU",
+                                    "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                                },
+                                {
+                                    "language": "MALAYALAM",
+                                    "translation": "നിങ്ങളുടെ പ്രശ്നം പരിഹരിക്കാൻ കൂടുതൽ വിവരങ്ങൾ നൽകി ഞങ്ങളെ സഹായിക്കൂ."
+                                }
+                            ],
+                            "actionTranslations": [],
+                            "titleTranslations": [],
+                            "options": []
+                        }
+                    ]
+                },
+                {
+                    "isActive": true,
+                    "label": null,
+                    "option": "Other",
+                    "priority": 6,
+                    "translations": [
+                        {
+                            "language": "HINDI",
+                            "translation": "अन्य"
+                        },
+                        {
+                            "language": "KANNADA",
+                            "translation": "ಇತರೆ"
+                        },
+                        {
+                            "language": "TAMIL",
+                            "translation": "மற்றவை"
+                        },
+                        {
+                            "language": "TELUGU",
+                            "translation": "ఇతర"
+                        },
+                        {
+                            "language": "MALAYALAM",
+                            "translation": "മറ്റുള്ളവ"
+                        }
+                    ],
+                    "messages": [
+                        {
+                            "label": "CREATE_TICKET",
+                            "message": "Please provide additional information so that we can assist you better",
+                            "messageTitle": null,
+                            "priority": 1,
+                            "referenceCategoryId": null,
+                            "referenceOptionId": null,
+                            "messageTranslations": [
+                                {
+                                    "language": "HINDI",
+                                    "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                                },
+                                {
+                                    "language": "KANNADA",
+                                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                                },
+                                {
+                                    "language": "TAMIL",
+                                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                                },
+                                {
+                                    "language": "TELUGU",
+                                    "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                                },
+                                {
+                                    "language": "MALAYALAM",
+                                    "translation": "നിങ്ങളുടെ പ്രശ്നം പരിഹരിക്കാൻ കൂടുതൽ വിവരങ്ങൾ നൽകി ഞങ്ങളെ സഹായിക്കൂ."
+                                }
+                            ],
+                            "actionTranslations": [],
+                            "titleTranslations": [],
+                            "options": []
+                        }
+                    ]
                 }
-              ],
-              "actionTranslations": [],
-              "titleTranslations": [],
-              "options": []
-            }
-          ]
-        },
-        {
-          "isActive": true,
-          "label": null,
-          "option": "Sexual Harrassment",
-          "priority": 3,
-          "translations": [
-            {
-              "language": "HINDI",
-              "translation": "यौन उत्पीड़न"
-            },
-            {
-              "language": "KANNADA",
-              "translation": "ಲೈಂಗಿಕ ಕಿರುಕುಳ"
-            },
-            {
-              "language": "TAMIL",
-              "translation": "பாலியல் துன்புறுத்தல்"
-            },
-            {
-              "language": "TELUGU",
-              "translation": "లైంగిక వేధింపు"
-            },
-            {
-              "language": "MALAYALAM",
-              "translation": "ലൈംഗിക പീഡനം"
-            }
-          ],
-          "messages": [
-            {
-              "label": "CREATE_TICKET",
-              "message": "Please provide additional information so that we can assist you better",
-              "messageTitle": null,
-              "priority": 1,
-              "referenceCategoryId": null,
-              "referenceOptionId": null,
-              "messageTranslations": [
-                {
-                  "language": "HINDI",
-                  "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
-                },
-                {
-                  "language": "KANNADA",
-                  "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
-                },
-                {
-                  "language": "TAMIL",
-                  "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
-                },
-                {
-                  "language": "TELUGU",
-                  "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
-                },
-                {
-                  "language": "MALAYALAM",
-                  "translation": "നിങ്ങളുടെ പ്രശ്നം പരിഹരിക്കാൻ കൂടുതൽ വിവരങ്ങൾ നൽകി ഞങ്ങളെ സഹായിക്കൂ."
-                }
-              ],
-              "actionTranslations": [],
-              "titleTranslations": [],
-              "options": []
-            }
-          ]
-        },
-        {
-          "isActive": true,
-          "label": null,
-          "option": "Physical Fights",
-          "priority": 4,
-          "translations": [
-            {
-              "language": "HINDI",
-              "translation": "शारीरिक झगड़े"
-            },
-            {
-              "language": "KANNADA",
-              "translation": "ದೈಹಿಕ ಜಗಳಗಳು"
-            },
-            {
-              "language": "TAMIL",
-              "translation": "உடல் ரீதியான சண்டைகள்"
-            },
-            {
-              "language": "TELUGU",
-              "translation": "శారీరక ఘర్షణలు"
-            },
-            {
-              "language": "MALAYALAM",
-              "translation": "ശാരീരിക സംഘർഷങ്ങൾ"
-            }
-          ],
-          "messages": [
-            {
-              "label": "CREATE_TICKET",
-              "message": "Please provide additional information so that we can assist you better",
-              "messageTitle": null,
-              "priority": 1,
-              "referenceCategoryId": null,
-              "referenceOptionId": null,
-              "messageTranslations": [
-                {
-                  "language": "HINDI",
-                  "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
-                },
-                {
-                  "language": "KANNADA",
-                  "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
-                },
-                {
-                  "language": "TAMIL",
-                  "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
-                },
-                {
-                  "language": "TELUGU",
-                  "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
-                },
-                {
-                  "language": "MALAYALAM",
-                  "translation": "നിങ്ങളുടെ പ്രശ്നം പരിഹരിക്കാൻ കൂടുതൽ വിവരങ്ങൾ നൽകി ഞങ്ങളെ സഹായിക്കൂ."
-                }
-              ],
-              "actionTranslations": [],
-              "titleTranslations": [],
-              "options": []
-            }
-          ]
-        },
-        {
-          "isActive": true,
-          "label": null,
-          "option": "Extra Person in the vehicle",
-          "priority": 5,
-          "translations": [
-            {
-              "language": "HINDI",
-              "translation": "वाहन में अतिरिक्त व्यक्ति"
-            },
-            {
-              "language": "KANNADA",
-              "translation": "ವಾಹನದಲ್ಲಿ ಹೆಚ್ಚುವರಿ ವ್ಯಕ್ತಿ"
-            },
-            {
-              "language": "TAMIL",
-              "translation": "வாகனத்தில் கூடுதல் நபர்"
-            },
-            {
-              "language": "TELUGU",
-              "translation": "వాహనంలో అదనపు వ్యక్తి"
-            },
-            {
-              "language": "MALAYALAM",
-              "translation": "വാഹനത്തിൽ അധിക വ്യക്തി"
-            }
-          ],
-          "messages": [
-            {
-              "label": "CREATE_TICKET",
-              "message": "Please provide additional information so that we can assist you better",
-              "messageTitle": null,
-              "priority": 1,
-              "referenceCategoryId": null,
-              "referenceOptionId": null,
-              "messageTranslations": [
-                {
-                  "language": "HINDI",
-                  "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
-                },
-                {
-                  "language": "KANNADA",
-                  "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
-                },
-                {
-                  "language": "TAMIL",
-                  "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
-                },
-                {
-                  "language": "TELUGU",
-                  "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
-                },
-                {
-                  "language": "MALAYALAM",
-                  "translation": "നിങ്ങളുടെ പ്രശ്നം പരിഹരിക്കാൻ കൂടുതൽ വിവരങ്ങൾ നൽകി ഞങ്ങളെ സഹായിക്കൂ."
-                }
-              ],
-              "actionTranslations": [],
-              "titleTranslations": [],
-              "options": []
-            }
-          ]
-        },
-        {
-          "isActive": true,
-          "label": null,
-          "option": "Other",
-          "priority": 6,
-          "translations": [
-            {
-              "language": "HINDI",
-              "translation": "अन्य"
-            },
-            {
-              "language": "KANNADA",
-              "translation": "ಇತರೆ"
-            },
-            {
-              "language": "TAMIL",
-              "translation": "மற்றவை"
-            },
-            {
-              "language": "TELUGU",
-              "translation": "ఇతర"
-            },
-            {
-              "language": "MALAYALAM",
-              "translation": "മറ്റുള്ളവ"
-            }
-          ],
-          "messages": [
-            {
-              "label": "CREATE_TICKET",
-              "message": "Please provide additional information so that we can assist you better",
-              "messageTitle": null,
-              "priority": 1,
-              "referenceCategoryId": null,
-              "referenceOptionId": null,
-              "messageTranslations": [
-                {
-                  "language": "HINDI",
-                  "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
-                },
-                {
-                  "language": "KANNADA",
-                  "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
-                },
-                {
-                  "language": "TAMIL",
-                  "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
-                },
-                {
-                  "language": "TELUGU",
-                  "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
-                },
-                {
-                  "language": "MALAYALAM",
-                  "translation": "നിങ്ങളുടെ പ്രശ്നം പരിഹരിക്കാൻ കൂടുതൽ വിവരങ്ങൾ നൽകി ഞങ്ങളെ സഹായിക്കൂ."
-                }
-              ],
-              "actionTranslations": [],
-              "titleTranslations": [],
-              "options": []
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
