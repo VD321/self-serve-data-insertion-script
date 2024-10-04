@@ -164,7 +164,6 @@
                     "label": null,
                     "option": "My account is blocked",
                     "priority": 2,
-                    "showOnlyWhenUserBlocked": true,
                     "translations": [
                         {
                             "language": "HINDI",

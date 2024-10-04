@@ -1,9 +1,15 @@
 {
-    "isActive": true,
-    "label": null,
-    "option": "Find a Lost Item",
+    "category": "Find a Lost Item",
+    "categoryType": "Category",
+    "label" : "LOST_AND_FOUND",
+    "isRideRequired": true,
+    "isActive": "{{IS_ACTIVE_CATEGORY}}",
+    "logoUrl": "ny_ic_lost_and_found,https://assets.moving.tech/beckn/common/common/images/ny_ic_lost_and_found.png",
+    "maxAllowedRideAge": 259200,
+    "allowedRideStatuses": [
+        "R_COMPLETED"
+    ],
     "priority": 3,
-    "restrictedRideStatuses": ["R_CANCELLED"],
     "translations": [
         {
             "language": "HINDI",
@@ -29,30 +35,30 @@
     "messages": [
         {
             "label": null,
-            "message": "Please select the type of issue you are facing so we can help you out better",
+            "message": "Hi! We're sorry about your experience. Let us know the issue so we can help.",
             "messageAction": null,
             "messageTitle": null,
             "priority": 1,
             "messageTranslations": [
                 {
                     "language": "HINDI",
-                    "translation": "कृपया आप जिस प्रकार की समस्या का सामना कर रहे हैं, उसे चुनें ताकि हम आपकी बेहतर सहायता कर सकें"
+                    "translation": "नमस्ते! आपके अनुभव के लिए हमें खेद है। हमें समस्या बताएं ताकि हम मदद कर सकें।"
                 },
                 {
                     "language": "KANNADA",
-                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                    "translation": "ನಮಸ್ಕಾರ!ನಿಮ್ಮ ಅನುಭವಕ್ಕಾಗಿ ನಾವು ಕ್ಷಮೆ ಕೇಳುತ್ತೇವೆ.. ಸಮಸ್ಯೆಯನ್ನು ನಮಗೆ ತಿಳಿಸಿ ಇದರಿಂದ ನಾವು ಸಹಾಯ ಮಾಡಬಹುದು."
                 },
                 {
                     "language": "TAMIL",
-                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, நீங்கள் சந்திக்கும் சிக்கலின் வகையைத் தேர்ந்தெடுக்கவும்"
+                    "translation": "வணக்கம்! உங்கள் அனுபவத்திற்கு நாங்கள் \nவருந்துகிறோம் பிரச்சினையை எங்களுக்குத் \nதெரியப்படுத்துங்கள், அப்பொழுது தான் நாங்கள் உதவ \nமுடியும்."
                 },
                 {
                     "language": "TELUGU",
-                    "translation": "దయచేసి మీరు ఎదుర్కొంటున్న సమస్య రకాన్ని ఎంచుకోండి, తద్వారా మేము మీకు మెరుగైన సహాయం చేయగలము"
+                    "translation": "హలో! మీ అనుభవానికి మేము చింతిస్తున్నాము. మేము సహాయం చేయగలిగేలా సమస్యను మాకు తెలియజేయండి."
                 },
                 {
                     "language": "MALAYALAM",
-                    "translation": "നിങ്ങൾ അഭിമുഖീകരിക്കുന്ന പ്രശ്‌നത്തിൻ്റെ തരം തിരഞ്ഞെടുക്കുക, നിങ്ങളെ കൂടുതൽ സഹായിക്കാൻ ഞങ്ങൾക്കാകും."
+                    "translation": "ഹായ്! നിങ്ങളുടെ അനുഭവം മോശമായതിൽ ഞങ്ങൾ ഖേദിക്കുന്നു. താങ്കളെ സഹായിക്കുന്നതിനായി, താങ്കൾക്കുണ്ടായ പ്രശ്നം വിവരിക്കുക "
                 }
             ],
             "actionTranslations": [],

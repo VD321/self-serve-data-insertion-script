@@ -7,7 +7,7 @@ require('dotenv').config();
 
 // Data Directories
 const deactivationCsvFile = "./deactivation-data";
-const selfServeCategoryDirectory = "./new-issue-categories-v2";
+const selfServeCategoryDirectory = "./new-issue-categories-v3";
 const faqDirectory = "./faq-data";
 const rideRelatedFaqDirectory = "./faq-data/ride-related-faqs"
 

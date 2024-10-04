@@ -4,7 +4,7 @@
     "label": "PAYMENT_AND_FARE_RELATED",
     "isRideRequired": true,
     "isActive": "{{IS_ACTIVE_CATEGORY}}",
-    "logoUrl": "ny_ic_app_related_issue,https://assets.moving.tech/beckn/common/common/images/ny_ic_ride_related_issue.png",
+    "logoUrl": "ny_ic_ride_related_issue,https://assets.moving.tech/beckn/common/common/images/ny_ic_ride_related_issue.png",
     "maxAllowedRideAge": 259200,
     "priority": 1,
     "translations": [

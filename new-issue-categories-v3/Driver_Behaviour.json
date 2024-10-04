@@ -1,34 +1,38 @@
 {
-    "isActive": true,
-    "label": null,
-    "option": "Report a Safety Issue",
-    "priority": 5,
+    "category": "Driver Feedback",
+    "categoryType": "Category",
+    "isRideRequired": true,
+    "label" : "RIDE_RELATED",
+    "isActive": "{{IS_ACTIVE_CATEGORY}}",
+    "logoUrl": "ny_ic_driver_related_issue,https://assets.moving.tech/beckn/common/common/images/ny_ic_driver_related_issue.png",
+    "maxAllowedRideAge": 259200,
+    "priority": 2,
     "translations": [
         {
             "language": "HINDI",
-            "translation": "सुरक्षा समस्या की रिपोर्ट करें"
+            "translation": "ड्राइवर प्रतिक्रिया"
         },
         {
             "language": "KANNADA",
-            "translation": "ಸುರಕ್ಷತಾ ಸಮಸ್ಯೆಯನ್ನು ವರದಿ ಮಾಡಿ"
+            "translation": "ಚಾಲಕನ ಪ್ರತಿಕ್ರಿಯೆ"
         },
         {
             "language": "TAMIL",
-            "translation": "பாதுகாப்பு சிக்கலைப் புகாரளிக்கவும்"
+            "translation": "ஓட்டுநர் கருத்து"
         },
         {
             "language": "TELUGU",
-            "translation": "భద్రతా సమస్యను నివేదించండి"
+            "translation": "డ్రైవర్ అభిప్రాయం"
         },
         {
             "language": "MALAYALAM",
-            "translation": "സുരക്ഷാ പ്രശ്നം റിപ്പോർട്ട് ചെയ്യുക"
+            "translation": "ഡ്രൈവർ ഫീഡ്ബാക്ക്"
         }
     ],
     "messages": [
         {
             "label": null,
-            "message": "Please select the type of issue you are facing so we can help you out better",
+            "message": "Hi! We're sorry about your experience. Let us know the issue so we can help.",
             "messageAction": null,
             "messageTitle": null,
             "priority": 1,
@@ -37,23 +41,23 @@
             "messageTranslations": [
                 {
                     "language": "HINDI",
-                    "translation": "कृपया आप जिस प्रकार की समस्या का सामना कर रहे हैं, उसे चुनें ताकि हम आपकी बेहतर सहायता कर सकें"
+                    "translation": "नमस्ते! आपके अनुभव के लिए हमें खेद है। हमें समस्या बताएं ताकि हम मदद कर सकें।"
                 },
                 {
                     "language": "KANNADA",
-                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                    "translation": "ನಮಸ್ಕಾರ!ನಿಮ್ಮ ಅನುಭವಕ್ಕಾಗಿ ನಾವು ಕ್ಷಮೆ ಕೇಳುತ್ತೇವೆ.. ಸಮಸ್ಯೆಯನ್ನು ನಮಗೆ ತಿಳಿಸಿ ಇದರಿಂದ ನಾವು ಸಹಾಯ ಮಾಡಬಹುದು."
                 },
                 {
                     "language": "TAMIL",
-                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, நீங்கள் சந்திக்கும் சிக்கலின் வகையைத் தேர்ந்தெடுக்கவும்"
+                    "translation": "வணக்கம்! உங்கள் அனுபவத்திற்கு நாங்கள் \nவருந்துகிறோம் பிரச்சினையை எங்களுக்குத் \nதெரியப்படுத்துங்கள், அப்பொழுது தான் நாங்கள் உதவ \nமுடியும்."
                 },
                 {
                     "language": "TELUGU",
-                    "translation": "దయచేసి మీరు ఎదుర్కొంటున్న సమస్య రకాన్ని ఎంచుకోండి, తద్వారా మేము మీకు మెరుగైన సహాయం చేయగలము"
+                    "translation": "హలో! మీ అనుభవానికి మేము చింతిస్తున్నాము. మేము సహాయం చేయగలిగేలా సమస్యను మాకు తెలియజేయండి."
                 },
                 {
                     "language": "MALAYALAM",
-                    "translation": "നിങ്ങൾ അഭിമുഖീകരിക്കുന്ന പ്രശ്‌നത്തിൻ്റെ തരം തിരഞ്ഞെടുക്കുക, നിങ്ങളെ കൂടുതൽ സഹായിക്കാൻ ഞങ്ങൾക്കാകും."
+                    "translation": "ഹായ്! നിങ്ങളുടെ അനുഭവം മോശമായതിൽ ഞങ്ങൾ ഖേദിക്കുന്നു. താങ്കളെ സഹായിക്കുന്നതിനായി, താങ്കൾക്കുണ്ടായ പ്രശ്നം വിവരിക്കുക "
                 }
             ],
             "actionTranslations": [],
@@ -62,8 +66,71 @@
                 {
                     "isActive": true,
                     "label": null,
-                    "option": "Drink and drive",
+                    "option": "Driver was rude or misbehaved",
                     "priority": 1,
+                    "translations": [
+                        {
+                            "language": "HINDI",
+                            "translation": "ड्राइवर अभद्र था या दुर्व्यवहार किया"
+                        },
+                        {
+                            "language": "KANNADA",
+                            "translation": "ಚಾಲಕ ಅಸಭ್ಯವಾಗಿ ವರ್ತಿಸಿದ ಅಥವಾ ದುರ್ನಡತೆ ತೋರಿದ"
+                        },
+                        {
+                            "language": "TAMIL",
+                            "translation": "ஓட்டுநர் முரட்டுத்தனமாக நடந்துகொண்டார் அல்லது தவறாக நடந்துகொண்டார்"
+                        },
+                        {
+                            "language": "TELUGU",
+                            "translation": "డ్రైవర్ మర్యాద లేకుండా ప్రవర్తించాడు లేదా దుర్వ్యవహారం చేశాడు"
+                        },
+                        {
+                            "language": "MALAYALAM",
+                            "translation": "ഡ്രൈവർ പരുഷമായി പെരുമാറി അല്ലെങ്കിൽ മോശമായി പെരുമാറി"
+                        }
+                    ],
+                    "messages": [
+                        {
+                            "label": "CREATE_TICKET",
+                            "message": "Please provide additional information so that we can assist you better",
+                            "messageTitle": null,
+                            "priority": 1,
+                            "referenceCategoryId": null,
+                            "referenceOptionId": null,
+                            "messageTranslations": [
+                                {
+                                    "language": "HINDI",
+                                    "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                                },
+                                {
+                                    "language": "KANNADA",
+                                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                                },
+                                {
+                                    "language": "TAMIL",
+                                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                                },
+                                {
+                                    "language": "TELUGU",
+                                    "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                                },
+                                {
+                                    "language": "MALAYALAM",
+                                    "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
+                                }
+                            ],
+                            "actionTranslations": [],
+                            "titleTranslations": [],
+                            "options": []
+                        }
+                    ]
+                },
+                {
+                    "isActive": true,
+                    "label": null,
+                    "option": "Drink and drive",
+                    "priority": 2,
                     "translations": [
                         {
                             "language": "HINDI",
@@ -113,7 +180,7 @@
                                 },
                                 {
                                     "language": "MALAYALAM",
-                                    "translation": "നിങ്ങളുടെ പ്രശ്നം പരിഹരിക്കാൻ കൂടുതൽ വിവരങ്ങൾ നൽകി ഞങ്ങളെ സഹായിക്കൂ."
+                                    "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
                                 }
                             ],
                             "actionTranslations": [],
@@ -125,92 +192,31 @@
                 {
                     "isActive": true,
                     "label": null,
-                    "option": "Met with an accident",
-                    "priority": 2,
-                    "restrictedRideStatuses": ["R_CANCELLED"],
-                    "translations": [
-                        {
-                            "language": "HINDI",
-                            "translation": "दुर्घटना हो गई"
-                        },
-                        {
-                            "language": "KANNADA",
-                            "translation": "ಅಪಘಾತಕ್ಕೆ ಒಳಗಾಯಿತು"
-                        },
-                        {
-                            "language": "TAMIL",
-                            "translation": "விபத்துக்குள்ளானது"
-                        },
-                        {
-                            "language": "TELUGU",
-                            "translation": "ప్రమాదానికి గురైంది"
-                        },
-                        {
-                            "language": "MALAYALAM",
-                            "translation": "അപകടം സംഭവിച്ചു"
-                        }
-                    ],
-                    "messages": [
-                        {
-                            "label": "CREATE_TICKET",
-                            "message": "Please provide additional information so that we can assist you better",
-                            "messageTitle": null,
-                            "priority": 1,
-                            "referenceCategoryId": null,
-                            "referenceOptionId": null,
-                            "messageTranslations": [
-                                {
-                                    "language": "HINDI",
-                                    "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
-                                },
-                                {
-                                    "language": "KANNADA",
-                                    "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
-                                },
-                                {
-                                    "language": "TAMIL",
-                                    "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
-                                },
-                                {
-                                    "language": "TELUGU",
-                                    "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
-                                },
-                                {
-                                    "language": "MALAYALAM",
-                                    "translation": "നിങ്ങളുടെ പ്രശ്നം പരിഹരിക്കാൻ കൂടുതൽ വിവരങ്ങൾ നൽകി ഞങ്ങളെ സഹായിക്കൂ."
-                                }
-                            ],
-                            "actionTranslations": [],
-                            "titleTranslations": [],
-                            "options": []
-                        }
-                    ]
-                },
-                {
-                    "isActive": true,
-                    "label": null,
-                    "option": "Sexual Harrassment",
+                    "option": "Rash Driving",
                     "priority": 3,
+                    "restrictedRideStatuses": [
+                        "R_CANCELLED"
+                    ],
                     "translations": [
                         {
                             "language": "HINDI",
-                            "translation": "यौन उत्पीड़न"
+                            "translation": "लापरवाह ड्राइविंग"
                         },
                         {
                             "language": "KANNADA",
-                            "translation": "ಲೈಂಗಿಕ ಕಿರುಕುಳ"
+                            "translation": "ಅಜಾಗರೂಕ ಚಾಲನೆ"
                         },
                         {
                             "language": "TAMIL",
-                            "translation": "பாலியல் துன்புறுத்தல்"
+                            "translation": "கவனக்குறைவான ஓட்டம்"
                         },
                         {
                             "language": "TELUGU",
-                            "translation": "లైంగిక వేధింపు"
+                            "translation": "నిర్లక్ష్యపు డ్రైవింగ్"
                         },
                         {
                             "language": "MALAYALAM",
-                            "translation": "ലൈംഗിക പീഡനം"
+                            "translation": "അശ്രദ്ധമായ വാഹനമോടിക്കൽ"
                         }
                     ],
                     "messages": [
@@ -240,7 +246,7 @@
                                 },
                                 {
                                     "language": "MALAYALAM",
-                                    "translation": "നിങ്ങളുടെ പ്രശ്നം പരിഹരിക്കാൻ കൂടുതൽ വിവരങ്ങൾ നൽകി ഞങ്ങളെ സഹായിക്കൂ."
+                                    "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
                                 }
                             ],
                             "actionTranslations": [],
@@ -252,28 +258,28 @@
                 {
                     "isActive": true,
                     "label": null,
-                    "option": "Physical Fights",
+                    "option": "Pickup or Drop Issues",
                     "priority": 4,
                     "translations": [
                         {
                             "language": "HINDI",
-                            "translation": "शारीरिक झगड़े"
+                            "translation": "पिकअप या ड्रॉप समस्याएं"
                         },
                         {
                             "language": "KANNADA",
-                            "translation": "ದೈಹಿಕ ಜಗಳಗಳು"
+                            "translation": "ಪಿಕಪ್ ಅಥವಾ ಡ್ರಾಪ್ ಸಮಸ್ಯೆಗಳು"
                         },
                         {
                             "language": "TAMIL",
-                            "translation": "உடல் ரீதியான சண்டைகள்"
+                            "translation": "ஏற்றுதல் அல்லது இறக்குதல் சிக்கல்கள்"
                         },
                         {
                             "language": "TELUGU",
-                            "translation": "శారీరక ఘర్షణలు"
+                            "translation": "పికప్ లేదా డ్రాప్ సమస్యలు"
                         },
                         {
                             "language": "MALAYALAM",
-                            "translation": "ശാരീരിക സംഘർഷങ്ങൾ"
+                            "translation": "പിക്കപ്പ് അല്ലെങ്കിൽ ഡ്രോപ്പ് സംബന്ധമായ പ്രശ്നങ്ങൾ"
                         }
                     ],
                     "messages": [
@@ -303,7 +309,7 @@
                                 },
                                 {
                                     "language": "MALAYALAM",
-                                    "translation": "നിങ്ങളുടെ പ്രശ്നം പരിഹരിക്കാൻ കൂടുതൽ വിവരങ്ങൾ നൽകി ഞങ്ങളെ സഹായിക്കൂ."
+                                    "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
                                 }
                             ],
                             "actionTranslations": [],
@@ -315,28 +321,28 @@
                 {
                     "isActive": true,
                     "label": null,
-                    "option": "Extra Person in the vehicle",
+                    "option": "Smoking / Tobacco / Drugs",
                     "priority": 5,
                     "translations": [
                         {
                             "language": "HINDI",
-                            "translation": "वाहन में अतिरिक्त व्यक्ति"
+                            "translation": "धूम्रपान / तंबाकू / ड्रग्स"
                         },
                         {
                             "language": "KANNADA",
-                            "translation": "ವಾಹನದಲ್ಲಿ ಹೆಚ್ಚುವರಿ ವ್ಯಕ್ತಿ"
+                            "translation": "ಧೂಮಪಾನ / ತಂಬಾಕು / ಮಾದಕ ದ್ರವ್ಯಗಳು"
                         },
                         {
                             "language": "TAMIL",
-                            "translation": "வாகனத்தில் கூடுதல் நபர்"
+                            "translation": "புகைபிடித்தல் / புகையிலை / போதைப்பொருட்கள்"
                         },
                         {
                             "language": "TELUGU",
-                            "translation": "వాహనంలో అదనపు వ్యక్తి"
+                            "translation": "ధూమపానం / పొగాకు / మాదక ద్రవ్యాలు"
                         },
                         {
                             "language": "MALAYALAM",
-                            "translation": "വാഹനത്തിൽ അധിക വ്യക്തി"
+                            "translation": "പുകവലി / പുകയില / മയക്കുമരുന്ന്"
                         }
                     ],
                     "messages": [
@@ -366,7 +372,7 @@
                                 },
                                 {
                                     "language": "MALAYALAM",
-                                    "translation": "നിങ്ങളുടെ പ്രശ്നം പരിഹരിക്കാൻ കൂടുതൽ വിവരങ്ങൾ നൽകി ഞങ്ങളെ സഹായിക്കൂ."
+                                    "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
                                 }
                             ],
                             "actionTranslations": [],
@@ -429,7 +435,7 @@
                                 },
                                 {
                                     "language": "MALAYALAM",
-                                    "translation": "നിങ്ങളുടെ പ്രശ്നം പരിഹരിക്കാൻ കൂടുതൽ വിവരങ്ങൾ നൽകി ഞങ്ങളെ സഹായിക്കൂ."
+                                    "translation": "താങ്കളെ സഹായിക്കുന്നതിനായി ദയവായി അധിക വിശദാംശങ്ങൾ നൽകുക"
                                 }
                             ],
                             "actionTranslations": [],
