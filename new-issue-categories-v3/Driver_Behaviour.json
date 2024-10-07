@@ -1,8 +1,8 @@
 {
-    "category": "Driver Feedback",
+    "category": "Driver Issues",
     "categoryType": "Category",
     "isRideRequired": true,
-    "label" : "RIDE_RELATED",
+    "label": "RIDE_RELATED",
     "isActive": "{{IS_ACTIVE_CATEGORY}}",
     "logoUrl": "ny_ic_driver_related_issue,https://assets.moving.tech/beckn/common/common/images/ny_ic_driver_related_issue.png",
     "maxAllowedRideAge": 259200,
@@ -10,23 +10,23 @@
     "translations": [
         {
             "language": "HINDI",
-            "translation": "ड्राइवर प्रतिक्रिया"
+            "translation": "ड्राइवर समस्याएं"
         },
         {
             "language": "KANNADA",
-            "translation": "ಚಾಲಕನ ಪ್ರತಿಕ್ರಿಯೆ"
+            "translation": "ಚಾಲಕನ ಸಮಸ್ಯೆಗಳು"
         },
         {
             "language": "TAMIL",
-            "translation": "ஓட்டுநர் கருத்து"
+            "translation": "ஓட்டுநர் சிக்கல்கள்"
         },
         {
             "language": "TELUGU",
-            "translation": "డ్రైవర్ అభిప్రాయం"
+            "translation": "డ్రైవర్ సమస్యలు"
         },
         {
             "language": "MALAYALAM",
-            "translation": "ഡ്രൈവർ ഫീഡ്ബാക്ക്"
+            "translation": "ഡ്രൈവർ പ്രശ്നങ്ങൾ"
         }
     ],
     "messages": [
@@ -129,7 +129,7 @@
                 {
                     "isActive": true,
                     "label": null,
-                    "option": "Drink and drive",
+                    "option": "Drunk and drive",
                     "priority": 2,
                     "translations": [
                         {
@@ -382,7 +382,7 @@
                     ]
                 },
                 {
-                    "isActive": true,
+                    "isActive": false,
                     "label": null,
                     "option": "Other",
                     "priority": 6,

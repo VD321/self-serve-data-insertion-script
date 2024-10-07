@@ -7,7 +7,28 @@
     "logoUrl": "ny_ic_app_related_issue,https://assets.moving.tech/beckn/common/common/images/ny_ic_app_related_issue.png",
     "maxAllowedRideAge": 259200,
     "priority": 6,
-    "translations": [],
+    "translations": [
+        {
+            "language": "HINDI",
+            "translation": "ऐप संबंधित"
+        },
+        {
+            "language": "KANNADA",
+            "translation": "ಅಪ್ಲಿಕೇಶನ್ ಸಂಬಂಧಿತ"
+        },
+        {
+            "language": "TAMIL",
+            "translation": "அனுபவத்துடன் தொடர்புடையது"
+        },
+        {
+            "language": "TELUGU",
+            "translation": "యాప్ సంబంధిత"
+        },
+        {
+            "language": "MALAYALAM",
+            "translation": "ആപ്പുമായി ബന്ധപ്പെട്ടത്"
+        }
+    ],
     "messages": [
         {
             "label": null,

@@ -572,7 +572,7 @@
                     ]
                 },
                 {
-                    "isActive": true,
+                    "isActive": false,
                     "label": null,
                     "option": "Other",
                     "priority": 6,

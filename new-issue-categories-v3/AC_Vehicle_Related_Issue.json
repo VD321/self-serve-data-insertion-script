@@ -1,7 +1,7 @@
 {
   "category": "Vehicle / AC Issues",
   "categoryType": "Category",
-  "label" : "RIDE_RELATED",
+  "label": "RIDE_RELATED",
   "isRideRequired": true,
   "isActive": "{{IS_ACTIVE_CATEGORY}}",
   "logoUrl": "ny_ic_ride_related_issue,https://assets.moving.tech/beckn/common/common/images/ny_ic_ride_related_issue.png",
@@ -271,7 +271,7 @@
           ]
         },
         {
-          "isActive": true,
+          "isActive": false,
           "label": null,
           "option": "Vehicle unsafe / broke down",
           "priority": 4,
@@ -336,28 +336,28 @@
         {
           "isActive": true,
           "label": null,
-          "option": "Vehicle mismatch",
+          "option": "Vehicle broke down",
           "priority": 5,
           "translations": [
             {
               "language": "HINDI",
-              "translation": "वाहन बेमेल"
+              "translation": "वाहन खराब हो गया"
             },
             {
               "language": "KANNADA",
-              "translation": "ವಾಹನ ಹೊಂದಾಣಿಕೆಯಾಗುವುದಿಲ್ಲ"
+              "translation": "ವಾಹನ ಕೆಟ್ಟುಹೋಯಿತು"
             },
             {
               "language": "TAMIL",
-              "translation": "வாகன பொருத்தமின்மை"
+              "translation": "வாகனம் பழுதடைந்துவிட்டது"
             },
             {
               "language": "TELUGU",
-              "translation": "వాహన అసంబద్ధత"
+              "translation": "వాహనం పాడైపోయింది"
             },
             {
               "language": "MALAYALAM",
-              "translation": "വാഹനം/രജിസ്‌ട്രേഷൻ നമ്പർ പൊരുത്തക്കേട്"
+              "translation": "വാഹനം കേടായി"
             }
           ],
           "messages": [
@@ -399,8 +399,134 @@
         {
           "isActive": true,
           "label": null,
-          "option": "Other",
+          "option": "Vehicle unsafe",
           "priority": 6,
+          "translations": [
+            {
+              "language": "HINDI",
+              "translation": "वाहन असुरक्षित है"
+            },
+            {
+              "language": "KANNADA",
+              "translation": "ವಾಹನ ಅಸುರಕ್ಷಿತವಾಗಿದೆ"
+            },
+            {
+              "language": "TAMIL",
+              "translation": "வாகனம் பாதுகாப்பற்றது"
+            },
+            {
+              "language": "TELUGU",
+              "translation": "వాహనం సురక్షితం కాదు"
+            },
+            {
+              "language": "MALAYALAM",
+              "translation": "വാഹനം സുരക്ഷിതമല്ല"
+            }
+          ],
+          "messages": [
+            {
+              "label": "CREATE_TICKET",
+              "message": "Please provide additional information so that we can assist you better",
+              "messageTitle": null,
+              "priority": 1,
+              "referenceCategoryId": null,
+              "referenceOptionId": null,
+              "messageTranslations": [
+                {
+                  "language": "HINDI",
+                  "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                },
+                {
+                  "language": "KANNADA",
+                  "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                },
+                {
+                  "language": "TAMIL",
+                  "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                },
+                {
+                  "language": "TELUGU",
+                  "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                },
+                {
+                  "language": "MALAYALAM",
+                  "translation": "നിങ്ങളുടെ പ്രശ്നം പരിഹരിക്കാൻ കൂടുതൽ വിവരങ്ങൾ നൽകി ഞങ്ങളെ സഹായിക്കൂ."
+                }
+              ],
+              "actionTranslations": [],
+              "titleTranslations": [],
+              "options": []
+            }
+          ]
+        },
+        {
+          "isActive": true,
+          "label": null,
+          "option": "Vehicle was different",
+          "priority": 7,
+          "translations": [
+            {
+              "language": "HINDI",
+              "translation": "वाहन अलग था"
+            },
+            {
+              "language": "KANNADA",
+              "translation": "ವಾಹನ ಬೇರೆಯಾಗಿತ್ತು"
+            },
+            {
+              "language": "TAMIL",
+              "translation": "வாகனம் வேறாக இருந்தது"
+            },
+            {
+              "language": "TELUGU",
+              "translation": "వాహనం వేరేగా ఉంది"
+            },
+            {
+              "language": "MALAYALAM",
+              "translation": "വാഹനം വ്യത്യസ്തമായിരുന്നു"
+            }
+          ],
+          "messages": [
+            {
+              "label": "CREATE_TICKET",
+              "message": "Please provide additional information so that we can assist you better",
+              "messageTitle": null,
+              "priority": 1,
+              "referenceCategoryId": null,
+              "referenceOptionId": null,
+              "messageTranslations": [
+                {
+                  "language": "HINDI",
+                  "translation": "कृपया अतिरिक्त जानकारी प्रदान करें ताकि हम आपकी बेहतर सहायता कर सकें"
+                },
+                {
+                  "language": "KANNADA",
+                  "translation": "ದಯವಿಟ್ಟು ನೀವು ಎದುರಿಸುತ್ತಿರುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಾವು ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡಬಹುದು"
+                },
+                {
+                  "language": "TAMIL",
+                  "translation": "நாங்கள் உங்களுக்கு சிறப்பாக உதவ, தயவுசெய்து கூடுதல் தகவல்களை வழங்கவும்"
+                },
+                {
+                  "language": "TELUGU",
+                  "translation": "మేము మీకు మెరుగైన సహాయం చేయగలమని దయచేసి అదనపు సమాచారం ఇవ్వండి"
+                },
+                {
+                  "language": "MALAYALAM",
+                  "translation": "നിങ്ങളുടെ പ്രശ്നം പരിഹരിക്കാൻ കൂടുതൽ വിവരങ്ങൾ നൽകി ഞങ്ങളെ സഹായിക്കൂ."
+                }
+              ],
+              "actionTranslations": [],
+              "titleTranslations": [],
+              "options": []
+            }
+          ]
+        },
+        {
+          "isActive": false,
+          "label": null,
+          "option": "Other",
+          "priority": 8,
           "translations": [
             {
               "language": "HINDI",
